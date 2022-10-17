@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>py_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -1305.000000)">
+            <g id="flag" transform="translate(401.000000, 1305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="py" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.65234375 9.97265625 4.2265625 20 5.65234375 20 14.3476562 9.78515625 15.8984375 0 14.3476563"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 5.65234375 0 5.65234375"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 14.3476562 20 14.3476562 20 20 0 20"></polygon>
+                    <path d="M12.4609375,7.109375 L11.5390625,8.02734375 C12.1671046,8.64718286 12.3568039,9.5858286 12.0187584,10.400913 C11.6807128,11.2159974 10.8823797,11.7448697 10,11.7382812 C9.12205941,11.7355821 8.3317618,11.2055041 7.99615348,10.3942372 C7.66054517,9.58297029 7.84539206,8.64949049 8.46484375,8.02734375 L7.5390625,7.109375 C6.18352411,8.46782576 6.1850979,10.6677067 7.54257857,12.0242166 C8.90005924,13.3807265 11.0999408,13.3807265 12.4574214,12.0242166 C13.8149021,10.6677067 13.8164759,8.46782576 12.4609375,7.109375 L12.4609375,7.109375 Z" id="Path" fill="#6DA544"></path>
+                    <polygon id="Path" fill="#FFDA44" points="10 8.26171875 10.3242188 9.2578125 11.3671875 9.2578125 10.5195312 9.875 10.84375 10.8710938 9.99609375 10.2539063 9.1484375 10.8710938 9.47265625 9.875 8.625 9.2578125 9.671875 9.2578125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

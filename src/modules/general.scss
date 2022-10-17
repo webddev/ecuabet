@@ -1,0 +1,130 @@
+$canary-yellow: #ffe640;
+$background-darkgrey: #202020;
+$background-lightgrey: #4e4e4e;
+$grey30: #303030;
+$green-gradient: linear-gradient(to bottom, #3ad13c, #1ba51c);
+$red-gradient: linear-gradient(to bottom, #f26105, #e0020f);
+$grey-text: #afafaf;
+$red: #ff4f00;
+$green: #3ad13c;
+$black: #000;
+$white: #fff;
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background: $black;
+}
+.section-subtitle {
+  color: $black;
+  font-size: 15px;
+  font-weight: bold;
+  background: $canary-yellow;
+  padding: 11px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0;
+}
+select {
+  border: none;
+  background: none;
+  cursor: pointer;
+  &:focus-visible {
+    outline: none;
+  }
+}
+option[default] {
+  display: none;
+}
+input {
+  padding: 8px 9px 7px 10px;
+  border-radius: 3px;
+  border: solid 1px #606060;
+  &:focus-visible {
+    outline: none;
+  }
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.hidden {
+  display: none !important;
+}
+.container {
+  margin: 0 auto;
+  @media screen and (min-width: 1px) {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  @media screen and (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media screen and (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1239px;
+  }
+}
+.breadscrumbs {
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  &__stage {
+    text-transform: uppercase;
+    position: relative;
+    &:not(:last-child) {
+      padding-right: 7px;
+      margin-right: 28px;
+      &::after {
+        content: "➞";
+        color: #909090;
+        width: 14px;
+        height: 15px;
+        position: absolute;
+        right: -17px;
+        top: 0;
+      }
+    }
+    a {
+      color: #909090;
+      font-weight: 500;
+      transition: all 0.4s;
+      &:hover {
+        transition: all 0.4s;
+        color: $white;
+      }
+    }
+    &_active a {
+    }
+  }
+  &__back {
+    margin-right: 13px;
+  }
+}
+.live-icon {
+  font-size: 11px;
+  padding: 3px 4px;
+  border-radius: 2px;
+  background: $red-gradient;
+  color: $white;
+  margin-right: 6px;
+  line-height: 1;
+  width: fit-content;
+}
