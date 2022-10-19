@@ -1,24 +1,64 @@
 .header {
   background: url(../img/bg_header_small.jpg);
   height: 250px;
+  @media screen and (max-width: 1280px) {
+    height: 148px;
+  }
   &__top {
     display: flex;
     justify-content: flex-end;
+    align-items: baseline;
+    margin-top: 20px;
+    @media screen and (max-width: 1280px) {
+      align-items: center;
+    }
+  }
+  &__top-icons {
+    display: flex;
+    align-items: baseline;
   }
   &__top-icon {
     margin-right: 6px;
   }
   &__top-icon-lang {
+    background: $white;
+    padding: 1px 1px 1px 2px;
+    display: flex;
+    border-radius: 1px;
+    @media screen and (max-width: 1280px) {
+      padding: 3px 1px 1px 2px;
+    }
   }
-
-  &__logo {
+  &__logo-desk {
     margin: 10px auto 50px auto;
     width: fit-content;
+    @media screen and (max-width: 1280px) {
+      display: none;
+    }
   }
-
-  &__nav {
+  .lang-img {
+    @media screen and (max-width: 1280px) {
+      padding-bottom: 1px;
+    }
+  }
+  .header__top-icon {
+    svg {
+      @media screen and (max-width: 1280px) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  #page-lang {
+    font-weight: bold;
+  }
+  &__nav-desk {
     max-width: 990px;
     margin: 0 auto;
+    margin-bottom: 52px;
+    @media screen and (max-width: 1280px) {
+      display: none;
+    }
     ul {
       display: flex;
       align-items: center;
@@ -67,6 +107,128 @@
           color: $white;
         }
       }
+    }
+  }
+}
+.ham3,
+.ham3-close {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  user-select: none;
+  display: none;
+  margin-right: auto;
+  @media screen and (max-width: 1280px) {
+    display: block;
+  }
+}
+.ham3,
+.ham3-close path {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: $white;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+.ham3.active,
+.ham3-close.active {
+  transform: rotate(45deg);
+}
+.ham3 .top,
+.ham3-close .top {
+  stroke-dasharray: 40 160;
+}
+.ham3 .middle,
+.ham3-close .middle {
+  stroke-dasharray: 40 142;
+  transform-origin: 50%;
+  transition: transform 400ms;
+}
+.ham3 .bottom,
+.ham3-close .bottom {
+  stroke-dasharray: 40 85;
+  transform-origin: 50%;
+  transition: transform 400ms, stroke-dashoffset 400ms;
+}
+.ham3.active .top,
+.ham3-close.active .top {
+  stroke-dashoffset: -64px;
+}
+.ham3.active .middle,
+.ham3-close.active .middle {
+  transform: rotate(90deg);
+}
+.ham3.active .bottom,
+.ham3-close.active .bottom {
+  stroke-dashoffset: -64px;
+}
+
+.mobile-menu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.85);
+  padding-bottom: 80px;
+
+  &__signboard {
+    font-size: 14px;
+    font-weight: bold;
+    color: $black;
+    background: $canary-yellow;
+  }
+
+  &__top-row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav {
+    padding: 24px 16px 16px 32px;
+  }
+
+  &__nav-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: $white;
+    line-height: 2.25;
+    transition: all 0.4s;
+    &:hover {
+      color: $canary-yellow;
+      transition: all 0.4s;
+    }
+    &_live {
+      color: $green;
+    }
+  }
+
+  &__nav-bottom {
+    padding: 0 16px 16px 32px;
+  }
+  &__nav-bottom-link {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2.44;
+    color: #909090;
+    transition: all 0.4s;
+    &:hover {
+      color: $white;
+      transition: all 0.4s;
+    }
+  }
+  .ham3-close {
+    margin-right: 0;
+  }
+  .signboard-text {
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    .close-btn {
+      top: 25%;
     }
   }
 }

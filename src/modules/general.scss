@@ -65,17 +65,19 @@ img {
 .container {
   margin: 0 auto;
   @media screen and (min-width: 1px) {
-    max-width: 100%;
-    padding: 0 15px;
+    max-width: 350px;
+  }
+  @media screen and (min-width: 450px) {
+    max-width: 440px;
   }
   @media screen and (min-width: 576px) {
     max-width: 540px;
   }
   @media screen and (min-width: 768px) {
-    max-width: 720px;
+    max-width: 750px;
   }
-  @media screen and (min-width: 992px) {
-    max-width: 960px;
+  @media screen and (min-width: 1024px) {
+    max-width: 987px;
   }
   @media screen and (min-width: 1280px) {
     max-width: 1239px;
@@ -127,4 +129,57 @@ img {
   margin-right: 6px;
   line-height: 1;
   width: fit-content;
+}
+.count-up {
+  &::after {
+    content: "";
+    content: url(../img/count-arrow-up-copy-18.svg);
+    width: 8px;
+    height: 8px;
+    margin-left: 2px;
+  }
+}
+.count-down {
+  &::after {
+    content: url(../img/count-arrow-down.svg);
+    width: 8px;
+    height: 8px;
+    margin-left: 2px;
+  }
+}
+input[name="Settings"] {
+  margin-right: 5px;
+}
+.close-btn {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  &:hover::after {
+    color: $white;
+    transition: all 0.4s;
+  }
+  &::after {
+    content: "✕";
+    font-size: 15px;
+    font-weight: bold;
+    color: #909090;
+    transition: all 0.4s;
+  }
+}
+.breadscrumbs-mob {
+  display: none;
+  @media screen and (max-width: 1280px) {
+    display: block;
+  }
+  ul {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 13px;
+    margin-top: 26px;
+  }
+}
+.breadscrumbs-desk {
+  display: block;
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
 }

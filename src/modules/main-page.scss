@@ -1,7 +1,23 @@
 .content-block {
   display: flex;
+  justify-content: center;
   &__body {
     max-width: 959px;
+    @media screen and (max-width: 1024px) {
+      max-width: 750px;
+    }
+    @media screen and (max-width: 767px) {
+      max-width: 540px;
+    }
+    @media screen and (max-width: 576px) {
+      max-width: 440px;
+    }
+    @media screen and (max-width: 450px) {
+      max-width: 358px;
+    }
+    @media screen and (max-width: 370px) {
+      max-width: 320px;
+    }
   }
 
   &__aside {
@@ -13,6 +29,10 @@
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    @media screen and (max-width: 575px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   &__input {
     background: none;
@@ -29,14 +49,42 @@
     color: $white;
     width: 7%;
     margin-right: 10px;
+    @media screen and (max-width: 767px) {
+      width: 13%;
+    }
+    @media screen and (max-width: 575px) {
+      width: 22%;
+    }
   }
   #input-id {
     width: 26.5%;
     margin-right: 18px;
+    @media screen and (max-width: 767px) {
+      margin-right: 10px;
+    }
+    @media screen and (max-width: 575px) {
+      width: 67%;
+      margin-right: 0;
+      margin-left: auto;
+      margin-bottom: 16px;
+      font-size: 11px;
+    }
   }
   #input-team {
     width: 57.6%;
     background-position: 98%;
+    @media screen and (max-width: 1024px) {
+      width: 55.6%;
+    }
+    @media screen and (max-width: 767px) {
+      width: 45.6%;
+    }
+    @media screen and (max-width: 575px) {
+      width: 67%;
+      margin-right: 0;
+      margin-left: auto;
+      font-size: 11px;
+    }
   }
 
   &__search-row {
@@ -72,22 +120,13 @@
     text-transform: uppercase;
     margin-top: 8px;
   }
-  .swiper-button-next {
-    top: 31%;
-    height: 100%;
-    right: 0;
-    backdrop-filter: blur(1px);
-    background-color: rgba(0, 0, 0, 0.75);
-    &:after {
-      content: url(../img/arrow-r.svg);
-      margin-bottom: 15px;
-    }
-  }
 }
 .live {
   margin-top: 24px;
   &__sections {
     background: $background-darkgrey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 }
 .live-links {
@@ -99,12 +138,61 @@
     color: $white;
     padding: 18px 10px;
     cursor: pointer;
+    @media screen and (max-width: 767px) {
+      padding-bottom: 10px;
+      font-size: 11px;
+    }
+    @media screen and (max-width: 576px) {
+      padding: 18px 0 10px 0;
+    }
     &:hover {
       border-bottom: 3px solid $canary-yellow;
     }
 
     &_active {
       border-bottom: 3px solid $canary-yellow;
+    }
+  }
+}
+.swiper-button-next {
+  top: 31%;
+  height: 100%;
+  right: 0;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.75);
+  @media screen and (max-width: 1280px) {
+    height: 101%;
+  }
+  @media screen and (max-width: 575px) {
+    right: -2px;
+  }
+  &:after {
+    content: url(../img/arrow-r.svg);
+    margin-bottom: 15px;
+  }
+}
+.links-next {
+  top: 51%;
+  @media screen and (max-width: 450px) {
+    top: 41%;
+  }
+}
+.live-links.desk {
+  @media screen and (max-width: 575px) {
+    display: none;
+  }
+}
+.live-links.mob {
+  display: none;
+  @media screen and (max-width: 575px) {
+    display: flex;
+  }
+  .live-link {
+    display: block;
+    text-align: center;
+    @media screen and (max-width: 450px) {
+      height: 24px;
+      font-size: 12px;
     }
   }
 }
@@ -125,18 +213,38 @@
     }
   }
 }
+
 .sport-block {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   &__bet {
     display: flex;
     flex-direction: column;
     align-items: end;
     padding: 20px 30px 16px 0;
+    @media screen and (max-width: 767px) {
+      align-items: center;
+    }
+    @media screen and (max-width: 576px) {
+      align-items: start;
+      padding: 20px 10px;
+    }
+  }
+  &__selects-mob {
+    display: none;
+    @media screen and (max-width: 576px) {
+      display: block;
+    }
   }
 
   &__selects {
     padding-bottom: 16px;
+    @media screen and (max-width: 576px) {
+      display: none;
+    }
+  }
+  &__x {
+    @media screen and (max-width: 576px) {
+      display: none !important;
+    }
   }
   #teams-score,
   #chance {
@@ -167,6 +275,16 @@
 }
 .block-x {
   display: flex;
+  .block-x__item:not(:nth-child(-n + 3)) {
+    @media screen and (max-width: 575px) {
+      display: none;
+    }
+  }
+  .block-x__item {
+    @media screen and (max-width: 575px) {
+      width: 110px;
+    }
+  }
   &__item {
     font-size: 14px;
     font-weight: bold;
@@ -179,6 +297,15 @@
     text-align: center;
     transition: all 0.4s;
     cursor: pointer;
+    &_disabled {
+      border: solid 1px #606060;
+      color: #909090;
+      background: none !important;
+      cursor: text;
+      &:hover {
+        background: none !important;
+      }
+    }
     &:not(:last-child) {
       margin-right: 4px;
     }
@@ -199,6 +326,9 @@
   cursor: pointer;
   transition: all 0.4s;
   z-index: 2;
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
   &:hover {
     background: $background-lightgrey;
     transition: all 0.4s;
@@ -238,6 +368,11 @@
       transform: translate(3px, -50%) rotate(50deg);
     }
   }
+  &__text {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 9px;
+    }
+  }
   .text-row {
     display: flex;
     align-items: center;
@@ -248,21 +383,31 @@
       color: #909090;
       margin-right: 10px;
       line-height: 1;
+      @media screen and (max-width: 1024px) {
+        margin-right: 0;
+      }
+      @media screen and (max-width: 767px) {
+        margin-right: 5px;
+      }
     }
-    .country-info {
+    .country-info.country-py {
       font-size: 12px;
       color: #909090;
       display: flex;
       align-items: center;
       line-height: 1;
-      img {
-        max-width: 16px;
+      &::before {
+        content: url(../img/py_flag_16px.svg);
         margin-right: 6px;
       }
     }
   }
   &__x {
     align-items: flex-end;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      justify-content: space-evenly;
+    }
   }
   .block-x__item {
     background: #606060;
@@ -303,6 +448,16 @@
         color: $canary-yellow;
       }
     }
+  }
+}
+// block-x__item_disabled
+.block-info_active {
+  .block-info__x-item:first-child {
+    background: $canary-yellow;
+    color: $black;
+  }
+  .block-x__item:not(.block-x__item_disabled) {
+    border: 1px solid $canary-yellow;
   }
 }
 .block-info-hidden {
@@ -361,6 +516,11 @@
     }
   }
   &__star {
+    &_active {
+      path {
+        fill: $white;
+      }
+    }
   }
   &__row {
     display: flex;
@@ -405,6 +565,9 @@
 
 .block-aside {
   margin-left: 20px;
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
   &__num {
     font-size: 15px;
     font-weight: bold;
@@ -429,6 +592,7 @@
     padding: 24px 10px 20px 10px;
     cursor: pointer;
     transition: all 0.4s;
+    position: relative;
     &:hover {
       background: $background-lightgrey;
       transition: all 0.4s;
@@ -504,8 +668,6 @@
   &__settings {
     background: $grey30;
     padding: 0 10px 30px 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     position: relative;
     cursor: pointer;
     &::before,
@@ -525,8 +687,6 @@
       transform: translate(3px, -50%) rotate(-45deg);
     }
     &_active {
-      background: $background-lightgrey;
-      margin-bottom: 0;
       &::before,
       &::after {
         content: "";
@@ -545,6 +705,17 @@
       }
     }
   }
+  &__settings-options {
+    background: #303030;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.4s;
+  }
+  &__settings-options-text {
+    font-size: 14px;
+    font-weight: normal;
+    color: #909090;
+  }
   &__set-text {
     text-align: center;
     font-size: 14px;
@@ -557,7 +728,7 @@
       background: url(../img/settings-icon-copy-2.svg);
       width: 16px;
       height: 16px;
-      left: 7px;
+      left: 9px;
       top: -1px;
     }
   }
@@ -591,6 +762,15 @@
     border: solid 1px #606060;
     width: 100%;
     padding: 11px 0;
+  }
+  ul {
+    li {
+      label {
+        font-size: 14px;
+        font-weight: normal;
+        color: $white;
+      }
+    }
   }
 }
 .combo-block {
