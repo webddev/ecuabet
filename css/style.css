@@ -89,11 +89,13 @@ img {
 @media screen and (min-width: 1px) {
   .container {
     max-width: 350px;
+    padding: 0 5px;
   }
 }
 @media screen and (min-width: 450px) {
   .container {
     max-width: 440px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 576px) {
@@ -103,10 +105,10 @@ img {
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 750px;
+    max-width: 732px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
   .container {
     max-width: 987px;
   }
@@ -212,7 +214,7 @@ input[name=Settings] {
 .breadscrumbs-mob {
   display: none;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .breadscrumbs-mob {
     display: block;
   }
@@ -226,7 +228,7 @@ input[name=Settings] {
 .breadscrumbs-desk {
   display: block;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .breadscrumbs-desk {
     display: none;
   }
@@ -236,7 +238,7 @@ input[name=Settings] {
   background: url(../img/bg_header_small.jpg);
   height: 250px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header {
     height: 148px;
   }
@@ -253,11 +255,16 @@ input[name=Settings] {
           align-items: baseline;
   margin-top: 20px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header__top {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__top {
+    margin-top: 5px;
   }
 }
 .header__top-icons {
@@ -267,6 +274,11 @@ input[name=Settings] {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+@media screen and (max-width: 390px) {
+  .header__top-icons {
+    display: none;
+  }
 }
 .header__top-icon {
   margin-right: 6px;
@@ -279,7 +291,7 @@ input[name=Settings] {
   display: flex;
   border-radius: 1px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header__top-icon-lang {
     padding: 3px 1px 1px 2px;
   }
@@ -290,17 +302,17 @@ input[name=Settings] {
   width: -moz-fit-content;
   width: fit-content;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header__logo-desk {
     display: none;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header .lang-img {
     padding-bottom: 1px;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header .header__top-icon svg {
     width: 24px;
     height: 24px;
@@ -314,7 +326,7 @@ input[name=Settings] {
   margin: 0 auto;
   margin-bottom: 52px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header__nav-desk {
     display: none;
   }
@@ -382,6 +394,38 @@ input[name=Settings] {
   color: #fff;
 }
 
+.sign-mob-btns {
+  display: none;
+}
+@media screen and (max-width: 390px) {
+  .sign-mob-btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+  }
+}
+.sign-mob-btns__sign-up {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3ad13c), to(#1ba51c));
+  background: linear-gradient(to bottom, #3ad13c, #1ba51c);
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+.sign-mob-btns__log-in {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+  background-image: linear-gradient(to bottom, #fff, #dcdcdc);
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
 .ham3,
 .ham3-close {
   cursor: pointer;
@@ -397,7 +441,7 @@ input[name=Settings] {
   display: none;
   margin-right: auto;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .ham3,
 .ham3-close {
     display: block;
@@ -548,9 +592,9 @@ input[name=Settings] {
 .content-block__body {
   max-width: 959px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .content-block__body {
-    max-width: 750px;
+    max-width: 732px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -558,12 +602,12 @@ input[name=Settings] {
     max-width: 540px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .content-block__body {
     max-width: 440px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 449px) {
   .content-block__body {
     max-width: 358px;
   }
@@ -594,11 +638,6 @@ input[name=Settings] {
 .search-by .search-by__match-row {
   margin-top: 20px;
 }
-@media screen and (max-width: 1280px) {
-  .search-by .search-by__match-row {
-    display: none !important;
-  }
-}
 .search-by .match-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -611,6 +650,14 @@ input[name=Settings] {
   border-radius: 5px;
   background-color: #303030;
   padding: 10px;
+  height: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .search-by .match-row__top-row {
   display: -webkit-box;
@@ -641,6 +688,7 @@ input[name=Settings] {
   font-size: 12px;
   font-weight: normal;
   color: #cecece;
+  margin-top: auto;
 }
 .search-by .match-row__teams-name {
   font-size: 16px;
@@ -654,6 +702,7 @@ input[name=Settings] {
   -webkit-column-gap: 4px;
      -moz-column-gap: 4px;
           column-gap: 4px;
+  margin-top: auto;
 }
 .search-by .match-row__bottom-item {
   display: -webkit-box;
@@ -689,8 +738,26 @@ input[name=Settings] {
 }
 .search-by .match-row .match-next,
 .search-by .match-row .match-prev {
-  top: 14%;
+  top: 13%;
   height: 101%;
+}
+@media screen and (max-width: 1024px) {
+  .search-by .match-row .match-next,
+.search-by .match-row .match-prev {
+    top: 12%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search-by .match-row .match-next,
+.search-by .match-row .match-prev {
+    top: 12%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .search-by .match-row .match-next,
+.search-by .match-row .match-prev {
+    top: 13%;
+  }
 }
 .search-by__input {
   background: none;
@@ -850,9 +917,14 @@ input[name=Settings] {
           backdrop-filter: blur(1px);
   background-color: rgba(0, 0, 0, 0.75);
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .swiper-button-next {
     height: 101%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .swiper-button-next {
+    right: -1px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -873,7 +945,7 @@ input[name=Settings] {
   left: 0;
   top: 31%;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .swiper-button-prev {
     height: 101%;
   }
@@ -1181,7 +1253,7 @@ input[name=Settings] {
   margin-right: 10px;
   line-height: 1;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .block-info .text-row .time-info {
     margin-right: 0;
   }
@@ -1374,7 +1446,7 @@ input[name=Settings] {
 .block-aside {
   margin-left: 20px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .block-aside {
     display: none;
   }

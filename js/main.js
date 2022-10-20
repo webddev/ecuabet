@@ -52,6 +52,24 @@ var swiper2 = new Swiper(".match-slider", {
         nextEl: ".match-next",
         prevEl: ".match-prev",
     },
+    breakpoints: {
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        575: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+    },
 });
 
 // Раскрытие блока

@@ -1,7 +1,7 @@
 .header {
   background: url(../img/bg_header_small.jpg);
   height: 250px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     height: 148px;
   }
   &__top {
@@ -9,13 +9,19 @@
     justify-content: flex-end;
     align-items: baseline;
     margin-top: 20px;
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       align-items: center;
+    }
+    @media screen and (max-width: 1024px) {
+      margin-top: 5px;
     }
   }
   &__top-icons {
     display: flex;
     align-items: baseline;
+    @media screen and (max-width: 390px) {
+      display: none;
+    }
   }
   &__top-icon {
     margin-right: 6px;
@@ -25,25 +31,25 @@
     padding: 1px 1px 1px 2px;
     display: flex;
     border-radius: 1px;
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       padding: 3px 1px 1px 2px;
     }
   }
   &__logo-desk {
     margin: 10px auto 50px auto;
     width: fit-content;
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       display: none;
     }
   }
   .lang-img {
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       padding-bottom: 1px;
     }
   }
   .header__top-icon {
     svg {
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 1279px) {
         width: 24px;
         height: 24px;
       }
@@ -56,7 +62,7 @@
     max-width: 990px;
     margin: 0 auto;
     margin-bottom: 52px;
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       display: none;
     }
     ul {
@@ -110,6 +116,29 @@
     }
   }
 }
+.sign-mob-btns {
+  display: none;
+  @media screen and (max-width: 390px) {
+    display: flex;
+    column-gap: 10px;
+  }
+  &__sign-up {
+    font-size: 14px;
+    font-weight: bold;
+    color: $white;
+    background: $green-gradient;
+    padding: 3px 10px;
+    border-radius: 3px;
+  }
+  &__log-in {
+    background-image: linear-gradient(to bottom, #fff, #dcdcdc);
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: $black;
+  }
+}
 .ham3,
 .ham3-close {
   cursor: pointer;
@@ -118,7 +147,7 @@
   user-select: none;
   display: none;
   margin-right: auto;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: block;
   }
 }

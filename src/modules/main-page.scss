@@ -3,16 +3,16 @@
   justify-content: center;
   &__body {
     max-width: 959px;
-    @media screen and (max-width: 1024px) {
-      max-width: 750px;
+    @media screen and (max-width: 1023px) {
+      max-width: 732px;
     }
     @media screen and (max-width: 767px) {
       max-width: 540px;
     }
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 575px) {
       max-width: 440px;
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 449px) {
       max-width: 358px;
     }
     @media screen and (max-width: 370px) {
@@ -41,9 +41,9 @@
 
     &__match-row {
       margin-top: 20px;
-      @media screen and (max-width: 1280px) {
-        display: none !important;
-      }
+      // @media screen and (max-width: 1279px) {
+      //   display: none !important;
+      // }
     }
   }
   .match-row {
@@ -53,6 +53,9 @@
       border-radius: 5px;
       background-color: $grey30;
       padding: 10px;
+      height: 88%;
+      display: flex;
+      flex-direction: column;
     }
 
     &__top-row {
@@ -79,6 +82,7 @@
       font-size: 12px;
       font-weight: normal;
       color: #cecece;
+      margin-top: auto;
     }
 
     &__teams-name {
@@ -90,6 +94,7 @@
     &__bottom-row {
       display: flex;
       column-gap: 4px;
+      margin-top: auto;
     }
 
     &__bottom-item {
@@ -119,8 +124,17 @@
     }
     .match-next,
     .match-prev {
-      top: 14%;
+      top: 13%;
       height: 101%;
+      @media screen and (max-width: 1024px) {
+        top: 12%;
+      }
+      @media screen and (max-width: 768px) {
+        top: 12%;
+      }
+      @media screen and (max-width: 575px) {
+        top: 13%;
+      }
     }
   }
   &__input {
@@ -249,8 +263,11 @@
   right: 0;
   backdrop-filter: blur(1px);
   background-color: rgba(0, 0, 0, 0.75);
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     height: 101%;
+  }
+  @media screen and (max-width: 768px) {
+    right: -1px;
   }
   @media screen and (max-width: 575px) {
     right: -2px;
@@ -266,7 +283,7 @@
   background-color: rgba(0, 0, 0, 0.75);
   left: 0;
   top: 31%;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     height: 101%;
   }
   @media screen and (max-width: 575px) {
@@ -505,7 +522,7 @@
       color: #909090;
       margin-right: 10px;
       line-height: 1;
-      @media screen and (max-width: 1024px) {
+      @media screen and (max-width: 1023px) {
         margin-right: 0;
       }
       @media screen and (max-width: 767px) {
@@ -683,7 +700,7 @@
 
 .block-aside {
   margin-left: 20px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     display: none;
   }
   &__num {
