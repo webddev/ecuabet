@@ -1,0 +1,18 @@
+.contry-sa {
+  &::before {
+    content: url(../img/flags/south-america-flag-16-px.svg);
+    margin-right: 3px;
+  }
+}
+.country-py {
+  &::before {
+    content: url(../img/flags/py_flag_16px.svg);
+    margin-right: 6px;
+  }
+}
+.country-bra {
+  &::before {
+    content: url(../img/flags/br_flag_16px.svg);
+    margin-right: 6px;
+  }
+}

@@ -591,6 +591,107 @@ input[name=Settings] {
         flex-wrap: wrap;
   }
 }
+.search-by .search-by__match-row {
+  margin-top: 20px;
+}
+@media screen and (max-width: 1280px) {
+  .search-by .search-by__match-row {
+    display: none !important;
+  }
+}
+.search-by .match-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.search-by .match-row__item {
+  border-radius: 5px;
+  background-color: #303030;
+  padding: 10px;
+}
+.search-by .match-row__top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+.search-by .match-row__contry {
+  font-size: 12px;
+  font-weight: normal;
+  color: #909090;
+  margin: 0;
+}
+.search-by .match-row__live-icon {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: none;
+  border: solid 1px #606060;
+}
+.search-by .match-row__middle {
+  font-size: 12px;
+  font-weight: normal;
+  color: #cecece;
+}
+.search-by .match-row__teams-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.search-by .match-row__bottom-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 4px;
+     -moz-column-gap: 4px;
+          column-gap: 4px;
+}
+.search-by .match-row__bottom-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 9px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #606060;
+  width: 80px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.search-by .match-row__bottom-item:hover {
+  background-color: #7e7e7e;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.search-by .match-row__bottom-item :first-child {
+  font-size: 13px;
+  font-weight: normal;
+  color: #cecece;
+}
+.search-by .match-row__bottom-item :last-child {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.search-by .match-row .match-next,
+.search-by .match-row .match-prev {
+  top: 14%;
+  height: 101%;
+}
 .search-by__input {
   background: none;
   border: solid 1px #606060;
@@ -764,11 +865,60 @@ input[name=Settings] {
   margin-bottom: 15px;
 }
 
+.swiper-button-prev {
+  height: 100%;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.75);
+  left: 0;
+  top: 31%;
+}
+@media screen and (max-width: 1280px) {
+  .swiper-button-prev {
+    height: 101%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .swiper-button-prev {
+    left: -2px;
+  }
+}
+.swiper-button-prev:after {
+  content: url(../img/arrow-r.svg);
+  margin-top: 15px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+@media screen and (max-width: 1024px) {
+  .swiper-button-prev:after {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .swiper-button-prev:after {
+    margin-top: 22px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .swiper-button-prev:after {
+    margin-top: 16px;
+  }
+}
+
 .links-next {
   top: 51%;
 }
 @media screen and (max-width: 450px) {
   .links-next {
+    top: 41%;
+  }
+}
+
+.links-prev {
+  top: 51%;
+}
+@media screen and (max-width: 450px) {
+  .links-prev {
     top: 41%;
   }
 }
@@ -1041,7 +1191,7 @@ input[name=Settings] {
     margin-right: 5px;
   }
 }
-.block-info .text-row .country-info.country-py {
+.block-info .text-row .country-info {
   font-size: 12px;
   color: #909090;
   display: -webkit-box;
@@ -1051,10 +1201,6 @@ input[name=Settings] {
       -ms-flex-align: center;
           align-items: center;
   line-height: 1;
-}
-.block-info .text-row .country-info.country-py::before {
-  content: url(../img/py_flag_16px.svg);
-  margin-right: 6px;
 }
 .block-info__x {
   -webkit-box-align: end;
@@ -1482,6 +1628,21 @@ input[name=Settings] {
   color: #fff;
   max-width: 100px;
   margin-left: 10px;
+}
+
+.contry-sa::before {
+  content: url(../img/flags/south-america-flag-16-px.svg);
+  margin-right: 3px;
+}
+
+.country-py::before {
+  content: url(../img/flags/py_flag_16px.svg);
+  margin-right: 6px;
+}
+
+.country-bra::before {
+  content: url(../img/flags/br_flag_16px.svg);
+  margin-right: 6px;
 }
 
 .footer {

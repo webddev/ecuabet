@@ -41,6 +41,19 @@ var swiper2 = new Swiper(".links-slider", {
     },
 });
 
+//Слайдер матчей
+var swiper2 = new Swiper(".match-slider", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl: ".match-next",
+        prevEl: ".match-prev",
+    },
+});
+
 // Раскрытие блока
 const accordeon = document.getElementsByClassName("block-info");
 
