@@ -10,7 +10,7 @@
     <title>Ecuabet</title>
   </head>
   <body>
-    <div class="live-page">
+    <div class="sports-forecasts">
       <header class="header">
         <div class="container">
           <div class="header__top">
@@ -137,9 +137,15 @@
             </div>
             <div class="mobile-menu__nav">
               <ul>
-                <li><a href="#" class="mobile-menu__nav-link">HOME</a></li>
                 <li>
-                  <a href="#" class="mobile-menu__nav-link">LIVE FORECASTS</a>
+                  <a href="main-page.html" class="mobile-menu__nav-link"
+                    >HOME</a
+                  >
+                </li>
+                <li>
+                  <a href="index.html" class="mobile-menu__nav-link"
+                    >LIVE FORECASTS</a
+                  >
                 </li>
                 <li><a href="#" class="mobile-menu__nav-link">CASINO</a></li>
                 <li>
@@ -219,7 +225,7 @@
                 >
               </li>
               <li><a href="#">SPORTS FORECASTS</a></li>
-              <li><a href="#">LIVE FORECASTS</a></li>
+              <li><a href="index.html">LIVE FORECASTS</a></li>
               <li><a href="#">TOURNAMENTS</a></li>
               <li><a href="#">VIRTUAL FORECASTS</a></li>
               <li><a href="#">CASINO</a></li>
@@ -228,195 +234,72 @@
               <li><a href="#">LOG IN</a></li>
             </ul>
           </nav>
-          <div class="breadscrumbs breadscrumbs-mob">
-            <ul>
-              <li class="breadscrumbs__back">
-                <a href="#"
-                  ><svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 0c6.624 0 12 5.376 12 12s-5.376 12-12 12S0 18.624 0 12 5.376 0 12 0zm0 10.8V7.2L7.2 12l4.8 4.8v-3.6h4.8v-2.4H12z"
-                      fill="#FFE640"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li class="breadscrumbs__stage"><a href="#"> HOME </a></li>
-              <li class="breadscrumbs__stage"><a href="#"> FOOTBALL </a></li>
-              <li class="breadscrumbs__stage breadscrumbs__stage_active">
-                <a href="#"> MATCH ODDS </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </header>
       <main>
         <div class="container">
-          <div class="breadscrumbs breadscrumbs-desk">
-            <ul>
-              <li class="breadscrumbs__back">
-                <a href="#"
-                  ><svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 0c6.624 0 12 5.376 12 12s-5.376 12-12 12S0 18.624 0 12 5.376 0 12 0zm0 10.8V7.2L7.2 12l4.8 4.8v-3.6h4.8v-2.4H12z"
-                      fill="#FFE640"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li class="breadscrumbs__stage"><a href="#"> HOME </a></li>
-              <li class="breadscrumbs__stage"><a href="#"> FOOTBALL </a></li>
-              <li class="breadscrumbs__stage breadscrumbs__stage_active">
-                <a href="#"> MATCH ODDS </a>
-              </li>
-            </ul>
-          </div>
           <div class="content-block">
+            <div class="aside-left">
+              <h3 class="section-subtitle">TOP LEAGUES</h3>
+              <div class="leagues">
+                <div class="leagues__item">
+                  <div class="leagues__name uefa-flag">
+                    UEFA Champions League
+                  </div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name primera">LigaPro Primera A</div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-peru">Primera Division</div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-ar">Primera Nacional</div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-bra20">
+                    Brasileiro Serie A
+                  </div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-bra20">
+                    Brasileiro Serie B
+                  </div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-mx">Liga MX</div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-us">NBA</div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name country-us">NHL</div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name es-sport-flag">
+                    ESportsBattle. Champion… <span class="live-icon">LIVE</span>
+                  </div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name es-sport-flag">
+                    ESportsBattle. Bundesliga
+                  </div>
+                </div>
+                <div class="leagues__item">
+                  <div class="leagues__name coupon-icon">Coupons</div>
+                </div>
+                <input
+                  type="text"
+                  name="League"
+                  id="league"
+                  placeholder="Enter Team or Championship..."
+                  class="search-by__input"
+                />
+              </div>
+              <div class="menu-left"></div>
+            </div>
             <div class="content-block__body">
               <section class="search-by">
-                <div class="search-by__top">
-                  <h3 class="section-subtitle">SEARCH BY</h3>
-                  <div class="search-by__search-row">
-                    <select name="Bet-id" id="bet-id">
-                      <option value="" default disabled selected>BET ID</option>
-                      <option value="123">123</option>
-                      <option value="1234">1234</option>
-                    </select>
-                    <input
-                      type="text"
-                      placeholder="Enter Bet ID…"
-                      class="search-by__input"
-                      id="input-id"
-                    />
-                    <input
-                      type="text"
-                      placeholder="Enter Team or Championship name…"
-                      class="search-by__input"
-                      id="input-team"
-                    />
-                  </div>
-                </div>
-                <div class="search-by__match-row match-row" id="match-football">
-                  <div class="swiper match-slider">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="match-row__item">
-                          <div class="match-row__top-row">
-                            <div>
-                              <p class="match-row__contry contry-sa">
-                                Copa Libertadores • Americas
-                              </p>
-                            </div>
-                            <div class="live-icon match-row__live-icon">
-                              LIVE
-                            </div>
-                          </div>
-                          <div class="match-row__middle">
-                            <p>Football • 29/06 • 01:15</p>
-                            <p class="match-row__teams-name">
-                              Emelec — Atletico Mineiro
-                            </p>
-                          </div>
-                          <div class="match-row__bottom-row">
-                            <div class="match-row__bottom-item">
-                              <div>1</div>
-                              <div>4.25</div>
-                            </div>
-                            <div class="match-row__bottom-item">
-                              <div>Draw</div>
-                              <div>3.50</div>
-                            </div>
-                            <div class="match-row__bottom-item">
-                              <div>2</div>
-                              <div>1.83</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="match-row__item">
-                          <div class="match-row__top-row">
-                            <div>
-                              <p class="match-row__contry country-py">
-                                Primera Division, Clausura • Parag…
-                              </p>
-                            </div>
-                            <div class="live-icon match-row__live-icon">
-                              LIVE
-                            </div>
-                          </div>
-                          <div class="match-row__middle">
-                            <p>Football • 29/06 • 01:15</p>
-                            <p class="match-row__teams-name">
-                              Libertad — Guairena
-                            </p>
-                          </div>
-                          <div class="match-row__bottom-row">
-                            <div class="match-row__bottom-item">
-                              <div>1</div>
-                              <div>4.75</div>
-                            </div>
-                            <div class="match-row__bottom-item">
-                              <div>Draw</div>
-                              <div>3.60</div>
-                            </div>
-                            <div class="match-row__bottom-item">
-                              <div>2</div>
-                              <div>1.75</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="match-row__item">
-                          <div class="match-row__top-row">
-                            <div>
-                              <p class="match-row__contry country-bra">
-                                Brasileiro Serie B, Brazil
-                              </p>
-                            </div>
-                            <div class="live-icon match-row__live-icon">
-                              LIVE
-                            </div>
-                          </div>
-                          <div class="match-row__middle">
-                            <p>Football • 29/06 • 01:15</p>
-                            <p class="match-row__teams-name">
-                              Criciuma — Brusque
-                            </p>
-                          </div>
-                          <div class="match-row__bottom-row">
-                            <div class="match-row__bottom-item">
-                              <div>1</div>
-                              <div>1.80</div>
-                            </div>
-                            <div class="match-row__bottom-item">
-                              <div>Draw</div>
-                              <div>3.60</div>
-                            </div>
-                            <div class="match-row__bottom-item">
-                              <div>2</div>
-                              <div>1.75</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="swiper-button-next match-next"></div>
-                  </div>
-                </div>
                 <div class="search-by__bottom category-row">
                   <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -557,6 +440,116 @@
                     <div class="swiper-button-prev"></div>
                   </div>
                 </div>
+                <div class="search-by__match-row match-row" id="match-football">
+                  <div class="swiper match-slider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="match-row__item">
+                          <div class="match-row__top-row">
+                            <div>
+                              <p class="match-row__contry contry-sa">
+                                Copa Libertadores • Americas
+                              </p>
+                            </div>
+                            <div class="live-icon match-row__live-icon">
+                              LIVE
+                            </div>
+                          </div>
+                          <div class="match-row__middle">
+                            <p>Football • 29/06 • 01:15</p>
+                            <p class="match-row__teams-name">
+                              Emelec — Atletico Mineiro
+                            </p>
+                          </div>
+                          <div class="match-row__bottom-row">
+                            <div class="match-row__bottom-item">
+                              <div>1</div>
+                              <div>4.25</div>
+                            </div>
+                            <div class="match-row__bottom-item">
+                              <div>Draw</div>
+                              <div>3.50</div>
+                            </div>
+                            <div class="match-row__bottom-item">
+                              <div>2</div>
+                              <div>1.83</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="match-row__item">
+                          <div class="match-row__top-row">
+                            <div>
+                              <p class="match-row__contry country-py">
+                                Primera Division, Clausura • Parag…
+                              </p>
+                            </div>
+                            <div class="live-icon match-row__live-icon">
+                              LIVE
+                            </div>
+                          </div>
+                          <div class="match-row__middle">
+                            <p>Football • 29/06 • 01:15</p>
+                            <p class="match-row__teams-name">
+                              Libertad — Guairena
+                            </p>
+                          </div>
+                          <div class="match-row__bottom-row">
+                            <div class="match-row__bottom-item">
+                              <div>1</div>
+                              <div>4.75</div>
+                            </div>
+                            <div class="match-row__bottom-item">
+                              <div>Draw</div>
+                              <div>3.60</div>
+                            </div>
+                            <div class="match-row__bottom-item">
+                              <div>2</div>
+                              <div>1.75</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="match-row__item">
+                          <div class="match-row__top-row">
+                            <div>
+                              <p class="match-row__contry country-bra">
+                                Brasileiro Serie B, Brazil
+                              </p>
+                            </div>
+                            <div class="live-icon match-row__live-icon">
+                              LIVE
+                            </div>
+                          </div>
+                          <div class="match-row__middle">
+                            <p>Football • 29/06 • 01:15</p>
+                            <p class="match-row__teams-name">
+                              Criciuma — Brusque
+                            </p>
+                          </div>
+                          <div class="match-row__bottom-row">
+                            <div class="match-row__bottom-item">
+                              <div>1</div>
+                              <div>1.80</div>
+                            </div>
+                            <div class="match-row__bottom-item">
+                              <div>Draw</div>
+                              <div>3.60</div>
+                            </div>
+                            <div class="match-row__bottom-item">
+                              <div>2</div>
+                              <div>1.75</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-button-next match-next"></div>
+                  </div>
+                </div>
               </section>
               <section class="live">
                 <h3 class="section-subtitle">LIVE NOW</h3>
@@ -646,14 +639,14 @@
                       </div>
                     </div>
                     <div class="sport-block__info block-info">
-                      <div class="block-info__text">
-                        <div class="text-row">
-                          <span class="live-icon">LIVE</span>
-                          <span class="time-info">29’ min</span>
-                          <div class="country-info country-py">
-                            Primera Division, Clausura • Paraguay
-                          </div>
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">29’ min</span>
+                        <div class="country-info country-py">
+                          Primera Division, Clausura • Paraguay
                         </div>
+                      </div>
+                      <div class="block-info__text">
                         <div class="list-row">
                           <ul>
                             <li class="list-row__item listI-0">
@@ -854,14 +847,14 @@
                       </div>
                     </div>
                     <div class="sport-block__info block-info">
-                      <div class="block-info__text">
-                        <div class="text-row">
-                          <span class="live-icon">LIVE</span>
-                          <span class="time-info">29’ min</span>
-                          <div class="country-info country-py">
-                            Primera Division, Clausura • Paraguay
-                          </div>
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">29’ min</span>
+                        <div class="country-info country-py">
+                          Primera Division, Clausura • Paraguay
                         </div>
+                      </div>
+                      <div class="block-info__text">
                         <div class="list-row">
                           <ul>
                             <li class="list-row__item listI-0">
@@ -1062,14 +1055,14 @@
                       </div>
                     </div>
                     <div class="sport-block__info block-info">
-                      <div class="block-info__text">
-                        <div class="text-row">
-                          <span class="live-icon">LIVE</span>
-                          <span class="time-info">29’ min</span>
-                          <div class="country-info country-py">
-                            Primera Division, Clausura • Paraguay
-                          </div>
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">29’ min</span>
+                        <div class="country-info country-py">
+                          Primera Division, Clausura • Paraguay
                         </div>
+                      </div>
+                      <div class="block-info__text">
                         <div class="list-row">
                           <ul>
                             <li class="list-row__item listI-0">
@@ -1268,14 +1261,1143 @@
                       </div>
                     </div>
                     <div class="sport-block__info block-info">
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">29’ min</span>
+                        <div class="country-info country-py">
+                          Primera Division, Clausura • Paraguay
+                        </div>
+                      </div>
                       <div class="block-info__text">
-                        <div class="text-row">
-                          <span class="live-icon">LIVE</span>
-                          <span class="time-info">29’ min</span>
-                          <div class="country-info country-py">
-                            Primera Division, Clausura • Paraguay
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item listI-0">
+                              Palmeiras vs. Atlético
+                            </li>
+                            <li class="list-row__item listI-1">
+                              vs. Goianiense
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div class="block-x__item block-info__x-item count-up">
+                          12.40
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item count-up">14.15</div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item">9.15</div>
+                        <div class="block-x__item count-down">1.75</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
                           </div>
                         </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="all-events-btn">VIEW ALL EVENTS</div>
+                  </div>
+                </div>
+              </section>
+              <section class="live highligts">
+                <h3 class="section-subtitle">HIGHLIGHTS</h3>
+                <div class="live__sections">
+                  <div class="live-links desk">
+                    <span class="live-link live-link_active">FOOTBALL</span>
+                    <span class="live-link">BASKETBALL</span>
+                    <span class="live-link">BASEBALL</span>
+                    <span class="live-link">TENNIS</span>
+                    <span class="live-link">TABLE TENNIS</span>
+                    <span class="live-link">VOLLEYBALL</span>
+                    <span class="live-link">OTHERS</span>
+                  </div>
+                  <div class="live-links mob">
+                    <div class="swiper links-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <span class="live-link live-link_active"
+                            >FOOTBALL</span
+                          >
+                        </div>
+                        <div class="swiper-slide">
+                          <span class="live-link">BASKETBALL</span>
+                        </div>
+                        <div class="swiper-slide">
+                          <span class="live-link">BASEBALL</span>
+                        </div>
+                        <div class="swiper-slide">
+                          <span class="live-link">TENNIS</span>
+                        </div>
+                        <div class="swiper-slide">
+                          <span class="live-link">TABLE TENNIS</span>
+                        </div>
+                        <div class="swiper-slide">
+                          <span class="live-link">VOLLEYBALL</span>
+                        </div>
+                        <div class="swiper-slide">
+                          <span class="live-link">OTHERS</span>
+                        </div>
+                      </div>
+                      <div class="swiper-button-next links-next"></div>
+                      <!-- <div class="swiper-button-prev links-prev"></div> -->
+                    </div>
+                  </div>
+                  <div class="live__sport sport-block" id="football">
+                    <div class="sport-block__bet">
+                      <div class="sport-block__selects">
+                        <select name="teams-score" id="teams-score">
+                          <option value="" default disabled selected>
+                            Both Teams To Score
+                          </option>
+                          <option value="Both Teams To Score">
+                            Both Teams To Score
+                          </option>
+                          <option value="Both Teams To Score">
+                            Both Teams To Score
+                          </option>
+                        </select>
+                        <select name="chance" id="chance">
+                          <option value="" default disabled selected>
+                            Double chance
+                          </option>
+                          <option value="Both Teams To Score">
+                            Double chance
+                          </option>
+                          <option value="Both Teams To Score">
+                            Double chance
+                          </option>
+                        </select>
+                      </div>
+                      <div class="sport-block__selects-mob">
+                        <select name="teams-score" id="teams-score">
+                          <option value="" default disabled selected>
+                            1 x 2
+                          </option>
+                          <option value="Both Teams To Score">1 x 3</option>
+                          <option value="Both Teams To Score">1 x 4</option>
+                        </select>
+                      </div>
+                      <div class="sport-block__x block-x">
+                        <div class="block-x__item">1X</div>
+                        <div class="block-x__item">12</div>
+                        <div class="block-x__item">X2</div>
+                        <div class="block-x__item">1</div>
+                        <div class="block-x__item">X</div>
+                        <div class="block-x__item">2</div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">26/06 • 12:30</span>
+                        <div class="country-info country-chi">
+                          China Super League • China
+                        </div>
+                      </div>
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item listI-0">
+                              Akademija Pandev
+                            </li>
+                            <li class="list-row__item listI-1">Ballkani</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item block-info__x-item_active count-down"
+                        >
+                          30.75
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item count-up">5.45</div>
+                        <div class="block-x__item count-up">3.20</div>
+                        <div class="block-x__item count-down">4.85</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">26/06 • 12:30</span>
+                        <div class="country-info country-chi">
+                          China Super League • China
+                        </div>
+                      </div>
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item listI-0">
+                              Akademija Pandev
+                            </li>
+                            <li class="list-row__item listI-1">Ballkani</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item count-down"
+                        >
+                          30.75
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item count-up">5.45</div>
+                        <div class="block-x__item count-up">3.20</div>
+                        <div class="block-x__item count-down">4.85</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">26/06 • 12:30</span>
+                        <div class="country-info country-chi">
+                          China Super League • China
+                        </div>
+                      </div>
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item listI-0">
+                              FC Caspietz Kamyzyak 2
+                            </li>
+                            <li class="list-row__item listI-1">
+                              vs. FC Astrakhan-M
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item count-down"
+                        >
+                          20.80
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item">30.75</div>
+                        <div class="block-x__item block-x__item_disabled">
+                          30.75
+                        </div>
+                        <div class="block-x__item count-up">30.75</div>
+                        <div class="block-x__item count-down">30.75</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">26/06 • 12:30</span>
+                        <div class="country-info country-bra">
+                          Brasileiro Serie A • Brazil
+                        </div>
+                      </div>
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item listI-0">
+                              Palmeiras vs. Atlético
+                            </li>
+                            <li class="list-row__item listI-1">
+                              vs. Goianiense
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div class="block-x__item block-info__x-item count-up">
+                          12.40
+                        </div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item count-up">14.15</div>
+                        <div class="block-x__item">
+                          <img
+                            src="img/icons/lock-icon-copy-2.svg"
+                            width="10"
+                            height="12"
+                          />
+                        </div>
+                        <div class="block-x__item">9.15</div>
+                        <div class="block-x__item count-down">1.75</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="text-row">
+                        <span class="live-icon">LIVE</span>
+                        <span class="time-info">26/06 • 12:30</span>
+                        <div class="country-info country-ar">
+                          Superliga • Argentina
+                        </div>
+                      </div>
+                      <div class="block-info__text">
                         <div class="list-row">
                           <ul>
                             <li class="list-row__item listI-0">
@@ -1481,6 +2603,28 @@
               </section>
             </div>
             <aside class="content-block__aside block-aside">
+              <div class="search-by__top">
+                <h3 class="section-subtitle">SEARCH BY</h3>
+                <div class="search-by__search-row">
+                  <select name="Bet-id" id="bet-id">
+                    <option value="" default disabled selected>BET ID</option>
+                    <option value="123">123</option>
+                    <option value="1234">1234</option>
+                  </select>
+                  <input
+                    type="text"
+                    placeholder="Enter Bet ID…"
+                    class="search-by__input"
+                    id="input-id"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Enter Team or Championship name…"
+                    class="search-by__input"
+                    id="input-team"
+                  />
+                </div>
+              </div>
               <h3 class="section-subtitle">
                 BETSLIP <span class="block-aside__num">3</span>
               </h3>

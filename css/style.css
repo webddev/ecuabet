@@ -108,7 +108,7 @@ img {
     max-width: 732px;
   }
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .container {
     max-width: 987px;
   }
@@ -232,6 +232,11 @@ input[name=Settings] {
   .breadscrumbs-desk {
     display: none;
   }
+}
+
+#bet-id {
+  color: #fff;
+  margin-right: 10px;
 }
 
 .header {
@@ -581,6 +586,154 @@ input[name=Settings] {
   top: 25%;
 }
 
+.main-page {
+  background: url(../img/bg_pic_large.jpg);
+  background-position: top;
+}
+@media screen and (max-width: 767px) {
+  .main-page {
+    background-position: bottom;
+  }
+}
+.main-page header {
+  background: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.main-page .banner {
+  margin-top: 50px;
+}
+@media screen and (max-width: 575px) {
+  .main-page .banner {
+    margin-top: 24px;
+  }
+}
+.main-page .banner .swiper-pagination-bullet {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+}
+@media screen and (max-width: 575px) {
+  .main-page .banner .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+  }
+}
+.main-page .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+  row-gap: 50px;
+  margin: 60px 0 100px 0;
+}
+@media screen and (max-width: 1279px) {
+  .main-page .nav {
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .main-page .nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-column-gap: 100px;
+       -moz-column-gap: 100px;
+            column-gap: 100px;
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-page .nav {
+    row-gap: 30px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 0 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+    padding: 0%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-page .nav {
+    -webkit-column-gap: 26px;
+       -moz-column-gap: 26px;
+            column-gap: 26px;
+  }
+}
+.main-page .nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.main-page .nav__item-img {
+  border-radius: 77px;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 10px rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 10px rgba(255, 255, 255, 0.3);
+  margin-bottom: 16px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.main-page .nav__item-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 18px;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+@media screen and (max-width: 450px) {
+  .main-page .nav__item-text {
+    font-size: 12px;
+  }
+}
+.main-page .nav .nav__item:hover .nav__item-text {
+  background: #ffe640;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.main-page .nav .nav__item:hover .nav__item-img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 .content-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -764,16 +917,14 @@ input[name=Settings] {
   border: solid 1px #606060;
   padding: 8px 9px 7px 10px;
   position: relative;
-  background-image: url(../img/search.png);
+  background-image: url(../img/icons/search.png);
   background-repeat: no-repeat;
   background-position: 95%;
   background-size: 15px;
   color: #afafaf;
 }
 .search-by #bet-id {
-  color: #fff;
   width: 7%;
-  margin-right: 10px;
 }
 @media screen and (max-width: 767px) {
   .search-by #bet-id {
@@ -933,7 +1084,7 @@ input[name=Settings] {
   }
 }
 .swiper-button-next:after {
-  content: url(../img/arrow-r.svg);
+  content: url(../img/icons/arrow-r.svg);
   margin-bottom: 15px;
 }
 
@@ -956,7 +1107,7 @@ input[name=Settings] {
   }
 }
 .swiper-button-prev:after {
-  content: url(../img/arrow-r.svg);
+  content: url(../img/icons/arrow-r.svg);
   margin-top: 15px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -1550,7 +1701,7 @@ input[name=Settings] {
 .block-aside__delete-btn::after {
   content: "";
   position: absolute;
-  background: url(../img/delete-icon-normal-copy-2.svg);
+  background: url(../img/icons/delete-icon-normal-copy-2.svg);
   width: 15px;
   height: 16px;
   right: 86px;
@@ -1630,7 +1781,7 @@ input[name=Settings] {
 .block-aside__set-text::before {
   content: "";
   position: absolute;
-  background: url(../img/settings-icon-copy-2.svg);
+  background: url(../img/icons/settings-icon-copy-2.svg);
   width: 16px;
   height: 16px;
   left: 9px;
@@ -1702,6 +1853,122 @@ input[name=Settings] {
   margin-left: 10px;
 }
 
+.sports-forecasts .content-block__body {
+  max-width: 680px;
+}
+@media screen and (max-width: 1023px) {
+  .sports-forecasts .content-block__body {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sports-forecasts .content-block__body {
+    max-width: 732px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sports-forecasts .content-block__body {
+    max-width: 440px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .sports-forecasts .content-block__body {
+    max-width: 358px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .sports-forecasts .content-block__body {
+    max-width: 320px;
+  }
+}
+.sports-forecasts .content-block__body .search-by__bottom {
+  margin-top: 0;
+}
+.sports-forecasts .block-info {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.sports-forecasts .block-info .text-row {
+  width: 100%;
+}
+.sports-forecasts .block-aside .search-by__top {
+  margin-bottom: 20px;
+}
+.sports-forecasts .block-aside .search-by__search-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sports-forecasts .block-aside #input-team {
+  display: none;
+}
+.sports-forecasts .block-aside #input-id {
+  padding: 8px 0px 7px 10px;
+}
+.sports-forecasts .highligts .live-icon {
+  background: none;
+  border: solid 1px #606060;
+}
+.sports-forecasts .aside-left {
+  background: #202020;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 260px;
+  margin-right: 20px;
+}
+.sports-forecasts .leagues {
+  padding: 10px 0px 10px 0px;
+}
+.sports-forecasts .leagues__item {
+  padding: 7px 10px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.sports-forecasts .leagues__item:not(:last-of-type) {
+  margin-bottom: 6px;
+}
+.sports-forecasts .leagues__item:last-of-type {
+  margin-bottom: 20px;
+}
+.sports-forecasts .leagues__item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.sports-forecasts .leagues__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.sports-forecasts .leagues__name:hover {
+  color: #ffe640;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.sports-forecasts .leagues #league {
+  font-size: 13px;
+  color: #606060;
+  width: 84%;
+  margin-left: 10px;
+}
+.sports-forecasts .leagues .leagues__item .live-icon {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .contry-sa::before {
   content: url(../img/flags/south-america-flag-16-px.svg);
   margin-right: 3px;
@@ -1714,6 +1981,56 @@ input[name=Settings] {
 
 .country-bra::before {
   content: url(../img/flags/br_flag_16px.svg);
+  margin-right: 6px;
+}
+
+.country-bra20::before {
+  content: url(../img/flags/br_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.country-chi::before {
+  content: url(../img/flags/cn_flag_16px.svg);
+  margin-right: 6px;
+}
+
+.country-ar::before {
+  content: url(../img/flags/ar_flag_16px.svg);
+  margin-right: 6px;
+}
+
+.uefa-flag::before {
+  content: url(../img/flags/uefa_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.primera::before {
+  content: url(../img/flags/primera.webp);
+  margin-right: 6px;
+}
+
+.country-peru::before {
+  content: url(../img/flags/peru.webp);
+  margin-right: 6px;
+}
+
+.country-mx::before {
+  content: url(../img/flags/mx_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.country-us::before {
+  content: url(../img/flags/us_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.es-sport-flag::before {
+  content: url(../img/flags/flag-e-sportsbattle-icon.svg);
+  margin-right: 6px;
+}
+
+.coupon-icon::before {
+  content: url(../img/flags/flag-coupon-icon.svg);
   margin-right: 6px;
 }
 
@@ -1747,7 +2064,7 @@ input[name=Settings] {
     margin-right: 0;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .footer__left-block {
     margin-right: 40px;
   }
@@ -1776,7 +2093,7 @@ input[name=Settings] {
   color: #fff;
   margin-top: 0;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .footer__third-block {
     margin-right: 30px;
   }
@@ -1793,6 +2110,9 @@ input[name=Settings] {
     display: flex;
     margin-left: 280px;
   }
+}
+.footer__wrapper {
+  background: #000;
 }
 .footer__bottom-row {
   display: -webkit-box;
@@ -1859,7 +2179,7 @@ input[name=Settings] {
 .footer-left-block {
   max-width: 320px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .footer-left-block {
     max-width: 240px;
   }

@@ -16,3 +16,63 @@
     margin-right: 6px;
   }
 }
+.country-bra20 {
+  &::before {
+    content: url(../img/flags/br_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.country-chi {
+  &::before {
+    content: url(../img/flags/cn_flag_16px.svg);
+    margin-right: 6px;
+  }
+}
+.country-ar {
+  &::before {
+    content: url(../img/flags/ar_flag_16px.svg);
+    margin-right: 6px;
+  }
+}
+.uefa-flag {
+  &::before {
+    content: url(../img/flags/uefa_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.primera {
+  &::before {
+    content: url(../img/flags/primera.webp);
+    margin-right: 6px;
+  }
+}
+.country-peru {
+  &::before {
+    content: url(../img/flags/peru.webp);
+    margin-right: 6px;
+  }
+}
+.country-mx {
+  &::before {
+    content: url(../img/flags/mx_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.country-us {
+  &::before {
+    content: url(../img/flags/us_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.es-sport-flag {
+  &::before {
+    content: url(../img/flags/flag-e-sportsbattle-icon.svg);
+    margin-right: 6px;
+  }
+}
+.coupon-icon {
+  &::before {
+    content: url(../img/flags/flag-coupon-icon.svg);
+    margin-right: 6px;
+  }
+}

@@ -21,7 +21,7 @@
     }
   }
   &__left-block {
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       margin-right: 40px;
     }
   }
@@ -49,7 +49,7 @@
   }
 
   &__third-block {
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1279px) {
       margin-right: 30px;
     }
     @media screen and (max-width: 1024px) {
@@ -62,6 +62,9 @@
       display: flex;
       margin-left: 280px;
     }
+  }
+  &__wrapper {
+    background: $black;
   }
   &__bottom-row {
     display: flex;
@@ -113,7 +116,7 @@
 }
 .footer-left-block {
   max-width: 320px;
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1279px) {
     max-width: 240px;
   }
   &__text {

@@ -78,7 +78,7 @@ img {
   @media screen and (min-width: 768px) {
     max-width: 732px;
   }
-  @media screen and (min-width: 1023px) {
+  @media screen and (min-width: 1024px) {
     max-width: 987px;
   }
   @media screen and (min-width: 1280px) {
@@ -184,4 +184,8 @@ input[name="Settings"] {
   @media screen and (max-width: 1279px) {
     display: none;
   }
+}
+#bet-id {
+  color: $white;
+  margin-right: 10px;
 }

@@ -1,0 +1,100 @@
+.sports-forecasts {
+  .content-block__body {
+    max-width: 680px;
+    @media screen and (max-width: 1023px) {
+      max-width: 700px;
+    }
+    @media screen and (max-width: 767px) {
+      max-width: 732px;
+    }
+    @media screen and (max-width: 575px) {
+      max-width: 440px;
+    }
+    @media screen and (max-width: 449px) {
+      max-width: 358px;
+    }
+    @media screen and (max-width: 370px) {
+      max-width: 320px;
+    }
+    .search-by__bottom {
+      margin-top: 0;
+    }
+  }
+  .block-info {
+    flex-wrap: wrap;
+    .text-row {
+      width: 100%;
+    }
+  }
+  .block-aside {
+    .search-by__top {
+      margin-bottom: 20px;
+    }
+    .search-by__search-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    #input-team {
+      display: none;
+    }
+    #input-id {
+      padding: 8px 0px 7px 10px;
+    }
+  }
+  .highligts {
+    .live-icon {
+      background: none;
+      border: solid 1px #606060;
+    }
+  }
+  .aside-left {
+    background: $background-darkgrey;
+    height: fit-content;
+    width: 260px;
+    margin-right: 20px;
+  }
+  .leagues {
+    padding: 10px 0px 10px 0px;
+
+    &__item {
+      padding: 7px 10px;
+      transition: all 0.4s;
+      &:not(:last-of-type) {
+        margin-bottom: 6px;
+      }
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+      &:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transition: all 0.4s;
+      }
+    }
+
+    &__name {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 500;
+      color: $white;
+      cursor: pointer;
+      transition: all 0.4s;
+      &:hover {
+        color: $canary-yellow;
+        transition: all 0.4s;
+      }
+    }
+    #league {
+      font-size: 13px;
+      color: #606060;
+      width: 84%;
+      margin-left: 10px;
+    }
+    .leagues__item {
+      .live-icon {
+        margin-left: auto;
+        margin-right: 0;
+      }
+    }
+  }
+}
