@@ -175,14 +175,14 @@ img {
 
 .count-up::after {
   content: "";
-  content: url(../img/count-arrow-up-copy-18.svg);
+  content: url(../img/icons/count-arrow-up-copy-18.svg);
   width: 8px;
   height: 8px;
   margin-left: 2px;
 }
 
 .count-down::after {
-  content: url(../img/count-arrow-down.svg);
+  content: url(../img/icons/count-arrow-down.svg);
   width: 8px;
   height: 8px;
   margin-left: 2px;
@@ -1617,8 +1617,8 @@ input[name=Settings] {
           justify-content: space-between;
 }
 .block-aside__link {
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding-left: 19px !important;
+  padding-right: 19px !important;
 }
 .block-aside__item {
   background: #202020;
@@ -1913,7 +1913,6 @@ input[name=Settings] {
   border: solid 1px #606060;
 }
 .sports-forecasts .aside-left {
-  background: #202020;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -1922,6 +1921,7 @@ input[name=Settings] {
 }
 .sports-forecasts .leagues {
   padding: 10px 0px 10px 0px;
+  background: #202020;
 }
 .sports-forecasts .leagues__item {
   padding: 7px 10px;
@@ -1967,6 +1967,205 @@ input[name=Settings] {
 .sports-forecasts .leagues .leagues__item .live-icon {
   margin-left: auto;
   margin-right: 0;
+}
+.sports-forecasts .block-aside__lock {
+  color: #ffe640;
+}
+
+.menu-left {
+  margin-top: 20px;
+  background: #202020;
+}
+.menu-left__sports {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 10px 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.menu-left__sports::before, .menu-left__sports::after {
+  content: "";
+  position: absolute;
+  top: 49%;
+  right: 10px;
+  display: block;
+  width: 9px;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transform: translate(-3px, -50%) rotate(45deg);
+          transform: translate(-3px, -50%) rotate(45deg);
+}
+.menu-left__sports::after {
+  -webkit-transform: translate(3px, -50%) rotate(-45deg);
+          transform: translate(3px, -50%) rotate(-45deg);
+}
+.menu-left__sports_active {
+  background: #4e4e4e;
+  margin-bottom: 0;
+}
+.menu-left__sports_active::before, .menu-left__sports_active::after {
+  content: "";
+  position: absolute;
+  top: 49%;
+  right: 10px;
+  display: block;
+  width: 10px;
+  height: 2px;
+  background-color: #ffe640;
+  -webkit-transform: translate(-3px, -50%) rotate(130deg);
+          transform: translate(-3px, -50%) rotate(130deg);
+}
+.menu-left__sports_active::after {
+  -webkit-transform: translate(3px, -50%) rotate(50deg);
+          transform: translate(3px, -50%) rotate(50deg);
+}
+.menu-left__sports:hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background: rgba(255, 255, 255, 0.15);
+}
+.menu-left__sports_active {
+  background: rgba(255, 255, 255, 0.15);
+}
+.menu-left__sport {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu-left__sport-quantity {
+  font-size: 14px;
+  font-weight: 500;
+  color: #909090;
+  margin-right: 23px;
+  margin-left: 3px;
+}
+.menu-left__country {
+  position: relative;
+  padding: 10px;
+  z-index: 2;
+  cursor: pointer;
+}
+.menu-left__country:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+.menu-left__country::before, .menu-left__country::after {
+  content: "";
+  position: absolute;
+  top: 49%;
+  right: 10px;
+  display: block;
+  width: 9px;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transform: translate(-3px, -50%) rotate(45deg);
+          transform: translate(-3px, -50%) rotate(45deg);
+}
+.menu-left__country::after {
+  -webkit-transform: translate(3px, -50%) rotate(-45deg);
+          transform: translate(3px, -50%) rotate(-45deg);
+}
+.menu-left__country_active {
+  background: #4e4e4e;
+  margin-bottom: 0;
+}
+.menu-left__country_active::before, .menu-left__country_active::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  right: 10px;
+  display: block;
+  width: 10px;
+  height: 2px;
+  background-color: #ffe640;
+  -webkit-transform: translate(-3px, -50%) rotate(130deg);
+          transform: translate(-3px, -50%) rotate(130deg);
+}
+.menu-left__country_active::after {
+  -webkit-transform: translate(3px, -50%) rotate(50deg);
+          transform: translate(3px, -50%) rotate(50deg);
+}
+.menu-left__country-span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu-left__contry-subblock {
+  background: none !important;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.menu-left__contry-subblock li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.menu-left .live-icon {
+  margin-left: auto;
+}
+.menu-left .styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.menu-left .styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+}
+.menu-left .styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #858585;
+}
+.menu-left .styled-checkbox:hover + label:before {
+  background: #4e4e4e;
+}
+.menu-left .styled-checkbox:focus + label:before {
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.menu-left .styled-checkbox:checked + label:before {
+  background: #ffe640;
+}
+.menu-left .styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  background: #202020;
+  width: 2px;
+  height: 2px;
+  -webkit-box-shadow: 2px 0 0 #202020, 4px 0 0 #202020, 4px -2px 0 #202020, 4px -4px 0 #202020, 4px -6px 0 #202020, 4px -8px 0 #202020;
+          box-shadow: 2px 0 0 #202020, 4px 0 0 #202020, 4px -2px 0 #202020, 4px -4px 0 #202020, 4px -6px 0 #202020, 4px -8px 0 #202020;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.menu-left ul {
+  margin: 0;
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .contry-sa::before {
@@ -2031,6 +2230,31 @@ input[name=Settings] {
 
 .coupon-icon::before {
   content: url(../img/flags/flag-coupon-icon.svg);
+  margin-right: 6px;
+}
+
+.country-au20::before {
+  content: url(../img/flags/au_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.country-eu::before {
+  content: url(../img/flags/eu_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.country-se::before {
+  content: url(../img/flags/se_flag_20px.svg);
+  margin-right: 6px;
+}
+
+.world-icon::before {
+  content: url(../img/icons/menu-left/globe-icon.webp);
+  margin-right: 6px;
+}
+
+.football-icon::before {
+  content: url(../img/icons/menu-left/football-icon.svg);
   margin-right: 6px;
 }
 

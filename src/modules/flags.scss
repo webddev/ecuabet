@@ -76,3 +76,34 @@
     margin-right: 6px;
   }
 }
+.country-au20 {
+  &::before {
+    content: url(../img/flags/au_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.country-eu {
+  &::before {
+    content: url(../img/flags/eu_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.country-se {
+  &::before {
+    content: url(../img/flags/se_flag_20px.svg);
+    margin-right: 6px;
+  }
+}
+.world-icon {
+  &::before {
+    content: url(../img/icons/menu-left/globe-icon.webp);
+    margin-right: 6px;
+  }
+}
+//sports
+.football-icon {
+  &::before {
+    content: url(../img/icons/menu-left/football-icon.svg);
+    margin-right: 6px;
+  }
+}

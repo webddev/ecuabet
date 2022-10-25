@@ -48,13 +48,13 @@
     }
   }
   .aside-left {
-    background: $background-darkgrey;
     height: fit-content;
     width: 260px;
     margin-right: 20px;
   }
   .leagues {
     padding: 10px 0px 10px 0px;
+    background: $background-darkgrey;
 
     &__item {
       padding: 7px 10px;
@@ -96,5 +96,194 @@
         margin-right: 0;
       }
     }
+  }
+  .block-aside__lock {
+    color: $canary-yellow;
+  }
+}
+.menu-left {
+  margin-top: 20px;
+  background: $background-darkgrey;
+  &__sports {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 49%;
+      right: 10px;
+      display: block;
+      width: 9px;
+      height: 2px;
+      background-color: $white;
+      transform: translate(-3px, -50%) rotate(45deg);
+    }
+    &::after {
+      transform: translate(3px, -50%) rotate(-45deg);
+    }
+    &_active {
+      background: $background-lightgrey;
+      margin-bottom: 0;
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 49%;
+        right: 10px;
+        display: block;
+        width: 10px;
+        height: 2px;
+        background-color: $canary-yellow;
+        transform: translate(-3px, -50%) rotate(130deg);
+      }
+      &::after {
+        transform: translate(3px, -50%) rotate(50deg);
+      }
+    }
+    &:hover {
+      transition: all 0.4s;
+      background: rgba(255, 255, 255, 0.15);
+    }
+    &_active {
+      background: rgba(255, 255, 255, 0.15);
+    }
+  }
+  &__sport {
+    font-size: 14px;
+    font-weight: 500;
+    color: $white;
+    display: flex;
+    align-items: center;
+  }
+  &__sport-quantity {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-right: 23px;
+    margin-left: 3px;
+  }
+  &__country {
+    position: relative;
+    padding: 10px;
+    z-index: 2;
+    cursor: pointer;
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 49%;
+      right: 10px;
+      display: block;
+      width: 9px;
+      height: 2px;
+      background-color: $white;
+      transform: translate(-3px, -50%) rotate(45deg);
+    }
+    &::after {
+      transform: translate(3px, -50%) rotate(-45deg);
+    }
+    &_active {
+      background: $background-lightgrey;
+      margin-bottom: 0;
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 16%;
+        right: 10px;
+        display: block;
+        width: 10px;
+        height: 2px;
+        background-color: $canary-yellow;
+        transform: translate(-3px, -50%) rotate(130deg);
+      }
+      &::after {
+        transform: translate(3px, -50%) rotate(50deg);
+      }
+    }
+  }
+  &__country-span {
+    display: flex;
+    align-items: center;
+  }
+  &__contry-subblock {
+    background: none !important;
+    padding-left: 40px;
+    padding-top: 5px;
+    & li {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  }
+  .live-icon {
+    margin-left: auto;
+  }
+  .styled-checkbox {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+
+    & + label {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      padding: 0;
+      font-size: 14px;
+      font-weight: normal;
+      color: $white;
+    }
+
+    // Box.
+    & + label:before {
+      content: "";
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      background-color: #858585;
+    }
+
+    // Box hover
+    &:hover + label:before {
+      background: $background-lightgrey;
+    }
+
+    // Box focus
+    &:focus + label:before {
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+
+    // Box checked
+    &:checked + label:before {
+      background: $canary-yellow;
+    }
+
+    // Checkmark. Could be replaced with an image
+    &:checked + label:after {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 9px;
+      background: $background-darkgrey;
+      width: 2px;
+      height: 2px;
+      box-shadow: 2px 0 0 $background-darkgrey, 4px 0 0 $background-darkgrey,
+        4px -2px 0 $background-darkgrey, 4px -4px 0 $background-darkgrey,
+        4px -6px 0 $background-darkgrey, 4px -8px 0 $background-darkgrey;
+      transform: rotate(45deg);
+    }
+  }
+  ul {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.15);
   }
 }

@@ -78,3 +78,30 @@ hamb2?.addEventListener('click', function () {
         hamb.classList.remove('active')
     }
 })
+
+//Список левого меню
+const accordeon3 = document.getElementsByClassName("menu-left__sports");
+
+for (let i = 0; i < accordeon3.length; i++) {
+    accordeon3[i]?.addEventListener("click", function () {
+        this.classList.toggle("menu-left__sports_active");
+
+        const accordeonItem = this.nextElementSibling;
+        accordeonItem.classList.toggle('hidden')
+
+    })
+}
+// Подсписок левого меню
+const accordeon4 = document.getElementsByClassName("openMenuLeftSubBlock");
+
+
+for (let i = 0; i < accordeon4.length; i++) {
+    accordeon4[i]?.addEventListener("click", function () {
+        console.log(accordeon4)
+        this.parentNode.classList.toggle("menu-left__country_active");
+
+        const accordeonItem = this.nextElementSibling;
+        accordeonItem.classList.toggle('hidden')
+
+    })
+}
