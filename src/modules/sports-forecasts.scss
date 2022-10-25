@@ -1,11 +1,20 @@
 .sports-forecasts {
+  @media screen and (max-width: 1279px) {
+    background-image: url(../img/bg_pic_large-dark.png);
+  }
+  header {
+    @media screen and (max-width: 1279px) {
+      height: 70px;
+      background: none;
+    }
+  }
   .content-block__body {
     max-width: 680px;
     @media screen and (max-width: 1023px) {
       max-width: 700px;
     }
     @media screen and (max-width: 767px) {
-      max-width: 732px;
+      max-width: 540px;
     }
     @media screen and (max-width: 575px) {
       max-width: 440px;
@@ -14,18 +23,13 @@
       max-width: 358px;
     }
     @media screen and (max-width: 370px) {
-      max-width: 320px;
+      max-width: 300px;
     }
     .search-by__bottom {
       margin-top: 0;
     }
   }
-  .block-info {
-    flex-wrap: wrap;
-    .text-row {
-      width: 100%;
-    }
-  }
+
   .block-aside {
     .search-by__top {
       margin-bottom: 20px;
@@ -51,10 +55,15 @@
     height: fit-content;
     width: 260px;
     margin-right: 20px;
+    @media (max-width: 1023px) {
+      display: none;
+    }
   }
   .leagues {
     padding: 10px 0px 10px 0px;
     background: $background-darkgrey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
     &__item {
       padding: 7px 10px;
@@ -100,16 +109,108 @@
   .block-aside__lock {
     color: $canary-yellow;
   }
+  .search-by .match-row .match-next,
+  .search-by .match-row .match-prev {
+    top: 11%;
+    @media screen and (max-width: 1023px) {
+      top: 13%;
+    }
+    @media screen and (max-width: 767px) {
+      top: 11%;
+    }
+    @media screen and (max-width: 575px) {
+      top: 13%;
+    }
+  }
+  .swiper-button-next {
+    right: -1px;
+  }
+  .search-by__top {
+    display: none;
+    @media (max-width: 1023px) {
+      display: block;
+      margin-top: 20px;
+    }
+    #bet-id {
+      width: 10%;
+      @media (max-width: 767px) {
+        width: 12%;
+      }
+      @media (max-width: 575px) {
+        width: 16%;
+      }
+      @media (max-width: 450px) {
+        width: 20%;
+      }
+      @media (max-width: 370px) {
+        width: 24%;
+      }
+    }
+    #input-id {
+      width: 32.5%;
+      @media (max-width: 767px) {
+        width: 28.5%;
+      }
+      @media (max-width: 575px) {
+        width: 75%;
+      }
+      @media (max-width: 450px) {
+        width: 70%;
+      }
+      @media (max-width: 370px) {
+        width: 64%;
+      }
+    }
+    #input-team {
+      width: 45.6%;
+      @media (max-width: 767px) {
+        width: 45.6%;
+      }
+      @media (max-width: 575px) {
+        width: 75%;
+      }
+      @media (max-width: 450px) {
+        width: 70%;
+      }
+      @media (max-width: 370px) {
+        width: 64%;
+      }
+    }
+  }
+  .top-leagues-mob {
+    display: none;
+    @media (max-width: 1023px) {
+      display: block;
+      margin-top: 20px;
+    }
+    .leagues {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 15px 0px 10px 0px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      @media (max-width: 450px) {
+        grid-template-columns: 1fr;
+      }
+      #league {
+        display: none;
+      }
+      .leagues__item:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 .menu-left {
   margin-top: 20px;
   background: $background-darkgrey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   &__sports {
     display: flex;
     align-items: center;
     position: relative;
     padding: 10px 10px;
-    margin: 10px 0;
     cursor: pointer;
     &::before,
     &::after {
@@ -223,67 +324,75 @@
       padding-top: 10px;
     }
   }
-  .live-icon {
+  .right-box {
     margin-left: auto;
   }
-  .styled-checkbox {
-    position: absolute; // take it out of document flow
-    opacity: 0; // hide it
 
-    & + label {
-      position: relative;
-      cursor: pointer;
-      display: flex;
-      padding: 0;
-      font-size: 14px;
-      font-weight: normal;
-      color: $white;
-    }
-
-    // Box.
-    & + label:before {
-      content: "";
-      margin-right: 10px;
-      display: inline-block;
-      vertical-align: text-top;
-      width: 20px;
-      height: 20px;
-      border-radius: 2px;
-      background-color: #858585;
-    }
-
-    // Box hover
-    &:hover + label:before {
-      background: $background-lightgrey;
-    }
-
-    // Box focus
-    &:focus + label:before {
-      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
-    }
-
-    // Box checked
-    &:checked + label:before {
-      background: $canary-yellow;
-    }
-
-    // Checkmark. Could be replaced with an image
-    &:checked + label:after {
-      content: "";
-      position: absolute;
-      left: 5px;
-      top: 9px;
-      background: $background-darkgrey;
-      width: 2px;
-      height: 2px;
-      box-shadow: 2px 0 0 $background-darkgrey, 4px 0 0 $background-darkgrey,
-        4px -2px 0 $background-darkgrey, 4px -4px 0 $background-darkgrey,
-        4px -6px 0 $background-darkgrey, 4px -8px 0 $background-darkgrey;
-      transform: rotate(45deg);
-    }
-  }
   ul {
     margin: 0;
     background: rgba(255, 255, 255, 0.15);
+  }
+}
+.block-aside-bets {
+  margin-top: 20px;
+}
+.combo-block + .combo-block {
+  margin-bottom: 1px;
+}
+.block-aside-bets {
+  .block-aside__item {
+    display: flex;
+    flex-direction: row;
+    background: $grey30;
+    margin-bottom: 1px;
+    transition: all 0.4s;
+    &:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transition: all 0.4s;
+    }
+    div:nth-child(2) {
+      width: 100%;
+    }
+  }
+  .styled-checkbox:hover + label:before {
+    background: #7e7e7e;
+  }
+  .block-aside__double-chance {
+    display: block;
+    margin-top: 8px;
+  }
+  .block-aside__partakers {
+    margin-top: 0;
+    display: flex;
+  }
+  &__total {
+    background: $background-darkgrey;
+    padding: 25px 10px 10px 10px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+.upcoming {
+  .live-icon {
+    background: none;
+    border: solid 1px #606060;
+  }
+  .block-info .list-row .listI-0::before {
+    display: none;
+  }
+  .block-info .list-row .listI-1::before {
+    display: none;
+  }
+}
+.highligts {
+  .block-info .list-row .listI-0::before {
+    display: none;
+  }
+  .block-info .list-row .listI-1::before {
+    display: none;
   }
 }

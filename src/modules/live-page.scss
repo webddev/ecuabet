@@ -520,9 +520,6 @@
       color: #909090;
       margin-right: 10px;
       line-height: 1;
-      @media screen and (max-width: 1023px) {
-        margin-right: 0;
-      }
       @media screen and (max-width: 767px) {
         margin-right: 5px;
       }
@@ -698,6 +695,7 @@
 
 .block-aside {
   margin-left: 20px;
+  height: fit-content;
   @media screen and (max-width: 1279px) {
     display: none;
   }
@@ -769,7 +767,7 @@
     display: flex;
     align-items: baseline;
     padding: 16px 0;
-    margin-bottom: 1px;
+    border-bottom: 1px solid $background-darkgrey;
     padding-left: 35%;
     position: relative;
     transition: all 0.4s;
@@ -788,6 +786,7 @@
       top: 14px;
     }
   }
+
   &__total {
     background: $grey30;
     padding: 20px 10px 30px 10px;
@@ -910,10 +909,8 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background: $grey30;
   padding: 16px 10px;
-  margin-bottom: 1px;
-
+  background: $grey30;
   &__text,
   &__input {
     font-size: 14px;

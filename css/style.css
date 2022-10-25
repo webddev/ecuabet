@@ -239,6 +239,63 @@ input[name=Settings] {
   margin-right: 10px;
 }
 
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+}
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #858585;
+}
+.styled-checkbox:hover + label:before {
+  background: #4e4e4e;
+}
+.styled-checkbox:focus + label:before {
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.styled-checkbox:checked + label:before {
+  background: #ffe640;
+}
+.styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  background: #202020;
+  width: 2px;
+  height: 2px;
+  -webkit-box-shadow: 2px 0 0 #202020, 4px 0 0 #202020, 4px -2px 0 #202020, 4px -4px 0 #202020, 4px -6px 0 #202020, 4px -8px 0 #202020;
+          box-shadow: 2px 0 0 #202020, 4px 0 0 #202020, 4px -2px 0 #202020, 4px -4px 0 #202020, 4px -6px 0 #202020, 4px -8px 0 #202020;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.block-info {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.block-info .text-row {
+  width: 100%;
+}
+
 .header {
   background: url(../img/bg_header_small.jpg);
   height: 250px;
@@ -1404,11 +1461,6 @@ input[name=Settings] {
   margin-right: 10px;
   line-height: 1;
 }
-@media screen and (max-width: 1023px) {
-  .block-info .text-row .time-info {
-    margin-right: 0;
-  }
-}
 @media screen and (max-width: 767px) {
   .block-info .text-row .time-info {
     margin-right: 5px;
@@ -1596,6 +1648,9 @@ input[name=Settings] {
 
 .block-aside {
   margin-left: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 @media screen and (max-width: 1279px) {
   .block-aside {
@@ -1686,7 +1741,7 @@ input[name=Settings] {
       -ms-flex-align: baseline;
           align-items: baseline;
   padding: 16px 0;
-  margin-bottom: 1px;
+  border-bottom: 1px solid #202020;
   padding-left: 35%;
   position: relative;
   -webkit-transition: all 0.4s;
@@ -1835,9 +1890,8 @@ input[name=Settings] {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  background: #303030;
   padding: 16px 10px;
-  margin-bottom: 1px;
+  background: #303030;
 }
 .combo-block__text, .combo-block__input {
   font-size: 14px;
@@ -1853,6 +1907,17 @@ input[name=Settings] {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 1279px) {
+  .sports-forecasts {
+    background-image: url(../img/bg_pic_large-dark.png);
+  }
+}
+@media screen and (max-width: 1279px) {
+  .sports-forecasts header {
+    height: 70px;
+    background: none;
+  }
+}
 .sports-forecasts .content-block__body {
   max-width: 680px;
 }
@@ -1863,7 +1928,7 @@ input[name=Settings] {
 }
 @media screen and (max-width: 767px) {
   .sports-forecasts .content-block__body {
-    max-width: 732px;
+    max-width: 540px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1878,18 +1943,11 @@ input[name=Settings] {
 }
 @media screen and (max-width: 370px) {
   .sports-forecasts .content-block__body {
-    max-width: 320px;
+    max-width: 300px;
   }
 }
 .sports-forecasts .content-block__body .search-by__bottom {
   margin-top: 0;
-}
-.sports-forecasts .block-info {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.sports-forecasts .block-info .text-row {
-  width: 100%;
 }
 .sports-forecasts .block-aside .search-by__top {
   margin-bottom: 20px;
@@ -1919,9 +1977,16 @@ input[name=Settings] {
   width: 260px;
   margin-right: 20px;
 }
+@media (max-width: 1023px) {
+  .sports-forecasts .aside-left {
+    display: none;
+  }
+}
 .sports-forecasts .leagues {
   padding: 10px 0px 10px 0px;
   background: #202020;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .sports-forecasts .leagues__item {
   padding: 7px 10px;
@@ -1971,10 +2036,145 @@ input[name=Settings] {
 .sports-forecasts .block-aside__lock {
   color: #ffe640;
 }
+.sports-forecasts .search-by .match-row .match-next,
+.sports-forecasts .search-by .match-row .match-prev {
+  top: 11%;
+}
+@media screen and (max-width: 1023px) {
+  .sports-forecasts .search-by .match-row .match-next,
+.sports-forecasts .search-by .match-row .match-prev {
+    top: 13%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sports-forecasts .search-by .match-row .match-next,
+.sports-forecasts .search-by .match-row .match-prev {
+    top: 11%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sports-forecasts .search-by .match-row .match-next,
+.sports-forecasts .search-by .match-row .match-prev {
+    top: 13%;
+  }
+}
+.sports-forecasts .swiper-button-next {
+  right: -1px;
+}
+.sports-forecasts .search-by__top {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .sports-forecasts .search-by__top {
+    display: block;
+    margin-top: 20px;
+  }
+}
+.sports-forecasts .search-by__top #bet-id {
+  width: 10%;
+}
+@media (max-width: 767px) {
+  .sports-forecasts .search-by__top #bet-id {
+    width: 12%;
+  }
+}
+@media (max-width: 575px) {
+  .sports-forecasts .search-by__top #bet-id {
+    width: 16%;
+  }
+}
+@media (max-width: 450px) {
+  .sports-forecasts .search-by__top #bet-id {
+    width: 20%;
+  }
+}
+@media (max-width: 370px) {
+  .sports-forecasts .search-by__top #bet-id {
+    width: 24%;
+  }
+}
+.sports-forecasts .search-by__top #input-id {
+  width: 32.5%;
+}
+@media (max-width: 767px) {
+  .sports-forecasts .search-by__top #input-id {
+    width: 28.5%;
+  }
+}
+@media (max-width: 575px) {
+  .sports-forecasts .search-by__top #input-id {
+    width: 75%;
+  }
+}
+@media (max-width: 450px) {
+  .sports-forecasts .search-by__top #input-id {
+    width: 70%;
+  }
+}
+@media (max-width: 370px) {
+  .sports-forecasts .search-by__top #input-id {
+    width: 64%;
+  }
+}
+.sports-forecasts .search-by__top #input-team {
+  width: 45.6%;
+}
+@media (max-width: 767px) {
+  .sports-forecasts .search-by__top #input-team {
+    width: 45.6%;
+  }
+}
+@media (max-width: 575px) {
+  .sports-forecasts .search-by__top #input-team {
+    width: 75%;
+  }
+}
+@media (max-width: 450px) {
+  .sports-forecasts .search-by__top #input-team {
+    width: 70%;
+  }
+}
+@media (max-width: 370px) {
+  .sports-forecasts .search-by__top #input-team {
+    width: 64%;
+  }
+}
+.sports-forecasts .top-leagues-mob {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .sports-forecasts .top-leagues-mob {
+    display: block;
+    margin-top: 20px;
+  }
+}
+.sports-forecasts .top-leagues-mob .leagues {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px 0px 10px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+@media (max-width: 450px) {
+  .sports-forecasts .top-leagues-mob .leagues {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+.sports-forecasts .top-leagues-mob .leagues #league {
+  display: none;
+}
+.sports-forecasts .top-leagues-mob .leagues .leagues__item:last-of-type {
+  margin-bottom: 0;
+}
 
 .menu-left {
   margin-top: 20px;
   background: #202020;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .menu-left__sports {
   display: -webkit-box;
@@ -1985,7 +2185,6 @@ input[name=Settings] {
           align-items: center;
   position: relative;
   padding: 10px 10px;
-  margin: 10px 0;
   cursor: pointer;
 }
 .menu-left__sports::before, .menu-left__sports::after {
@@ -2112,60 +2311,89 @@ input[name=Settings] {
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.menu-left .live-icon {
+.menu-left .right-box {
   margin-left: auto;
-}
-.menu-left .styled-checkbox {
-  position: absolute;
-  opacity: 0;
-}
-.menu-left .styled-checkbox + label {
-  position: relative;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  font-size: 14px;
-  font-weight: normal;
-  color: #fff;
-}
-.menu-left .styled-checkbox + label:before {
-  content: "";
-  margin-right: 10px;
-  display: inline-block;
-  vertical-align: text-top;
-  width: 20px;
-  height: 20px;
-  border-radius: 2px;
-  background-color: #858585;
-}
-.menu-left .styled-checkbox:hover + label:before {
-  background: #4e4e4e;
-}
-.menu-left .styled-checkbox:focus + label:before {
-  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
-          box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
-}
-.menu-left .styled-checkbox:checked + label:before {
-  background: #ffe640;
-}
-.menu-left .styled-checkbox:checked + label:after {
-  content: "";
-  position: absolute;
-  left: 5px;
-  top: 9px;
-  background: #202020;
-  width: 2px;
-  height: 2px;
-  -webkit-box-shadow: 2px 0 0 #202020, 4px 0 0 #202020, 4px -2px 0 #202020, 4px -4px 0 #202020, 4px -6px 0 #202020, 4px -8px 0 #202020;
-          box-shadow: 2px 0 0 #202020, 4px 0 0 #202020, 4px -2px 0 #202020, 4px -4px 0 #202020, 4px -6px 0 #202020, 4px -8px 0 #202020;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 .menu-left ul {
   margin: 0;
   background: rgba(255, 255, 255, 0.15);
+}
+
+.block-aside-bets {
+  margin-top: 20px;
+}
+
+.combo-block + .combo-block {
+  margin-bottom: 1px;
+}
+
+.block-aside-bets .block-aside__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #303030;
+  margin-bottom: 1px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.block-aside-bets .block-aside__item:hover {
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.block-aside-bets .block-aside__item div:nth-child(2) {
+  width: 100%;
+}
+.block-aside-bets .styled-checkbox:hover + label:before {
+  background: #7e7e7e;
+}
+.block-aside-bets .block-aside__double-chance {
+  display: block;
+  margin-top: 8px;
+}
+.block-aside-bets .block-aside__partakers {
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.block-aside-bets__total {
+  background: #202020;
+  padding: 25px 10px 10px 10px;
+}
+.block-aside-bets .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.upcoming .live-icon {
+  background: none;
+  border: solid 1px #606060;
+}
+.upcoming .block-info .list-row .listI-0::before {
+  display: none;
+}
+.upcoming .block-info .list-row .listI-1::before {
+  display: none;
+}
+
+.highligts .block-info .list-row .listI-0::before {
+  display: none;
+}
+.highligts .block-info .list-row .listI-1::before {
+  display: none;
 }
 
 .contry-sa::before {
@@ -2255,7 +2483,162 @@ input[name=Settings] {
 
 .football-icon::before {
   content: url(../img/icons/menu-left/football-icon.svg);
-  margin-right: 6px;
+  margin-right: 8px;
+}
+
+.basketball-icon::before {
+  content: url(../img/icons/menu-left/basketball-icon.svg);
+  margin-right: 8px;
+}
+
+.tennis-icon::before {
+  content: url(../img/icons/menu-left/tenis-icon.svg);
+  margin-right: 8px;
+}
+
+.baseball-icon::before {
+  content: url(../img/icons/menu-left/baseball-icon.svg);
+  margin-right: 8px;
+}
+
+.amfootball-icon::before {
+  content: url(../img/icons/menu-left/american-football-icon.svg);
+  margin-right: 8px;
+}
+
+.ice-hockey-icon::before {
+  content: url(../img/icons/menu-left/ice-hockey-icon.svg);
+  margin-right: 8px;
+}
+
+.e-sport-icon::before {
+  content: url(../img/icons/menu-left/e-sports-icon.svg);
+  margin-right: 8px;
+}
+
+.cycling-icon::before {
+  content: url(../img/icons/menu-left/cycling-icon.svg);
+  margin-right: 8px;
+}
+
+.mma-icon::before {
+  content: url(../img/icons/menu-left/mma-icon.svg);
+  margin-right: 8px;
+}
+
+.boxing-icon::before {
+  content: url(../img/icons/menu-left/boxing-icon.svg);
+  margin-right: 8px;
+}
+
+.volleyball-icon::before {
+  content: url(../img/icons/menu-left/volleyball-icon.svg);
+  margin-right: 8px;
+}
+
+.aussie-icon::before {
+  content: url(../img/icons/menu-left/aussie-rules-icon.svg);
+  margin-right: 8px;
+}
+
+.beach-volley-icon::before {
+  content: url(../img/icons/menu-left/beach-volley-icon.svg);
+  margin-right: 8px;
+}
+
+.biathlon-icon::before {
+  content: url(../img/icons/menu-left/biathlon-icon.svg);
+  margin-right: 8px;
+}
+
+.table-tennis-icon::before {
+  content: url(../img/icons/menu-left/table-tennis-icon.svg);
+  margin-right: 8px;
+}
+
+.handball-icon::before {
+  content: url(../img/icons/menu-left/handball-icon.svg);
+  margin-right: 8px;
+}
+
+.cricket-icon::before {
+  content: url(../img/icons/menu-left/cricket-icon.svg);
+  margin-right: 8px;
+}
+
+.darts-icon::before {
+  content: url(../img/icons/menu-left/darts-icon.svg);
+  margin-right: 8px;
+}
+
+.snooker-icon::before {
+  content: url(../img/icons/menu-left/snooker-icon.svg);
+  margin-right: 8px;
+}
+
+.waterpolo-icon::before {
+  content: url(../img/icons/menu-left/waterpolo-icon.svg);
+  margin-right: 8px;
+}
+
+.golf-icon::before {
+  content: url(../img/icons/menu-left/golf-icon.svg);
+  margin-right: 8px;
+}
+
+.squash-icon::before {
+  content: url(../img/icons/menu-left/squash-icon.svg);
+  margin-right: 8px;
+}
+
+.futsal-icon::before {
+  content: url(../img/icons/menu-left/futsal-icon.svg);
+  margin-right: 8px;
+}
+
+.specials-icon::before {
+  content: url(../img/icons/menu-left/specials-icon.svg);
+  margin-right: 8px;
+}
+
+.ski-jump-icon::before {
+  content: url(../img/icons/menu-left/sky-jumping-icon.svg);
+  margin-right: 8px;
+}
+
+.alpine-ski-icon::before {
+  content: url(../img/icons/menu-left/alpine-skiing-icon.svg);
+  margin-right: 8px;
+}
+
+.rugby-league-icon::before {
+  content: url(../img/icons/menu-left/rugby-league-icon.svg);
+  margin-right: 8px;
+}
+
+.rugby-icon::before {
+  content: url(../img/icons/menu-left/rugby-icon.svg);
+  margin-right: 8px;
+}
+
+.motosports-icon::before {
+  content: url(../img/icons/menu-left/motorsports-icon.svg);
+  margin-right: 8px;
+}
+
+.pesapallo-icon::before {
+  content: url(../img/icons/menu-left/pesapallo-icon.svg);
+  margin-right: 8px;
+}
+
+.gaelic-icon::before {
+  content: url(../img/icons/menu-left/gaelic-hurling-icon.svg);
+  margin-right: 8px;
+}
+
+.field-hockey-icon::before {
+  content: url(../img/icons/menu-left/field-hockey-icon.svg);
+  margin-right: 8px;
 }
 
 .footer {
