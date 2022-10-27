@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gq_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-51.000000, -705.000000)">
+            <g id="flag" transform="translate(51.000000, 705.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="gq" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="1.61328125 4.76171875 20 6.5234375 20 13.4765625 1.7109375 15.2851562"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 0 20 0 20 6.5234375 4.3359375 6.5234375"></polygon>
+                    <polygon id="Path" fill="#D80027" points="4.3359375 13.4765625 20 13.4765625 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 0 0 20 10 10"></polygon>
+                    <polygon id="Path" fill="#FF9811" points="13.046875 10.0429688 13.9140625 10.0429688 13.9140625 11.3046875 13.0429688 11.3046875"></polygon>
+                    <path d="M14.3476562,9.5703125 C14.3694177,9.24589132 14.2086838,8.93635504 13.9307949,8.76753428 C13.6529061,8.59871351 13.3041252,8.59871351 13.0262363,8.76753428 C12.7483475,8.93635504 12.5876135,9.24589132 12.609375,9.5703125 C12.4453606,9.55469212 12.2866642,9.63337694 12.1998119,9.77338195 C12.1129597,9.91338697 12.1129597,10.0905193 12.1998119,10.2305243 C12.2866642,10.3705293 12.4453606,10.4492141 12.609375,10.4335938 L14.3476563,10.4335938 C14.5871235,10.4335938 14.78125,10.2394672 14.78125,10 C14.78125,9.76053278 14.5871235,9.56640625 14.3476563,9.56640625 L14.3476562,9.5703125 Z" id="Path" fill="#6DA544"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>af__flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-151.000000, -105.000000)">
+            <g id="af__flag_20px" transform="translate(151.000000, 105.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="af" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="5.65234375 0 14.3476562 0 15.7929687 10.0664062 14.3476562 20 5.65234375 20 3.99609375 10.03125"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="14.3476562 0 20 0 20 20 14.3476562 20"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 5.65234375 0 5.65234375 20 0 20"></polygon>
+                    <g id="Group" transform="translate(6.523438, 6.523438)" fill="#FFDA44">
+                        <path d="M3.4765625,0 C1.55651005,0 0,1.55651005 0,3.4765625 C0,5.39661495 1.55651005,6.953125 3.4765625,6.953125 C5.39661495,6.953125 6.953125,5.39661495 6.953125,3.4765625 C6.953125,1.55651005 5.39661495,0 3.4765625,0 Z M3.4765625,5.65234375 C2.2749117,5.65234375 1.30078125,4.6782133 1.30078125,3.4765625 C1.30078125,2.2749117 2.2749117,1.30078125 3.4765625,1.30078125 C4.6782133,1.30078125 5.65234375,2.2749117 5.65234375,3.4765625 C5.65234375,4.6782133 4.6782133,5.65234375 3.4765625,5.65234375 L3.4765625,5.65234375 Z" id="Shape"></path>
+                        <path d="M3.4765625,2.171875 C2.99609375,2.171875 2.60546875,2.5625 2.60546875,3.04296875 L2.60546875,4.34765625 L4.34765625,4.34765625 L4.34765625,3.04296875 C4.34765625,2.5625 3.95703125,2.171875 3.4765625,2.171875 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

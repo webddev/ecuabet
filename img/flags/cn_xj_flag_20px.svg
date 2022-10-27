@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cn_xj_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-201.000000, -355.000000)">
+            <g id="flag" transform="translate(201.000000, 355.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="cn-xj" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 20 0 20 20 0 20"></polygon>
+                    <path d="M12.1875,10 L16.71875,8.515625 L13.90625,12.3828125 L13.90625,7.6171875 L16.71875,11.484375 L12.1875,10 Z M12.5,12.6953125 C11.3093289,14.5748067 9.01999235,15.4414332 6.88318524,14.8215531 C4.74637813,14.201673 3.27623454,12.2444348 3.27623454,10.0195312 C3.27623454,7.79462767 4.74637813,5.83738949 6.88318524,5.21750942 C9.01999235,4.59762935 11.3093289,5.46425582 12.5,7.34375 C11.3938034,6.12328217 9.65063297,5.70932433 8.11382674,6.30214743 C6.57702051,6.89497053 5.56343279,8.37234802 5.56343279,10.0195312 C5.56343279,11.6667145 6.57702051,13.144092 8.11382674,13.7369151 C9.65063297,14.3297382 11.3938034,13.9157803 12.5,12.6953125 Z" id="Shape" fill="#EEEEEE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

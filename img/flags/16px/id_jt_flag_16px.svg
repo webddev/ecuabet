@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>id_jt_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-401.000000, -755.000000)">
+            <g id="flag" transform="translate(401.000000, 755.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="id-jt" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="0 0 16 0 16 16 0 16"></polygon>
+                    <path d="M8,3.5625 L7.8125,3.625 L4.84375,6.0625 C4.71875,6.15625 4.71875,6.34375 4.8125,6.46875 L8,5.4375 L11.1875,6.46875 C11.28125,6.34375 11.28125,6.15625 11.15625,6.0625 L8.1875,3.625 L8,3.5625 Z" id="Path" fill="#D80027"></path>
+                    <path d="M8.75625,7.253125 L8.65625,7.253125 L8.75625,7.253125 Z" id="Path" fill="#EEEEEE"></path>
+                    <polygon id="Path" fill="#6DA544" points="8 4.1875 4.90625 6.4375 5.09375 7.125 6.6875 6.125 8 6.90625 9.3125 6.125 10.90625 7.125 11.09375 6.4375"></polygon>
+                    <polygon id="Path" fill="#333333" points="8 5.96875 7.125 7.84375 6.84375 7.1875 6.53125 7.84375 6.3125 7.34375 6 8 5.78125 7.5 5.375 8.34375 5.8125 9.0625 10.1875 9.0625 10.625 8.34375 10.25 7.5 10 8 9.6875 7.34375 9.46875 7.84375 9.15625 7.1875 8.875 7.84375"></polygon>
+                    <polygon id="Path" fill="#338AF3" points="5.71875 9.0625 6.0625 10.0625 9.9375 10.0625 10.28125 9.0625 8 9.0625"></polygon>
+                    <path d="M8,4.03125 C7.97661953,4.03551336 7.95493897,4.04635364 7.9375,4.0625 L4.8125,6.34375 C4.76814462,6.36879104 4.7434196,6.41824107 4.75,6.46875 L5.9375,10.125 C5.95209575,10.18165 6.0040292,10.2206001 6.0625,10.21875 L9.9375,10.21875 C9.9959708,10.2206001 10.0479042,10.18165 10.0625,10.125 L11.25,6.46875 C11.2565804,6.41824107 11.2318554,6.36879104 11.1875,6.34375 L8.0625,4.0625 C8.04506103,4.04635364 8.02338047,4.03551336 8,4.03125 L8,4.03125 Z M8,4.3125 L10.96875,6.5 L9.84375,9.96875 L6.15625,9.96875 L5.03125,6.5 L8,4.3125 Z" id="Shape" fill="#EEEEEE"></path>
+                    <rect id="Rectangle" fill="#FF9811" x="7.875" y="5.3125" width="1" height="4.4375" rx="0.5"></rect>
+                    <rect id="Rectangle" fill="#D80027" x="6" y="10.5625" width="4" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" fill="#EEEEEE" x="5.5" y="10.9375" width="5" height="1" rx="0.5"></rect>
+                    <polygon id="Path" fill="#FFDA44" points="7.5625 5.96875 8 4.65625 8.4375 5.96875 7.3125 5.15625 8.6875 5.15625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bb_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-501.000000, -155.000000)">
+            <g id="bb_flag_16px" transform="translate(501.000000, 155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="bb" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 0 4.525 0 8.053125 1.146875 11.48125 0 16 0 16 16 11.48125 16 8.078125 14.809375 4.525 16 0 16"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="4.525 0 11.48125 0 11.48125 16 4.525 16"></polygon>
+                    <path d="M10.440625,4.86875 L10.903125,5.103125 L10.4375,4.86875 L9.96875,4.6375 C9.94375,4.69375 9.334375,5.93125 9.234375,7.825 L8.525,7.825 L8.525,4.86875 L8.003125,4.175 L7.48125,4.86875 L7.48125,7.825 L6.771875,7.825 C6.72990782,6.7254111 6.47964698,5.64377524 6.034375,4.6375 L5.103125,5.103125 C5.109375,5.115625 5.74375,6.40625 5.74375,8.346875 L5.74375,8.86875 L7.48125,8.86875 L7.48125,11.825 L8.525,11.825 L8.525,8.86875 L10.2625,8.86875 L10.2625,8.346875 C10.2625,7.346875 10.4375,6.515625 10.584375,6 C10.740625,5.4375 10.903125,5.10625 10.90625,5.103125 L10.4375,4.86875 L10.440625,4.86875 Z" id="Path" fill="#333333"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

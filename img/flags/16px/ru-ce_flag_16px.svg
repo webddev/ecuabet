@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ru-ce_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-301.000000, -1355.000000)">
+            <g id="flag" transform="translate(301.000000, 1355.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ru-ce" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="3 11.15625 9.5 10.15625 16 11.15625 16 16 3 16 2 13.5625"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="3 0 16 0 16 9.15625 9.5 10.15625 3 9.15625 2 4.5625"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 16 3 16 3 11.15625 16 11.15625 16 9.15625 3 9.15625 3 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eg_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-251.000000, -455.000000)">
+            <g id="flag" transform="translate(251.000000, 455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="eg" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.625 10 4.375 20 5.625 20 14.375 10 15.625 0 14.375"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 5.625 0 5.625"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 14.375 20 14.375 20 20 0 20"></polygon>
+                    <path d="M9.765625,7.4609375 C9.453125,7.4609375 9.1015625,7.6171875 8.90625,8.0078125 C9.1015625,7.890625 9.53125,7.96875 9.53125,8.515625 C9.53125,8.671875 9.453125,8.828125 9.3359375,8.90625 C9.0234375,8.90625 8.7890625,8.359375 8.203125,8.359375 C7.8125,8.359375 7.4609375,8.6328125 7.4609375,9.0234375 L7.4609375,11.71875 L9.2578125,11.4453125 L8.7109375,12.5 L11.2890625,12.5 L10.7421875,11.4453125 L12.5390625,11.71875 L12.5390625,9.0234375 C12.5390625,8.6328125 12.1875,8.359375 11.796875,8.359375 C11.2109375,8.359375 10.9765625,8.90625 10.6640625,8.90625 C10.9765625,8.0078125 10.390625,7.4609375 9.765625,7.4609375 Z" id="Path" fill="#FF9811"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

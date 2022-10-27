@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cw_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-451.000000, -355.000000)">
+            <g id="flag" transform="translate(451.000000, 355.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="cw" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 0 20 0 20 13.3710938 19.140625 14.7070312 20 15.9765625 20 20 0 20 0 15.9765625 0.9921875 14.765625 0 13.3671875"></polygon>
+                    <path d="M6.84375,6.4140625 L7.3828125,8.07421875 L9.12890625,8.07421875 L7.71875,9.1015625 L8.2578125,10.7617188 L6.84375,9.734375 L5.43359375,10.7617188 L5.97265625,9.1015625 L4.55859375,8.07421875 L6.3046875,8.07421875 L6.84375,6.4140625 Z M3.84765625,4.67578125 L4.16796875,5.671875 L5.21875,5.671875 L4.37109375,6.2890625 L4.6953125,7.28515625 L3.84765625,6.671875 L3,7.28515625 L3.3203125,6.2890625 L2.47265625,5.67578125 L3.5234375,5.67578125 L3.84765625,4.67578125 Z" id="Shape" fill="#EEEEEE"></path>
+                    <polygon id="Path" fill="#FFDA44" points="0 13.3710937 20 13.3710937 20 15.9765625 0 15.9765625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

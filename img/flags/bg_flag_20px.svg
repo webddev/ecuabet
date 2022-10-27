@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-201.000000, -205.000000)">
+            <g id="bg_flag_20px" transform="translate(201.000000, 205.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="bg" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#496E2D" points="0 6.51953125 10.078125 5.28125 20 6.51953125 20 13.4726562 10.1796875 15.0859375 0 13.4726562"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 20 0 20 6.51953125 0 6.51953125"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 13.4726562 20 13.4726562 20 20 0 20"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

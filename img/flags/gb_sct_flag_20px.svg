@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gb_sct_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -605.000000)">
+            <g id="flag" transform="translate(401.000000, 605.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="gb-sct" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 2.65625 2.65625 0 17.34375 0 20 2.65625 20 17.34375 17.34375 20 2.65625 20 0 17.34375"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 2.65625 7.34375 10 0 17.34375 0 20 2.65625 20 10 12.65625 17.34375 20 20 20 20 17.34375 12.65625 10 20 2.65625 20 0 17.34375 0 10 7.34375 2.65625 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

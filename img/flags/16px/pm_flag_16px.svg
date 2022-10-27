@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pm_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-501.000000, -1255.000000)">
+            <g id="flag" transform="translate(501.000000, 1255.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="pm" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="5 0 16 0 16 16 5 16 4 8"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 5 2.5 4 5 5 5 11 2.5 12 0 11"></polygon>
+                    <rect id="Rectangle" fill="#D80027" x="0" y="0" width="5" height="5"></rect>
+                    <polygon id="Path" fill="#6DA544" points="5 0.65625 5 0 4.375 0 0 4.34375 0 5 0.625 5"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 0.65625 0 0 0.625 0 5 4.34375 5 5 4.375 5"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 2 5 2 5 3 0 3"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="2 0 3 0 3 5 2 5"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 16 5 16 5 11 0 11"></polygon>
+                    <path d="M10.625,4.5625 L10.625,9.5 L9.375,9.5 C8.625,9.5 8.625,8.5 8.625,8.5 L5.625,8.5 L5.625,9.5 L6.25,9.5 L10.84375,10.5 L15.375,9.5 L15.375,8.75 L12.875,8.75 C12.875,8.75 12.875,9.5 12.125,9.5 L11.125,9.5 L11.125,4.5625 L10.625,4.5625 Z" id="Path" fill="#FFDA44"></path>
+                    <path d="M11.125,4.3125 L11.125,5.3125 C10.15625,4.96875 9.21875,5.5625 8.625,4.3125 C9.65625,5.03125 10.21875,4 11.125,4.3125 Z M8.875,5.75 C8.875,5.75 8.125,6.5 8.375,8 L6.125,8 C6.125,8 7.125,6.25 8.875,5.75 Z M9.375,9 L12.34375,9 C11.375,7.5 12.34375,5.75 12.34375,5.75 L9.375,5.75 C9.375,5.75 8.125,7.5 9.375,9 Z M12.53125,8.25 C12.3424477,7.58871216 12.3865776,6.88263317 12.65625,6.25 L14.625,6.25 C14.625,6.25 14.125,7.25 14.59375,8.25 L12.53125,8.25 Z M9.375,9.5 L15.375,9.5 C15.375,9.5 15.125,9.5 14.875,10.25 C14.625,11 14.375,11.75 13.125,11.75 L8.625,11.75 C7.40625,11.75 7,10.1875 6.25,9.5 L9.375,9.5 Z" id="Shape" fill="#FFDA44"></path>
+                    <rect id="Rectangle" fill="#FFDA44" x="1" y="12" width="3" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle" fill="#FFDA44" x="1" y="14" width="3" height="1" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

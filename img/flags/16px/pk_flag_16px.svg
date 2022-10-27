@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pk_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-301.000000, -1255.000000)">
+            <g id="flag" transform="translate(301.000000, 1255.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="pk" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(0.000000, 0.000000)">
+                        <polygon id="Path" fill="#EEEEEE" points="0 0 4.175 0 5.74375 7.890625 4.175 16 0 16"></polygon>
+                        <polygon id="Path" fill="#496E2D" points="4.175 0 16 0 16 16 4.175 16"></polygon>
+                        <path d="M11.421875,9.321875 C10.6584031,9.87291365 9.63324233,9.89271718 8.84905863,9.37157534 C8.06487492,8.85043351 7.68608683,7.89761326 7.89842511,6.98030996 C8.1107634,6.06300666 8.86970744,5.37354978 9.803125,5.25 C8.29224236,5.02520176 6.8828162,6.06098922 6.64615329,7.57005889 C6.40949038,9.07912856 7.43417144,10.4966498 8.94133497,10.7451628 C10.4484985,10.9936757 11.8740273,9.98016434 12.134375,8.475 C11.9715236,8.81334862 11.726582,9.10555976 11.421875,9.325 L11.421875,9.321875 Z M11.375,5.21875 L11.94375,5.83125 L12.703125,5.478125 L12.296875,6.2125 L12.865625,6.825 L12.04375,6.665625 L11.6375,7.396875 L11.534375,6.5625 L10.71875,6.40625 L11.48125,6.053125 L11.375,5.21875 Z" id="Shape" fill="#EEEEEE"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

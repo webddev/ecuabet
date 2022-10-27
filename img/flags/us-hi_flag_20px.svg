@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>us-hi_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-101.000000, -1655.000000)">
+            <g id="flag" transform="translate(101.000000, 1655.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="us-hi" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 10 0 3.75 1.25 2.5 0 1.25 0 0 1.25 0 2.5 1.25 3.75 0 20 0 20 2.5 18.75 5 20 7.5 20 10 18.75 12.5 20 15 20 17.5 10 18.75 0 17.5 0 15 1.25 12.5"></polygon>
+                    <path d="M6.7578125,5 L10,8.2421875 L10,7.5 L20,7.5 L20,5 L15,3.75 L10,5 L6.7578125,5 Z M5,6.7578125 L5,10 L8.2421875,10 L5,6.7578125 Z M0,12.5 L0,15 L20,15 L20,12.5 L10,11.25 L0,12.5 Z" id="Shape" fill="#0052B4"></path>
+                    <path d="M1.25,0 L1.25,1.25 L0,1.25 L0,3.75 L1.25,3.75 L1.25,10 L0,10 L0,12.5 L20,12.5 L20,10 L3.75,10 L3.75,3.75 L10,3.75 L10,5 L20,5 L20,2.5 L10,2.5 L10,1.25 L3.75,1.25 L3.75,0 L1.25,0 Z M10,10 L10,8.7890625 L6.2109375,5 L5,5 L10,10 Z M0,17.5 L0,20 L20,20 L20,17.5 L0,17.5 Z" id="Shape" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ma_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-351.000000, -1005.000000)">
+            <g id="flag" transform="translate(351.000000, 1005.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ma" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 20 0 20"></polygon>
+                    <path d="M15.9101562,8.203125 L11.3945312,8.203125 L10,3.91796875 L8.60546875,8.203125 L4.08984375,8.203125 L7.7421875,10.859375 L6.34765625,15.1484375 L10,12.5 L13.6523438,15.15625 L12.2578125,10.859375 L15.9101562,8.203125 Z M8.76171875,10.5273438 L9.23828125,9.078125 L10.7617188,9.078125 L11.234375,10.5273438 L10,11.4257812 L8.765625,10.5273438 L8.76171875,10.5273438 Z M10.4804688,8.20703125 L9.51953125,8.20703125 L10,6.7265625 L10.4804688,8.20703125 Z M11.9765625,9.9921875 L11.6757812,9.078125 L13.234375,9.078125 L11.9765625,9.9921875 Z M8.3203125,9.078125 L8.01953125,9.9921875 L6.76171875,9.078125 L8.3203125,9.078125 Z M7.99609375,12.8789062 L8.4765625,11.3945312 L9.2578125,11.9609375 L7.99609375,12.8789062 Z M10.734375,11.9648438 L11.515625,11.3984375 L11.9960937,12.8789062 L10.734375,11.9648438 Z" id="Shape" fill="#496E2D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

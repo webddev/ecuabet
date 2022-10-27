@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>im_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-51.000000, -805.000000)">
+            <g id="flag" transform="translate(51.000000, 805.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="im" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="10.9625 5.3625 10.396875 7.38125 8.7 7.06875 7.60625 4.81875 4.65625 5.8625 4.425 5.20625 3.653125 5.1125 4.234375 6.753125 6.265625 6.23125 6.840625 7.85625 5.4375 9.928125 7.821875 11.959375 7.36875 12.490625 7.671875 13.20625 8.8 11.884375 7.3375 10.384375 8.45625 9.071875 10.95 9.253125 11.51875 6.171875 12.20625 6.296875 12.675 5.678125 10.9625 5.365625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

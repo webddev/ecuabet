@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eh_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-301.000000, -455.000000)">
+            <g id="flag" transform="translate(301.000000, 455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="eh" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="2.815625 4.525 9.39375 3.659375 16 4.525 16 11.48125 9.46875 12.49375 2.8125 11.48125"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 16 0 16 4.525 0.88125 4.525"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="1.234375 11.48125 16 11.48125 16 16 0 16"></polygon>
+                    <path d="M0,0.003125 L0,16 L0.003125,16 L8,8.003125 L0,0.003125 Z M11.409375,5.56875 C10.477965,5.58552958 9.63757021,6.13171201 9.2440013,6.97605181 C8.85043238,7.8203916 8.97252426,8.81521429 9.55858505,9.5393268 C10.1446458,10.2634393 11.0921739,10.5901949 12,10.38125 C10.8876049,10.1311276 10.0972221,9.14329347 10.0972221,8.003125 C10.0972221,6.86295653 10.8876049,5.87512237 12,5.625 C11.8061402,5.58233208 11.6078039,5.5634429 11.409375,5.56875 L11.409375,5.56875 Z" id="Shape" fill="#D80027"></path>
+                    <polygon id="Path" fill="#D80027" points="12.103125 6.440625 12.446875 7.503125 13.565625 7.503125 12.659375 8.159375 13.00625 9.221875 12.1 8.565625 11.196875 9.221875 11.54375 8.159375 10.6375 7.503125 11.75625 7.503125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

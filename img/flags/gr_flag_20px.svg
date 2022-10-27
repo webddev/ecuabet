@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gr_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-101.000000, -705.000000)">
+            <g id="flag" transform="translate(101.000000, 705.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="gr" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 0 3.8671875 0 5 1.25 6.09375 0 20 0 20 2.2265625 18.75 3.3203125 20 4.453125 20 6.6796875 18.75 7.7734375 20 8.90625 20 11.1328125 18.75 12.2265625 20 13.3203125 20 15.546875 18.75 16.6796875 20 17.7734375 20 20 0 20 0 17.7734375 1.25 16.6796875 0 15.546875 0 13.359375 1.25 12.2265625 0 11.1328125 0 6.6796875 1.25 5.546875 0 4.453125"></polygon>
+                    <path d="M3.8671875,0 L3.8671875,4.453125 L0,4.453125 L0,6.6796875 L3.8671875,6.6796875 L3.8671875,11.1328125 L0,11.1328125 L0,13.359375 L20,13.359375 L20,11.1328125 L6.09375,11.1328125 L6.09375,6.6796875 L10,6.6796875 L10,4.453125 L6.09375,4.453125 L6.09375,0 L3.8671875,0 Z M10,2.2265625 L10,4.453125 L20,4.453125 L20,2.2265625 L10,2.2265625 Z M10,6.6796875 L10,8.90625 L20,8.90625 L20,6.6796875 L10,6.6796875 Z M0,15.546875 L0,17.7734375 L20,17.7734375 L20,15.546875 L0,15.546875 Z" id="Shape" fill="#EEEEEE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

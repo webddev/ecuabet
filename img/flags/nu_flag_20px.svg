@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nu_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-251.000000, -1205.000000)">
+            <g id="flag" transform="translate(251.000000, 1205.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="nu" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="0 10 10 0 20 0 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 1.25 1.25 2.5 0 3.75 0 10 1.25 10 2.5 8.75 3.75 10 5 10 6.640625 9.375 8.2421875 10 10 10 9.6875 9.375 10 8.7890625 10 8.2421875 9.375 6.6015625 10 5 10 3.75 8.75 2.5 10 1.25 10 0 3.75 0 2.5 1.25 1.25 0"></polygon>
+                    <path d="M5,10 L5,6.7578125 L8.2421875,10 L5,10 Z M10,8.2421875 L6.7578125,5 L10,5 L10,8.2421875 Z" id="Shape" fill="#0052B4"></path>
+                    <polygon id="Path" fill="#D80027" points="5 5 10 10 10 8.7890625 6.2109375 5"></polygon>
+                    <polygon id="Path" fill="#D80027" points="1.25 0 1.25 1.25 0 1.25 0 3.75 1.25 3.75 1.25 10 3.75 10 3.75 3.75 10 3.75 10 1.25 3.75 1.25 3.75 0"></polygon>
+                    <circle id="Oval" fill="#0052B4" cx="2.5" cy="2.5" r="1.875"></circle>
+                    <path d="M1.953125,7.734375 L2.5,6.015625 L3.0859375,7.734375 L1.6015625,6.6796875 L3.4375,6.6796875 L1.953125,7.734375 Z M6.328125,3.359375 L6.875,1.640625 L7.4609375,3.359375 L5.9765625,2.3046875 L7.8125,2.3046875 L6.328125,3.359375 Z M2.5,0.6640625 L3.59375,4.0234375 L0.7421875,1.953125 L4.2578125,1.953125 L1.40625,4.0234375 L2.5,0.6640625 Z" id="Shape" fill="#FFDA44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

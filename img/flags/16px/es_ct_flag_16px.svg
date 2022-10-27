@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>es_ct_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-101.000000, -505.000000)">
+            <g id="flag" transform="translate(101.000000, 505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="es-ct" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="0 0 0 1.78125 1 2.6875 0 3.5625 0 5.34375 1 6.25 0 7.125 0 8.90625 1 9.78125 0 10.65625 0 12.4375 1 13.34375 0 14.21875 0 16 16 16 16 14.21875 15 13.34375 16 12.4375 16 10.65625 15 9.78125 16 8.90625 16 7.125 15 6.25 16 5.34375 16 3.5625 15 2.6875 16 1.78125 16 0"></polygon>
+                    <path d="M0,1.78125 L16,1.78125 L16,3.5625 L0,3.5625 L0,1.78125 Z M0,5.34375 L16,5.34375 L16,7.125 L0,7.125 L0,5.34375 Z M0,8.90625 L16,8.90625 L16,10.65625 L0,10.65625 L0,8.90625 Z M0,12.4375 L16,12.4375 L16,14.21875 L0,14.21875 L0,12.4375 Z" id="Shape" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

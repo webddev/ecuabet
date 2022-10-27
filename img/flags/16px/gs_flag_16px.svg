@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gs_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-151.000000, -705.000000)">
+            <g id="flag" transform="translate(151.000000, 705.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="gs" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="8 0 16 0 16 16 0 16 0 8"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 1 1 2 0 3 0 8 1 8 2 7 3 8 4 8 4 5.40625 6.59375 8 8 8 7.75 7.5 8 7.03125 8 6.59375 5.40625 4 8 4 8 3 7 2 8 1 8 0 3 0 2 1 1 0"></polygon>
+                    <path d="M1,0 L1,1 L0,1 L0,3 L1,3 L1,8 L3,8 L3,3 L8,3 L8,1 L3,1 L3,0 L1,0 Z M4,4 L8,8 L8,7.03125 L4.96875,4 L4,4 Z" id="Shape" fill="#D80027"></path>
+                    <rect id="Rectangle" fill="#6DA544" x="10.5" y="8" width="2" height="1" rx="0.5"></rect>
+                    <circle id="Oval" fill="#FF9811" cx="11.5" cy="3" r="1"></circle>
+                    <circle id="Oval" fill="#ACABB1" cx="11.5" cy="4.5" r="1.5"></circle>
+                    <path d="M10,4.5 L10,6.90625 C10,8.03125 11.5,8.40625 11.5,8.40625 C11.5,8.40625 13,8.03125 13,6.90625 L13,4.5 L10,4.5 Z" id="Path" fill="#338AF3"></path>
+                    <rect id="Rectangle" fill="#333333" x="9" y="4" width="1" height="4" rx="0.5"></rect>
+                    <rect id="Rectangle" fill="#333333" x="13" y="4" width="1" height="4" rx="0.5"></rect>
+                    <polygon id="Path" fill="#6DA544" points="10 4.5 11.5 8 13 4.5"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="9 9 9 10 10 10 10 10.25 13 10.25 13 10 14 10 14 9 13 9 13 9.25 10 9.25 10 9"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

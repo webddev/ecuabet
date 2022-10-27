@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jo_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -855.000000)">
+            <g id="flag" transform="translate(401.000000, 855.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="jo" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="4.921875 6.171875 9.9140625 5.76953125 20 6.5234375 20 13.4765625 10.0429688 14.7382812 4.921875 13.1210937"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 20 0 20 6.5234375 4.1796875 6.5234375"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="4.1796875 13.4765625 20 13.4765625 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 0 20 10 10"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="3.96875 7.82421875 4.515625 8.97265625 5.7578125 8.6875 5.203125 9.83203125 6.19921875 10.6210938 4.95703125 10.9023438 4.9609375 12.1757813 3.96875 11.3789063 2.9765625 12.1757813 2.9765625 10.8984375 1.73828125 10.6171875 2.734375 9.8359375 2.1796875 8.6875 3.421875 8.97265625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

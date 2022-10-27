@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>klingon_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-301.000000, -905.000000)">
+            <g id="flag" transform="translate(301.000000, 905.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="klingon" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 16 0 16 16 0 16"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="8.65625" r="3.9375"></circle>
+                    <path d="M8,11.09375 C8.471875,10.303125 8.903125,9.853125 9.375,9.0625 C9.265625,8.56875 8.834375,8.840625 8.03125,2.6875 C7.125,8.8875 6.640625,8.60625 6.59375,9 C7.05625,9.80625 7.5375,10.2875 8,11.09375 Z M6.34375,9.5 C6.703125,10.053125 7.359375,10.821875 7.71875,11.375 C5.55625,11.51875 5.1125,12.040625 4.375,12.8125 C4.24375,10.25625 5.95625,10.265625 6.34375,9.5 Z M8.3125,11.34375 C8.728125,10.74375 9.240625,10.0375 9.65625,9.4375 C10.3625,10.884375 11.3,11.303125 12.15625,11.375 C11.4875,12.31875 9.75625,12.225 8.3125,11.34375 Z" id="Shape" fill="#333333"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

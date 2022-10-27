@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>maori_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-451.000000, -1005.000000)">
+            <g id="flag" transform="translate(451.000000, 1005.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="maori" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 2.14375 7.74375 1.371875 16 9.34375 16 12.278125 3.525 13.409375 0 5.078125"></polygon>
+                    <path d="M0,0 L0,2.14375 L5.5625,2.14375 C7.5507251,2.14375 9.1625,3.7555249 9.1625,5.74375 C9.1625,7.7319751 7.5507251,9.34375 5.5625,9.34375 L16,9.34375 L16,0 L0,0 Z" id="Path" fill="#333333"></path>
+                    <path d="M0,5.078125 L0,16 L16,16 L16,12.278125 L5.5625,12.278125 C3.94188944,12.278125 2.628125,10.9643606 2.628125,9.34375 C2.628125,7.72313944 3.94188944,6.409375 5.5625,6.409375 C6.3464982,6.44556702 6.96351963,7.09172938 6.96351963,7.8765625 C6.96351963,8.66139562 6.3464982,9.30755798 5.5625,9.34375 C6.7086721,9.29986885 7.61522036,8.35794928 7.61522036,7.2109375 C7.61522036,6.06392572 6.7086721,5.12200615 5.5625,5.078125 L0,5.078125 Z" id="Path" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

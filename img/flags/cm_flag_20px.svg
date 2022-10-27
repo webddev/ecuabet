@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cm_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-101.000000, -355.000000)">
+            <g id="flag" transform="translate(101.000000, 355.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="cm" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="5.65625 0 14.34375 0 15.59375 10.15625 14.34375 20 5.65625 20 4.40234375 10"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="10.0039062 6.5234375 10.8671875 9.1796875 13.6601563 9.1796875 11.40625 10.8203125 12.265625 13.4765625 10.0078125 11.8359375 7.74609375 13.4765625 8.609375 10.8203125 6.3515625 9.1796875 9.140625 9.1796875"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="0 0 5.65625 0 5.65625 20 0 20"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="14.34375 0 20 0 20 20 14.34375 20"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

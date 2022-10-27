@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eh_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -455.000000)">
+            <g id="flag" transform="translate(301.000000, 455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="eh" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="3.51953125 5.65625 11.7421875 4.57421875 20 5.65625 20 14.3515625 11.8359375 15.6171875 3.515625 14.3515625"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 20 0 20 5.65625 1.1015625 5.65625"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="1.54296875 14.3515625 20 14.3515625 20 20 0 20"></polygon>
+                    <path d="M0,0.00390625 L0,20 L0.00390625,20 L10,10.0039062 L0,0.00390625 Z M14.2617188,6.9609375 C13.0974562,6.98191198 12.0469628,7.66464001 11.5550016,8.72006476 C11.0630405,9.7754895 11.2156553,11.0190179 11.9482313,11.9241585 C12.6808073,12.8292991 13.8652174,13.2377436 15,12.9765625 C13.6095061,12.6639095 12.6215276,11.4291168 12.6215276,10.0039063 C12.6215276,8.57869566 13.6095061,7.34390297 15,7.03125 C14.7576752,6.9779151 14.5097548,6.95430363 14.2617188,6.9609375 L14.2617188,6.9609375 Z" id="Shape" fill="#D80027"></path>
+                    <polygon id="Path" fill="#D80027" points="15.1289062 8.05078125 15.5585938 9.37890625 16.9570312 9.37890625 15.8242188 10.1992188 16.2578125 11.5273438 15.125 10.7070312 13.9960938 11.5273438 14.4296875 10.1992188 13.296875 9.37890625 14.6953125 9.37890625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

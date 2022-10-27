@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>vc_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -1655.000000)">
+            <g id="flag" transform="translate(301.000000, 1655.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="vc" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="14.7851563 0 5.22265625 0 4.3515625 10 5.22265625 20 14.7851563 20 15.65625 10"></polygon>
+                    <polygon id="Path" fill="#338AF3" points="5.22265625 20 5.22265625 0 0 0 0 20"></polygon>
+                    <path d="M20,0 L14.7851562,0 L14.7851562,20 L20,20 L20,0 Z M7.828125,12.609375 L6.09375,10 L7.83203125,7.390625 L9.578125,10 L7.828125,12.609375 Z M12.1796875,12.609375 L10.4335938,10 L12.1757813,7.390625 L13.9140625,10 L12.1796875,12.609375 Z M10.0039062,16.0859375 L8.265625,13.4765625 L10.0039062,10.8710938 L11.7421875,13.4765625 L10.0039062,16.0859375 Z" id="Shape" fill="#6DA544"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

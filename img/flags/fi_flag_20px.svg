@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fi_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-151.000000, -555.000000)">
+            <g id="flag" transform="translate(151.000000, 555.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="fi" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 5.21875 0 6.59765625 0.65234375 7.82421875 0 20 0 20 8.6953125 19.1171875 9.93359375 20 11.3046875 20 20 7.82421875 20 6.57421875 19.2265625 5.21875 20 0 20 0 11.3046875 0.86328125 10.0039062 0 8.6953125"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="5.21875 0 5.21875 8.6953125 0 8.6953125 0 11.3046875 5.21875 11.3046875 5.21875 20 7.82421875 20 7.82421875 11.3046875 20 11.3046875 20 8.6953125 7.82421875 8.6953125 7.82421875 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

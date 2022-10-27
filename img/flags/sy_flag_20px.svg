@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sy_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-351.000000, -1505.000000)">
+            <g id="flag" transform="translate(351.000000, 1505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="sy" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 6.5234375 9.9140625 5.76953125 20 6.5234375 20 13.4765625 10.0429688 14.7382812 0 13.4765625"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 6.5234375 0 6.5234375"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 13.4765625 20 13.4765625 20 20 0 20"></polygon>
+                    <path d="M5.9765625,7.609375 L6.515625,9.26953125 L8.26171875,9.26953125 L6.84765625,10.296875 L7.38671875,11.9570312 L5.9765625,10.9296875 L4.5625,11.9570312 L5.1015625,10.296875 L3.6875,9.26953125 L5.43359375,9.26953125 L5.9765625,7.609375 Z M14.0234375,7.609375 L14.5664063,9.26953125 L16.3125,9.26953125 L14.8984375,10.296875 L15.4375,11.9570312 L14.0234375,10.9296875 L12.6132812,11.9570312 L13.1523438,10.296875 L11.7382813,9.26953125 L13.484375,9.26953125 L14.0234375,7.609375 Z" id="Shape" fill="#6DA544"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

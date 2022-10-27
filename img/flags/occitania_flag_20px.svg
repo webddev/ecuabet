@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>occitania_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-351.000000, -1205.000000)">
+            <g id="flag" transform="translate(351.000000, 1205.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="occitania" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 20 0 20"></polygon>
+                    <circle id="Oval" fill="#FFDA44" cx="10" cy="2.5" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="2.5" cy="10" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="17.5" cy="10" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="10" cy="17.5" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="13.75" cy="15.625" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="15.625" cy="13.75" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="13.75" cy="4.375" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="15.625" cy="6.25" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="6.25" cy="4.375" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="4.375" cy="6.25" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="4.375" cy="13.75" r="1.25"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="6.25" cy="15.625" r="1.25"></circle>
+                    <path d="M10,2.34375 L5.9765625,4.375 L6.7578125,6.7578125 L4.375,5.9765625 L2.34375,10 L4.375,14.0234375 L6.7578125,13.2421875 L5.9765625,15.625 L10,17.65625 L14.0234375,15.625 L13.2421875,13.2421875 L15.625,14.0234375 L17.65625,10 L15.625,5.9765625 L13.2421875,6.7578125 L14.0234375,4.375 L10,2.34375 Z M10,3.75 L12.5,5 L11.25,8.75 L15,7.5 L16.25,10 L15,12.5 L11.25,11.25 L12.5,15 L10,16.25 L7.5,15 L8.75,11.25 L5,12.5 L3.75,10 L5,7.5 L8.75,8.75 L7.5,5 L10,3.75 Z" id="Shape" fill="#FFDA44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

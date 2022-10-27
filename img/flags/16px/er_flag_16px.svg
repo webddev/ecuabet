@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>er_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-351.000000, -455.000000)">
+            <g id="flag" transform="translate(351.000000, 455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="er" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#6DA544" points="0 0 16 0 16 8 1.9375 8"></polygon>
+                    <polygon id="Path" fill="#338AF3" points="1.9375 8 16 8 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 0 16 16 8"></polygon>
+                    <path d="M4.175,4.696875 C2.640625,4.696875 1.39375,5.946875 1.39375,7.478125 L1.39375,8.521875 C1.46415731,10.0067017 2.68850495,11.1743691 4.175,11.1743691 C5.66149505,11.1743691 6.88584269,10.0067017 6.95625,8.521875 L6.95625,7.478125 C6.95625,5.946875 5.70625,4.696875 4.175,4.696875 L4.175,4.696875 Z M5.9125,8.521875 C5.9125,9.3 5.4,9.959375 4.69375,10.178125 L4.69375,9.04375 L5.434375,8.30625 L4.696875,7.56875 L4.696875,6.95625 L3.653125,6.95625 L3.653125,8 L2.915625,8.7375 L3.653125,9.475 L3.653125,10.18125 C2.92823187,9.95343175 2.4348874,9.28172428 2.434375,8.521875 L2.434375,7.478125 C2.4738834,6.54632114 3.24079644,5.8112361 4.1734375,5.8112361 C5.10607856,5.8112361 5.8729916,6.54632114 5.9125,7.478125 L5.9125,8.521875 Z" id="Shape" fill="#FFDA44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

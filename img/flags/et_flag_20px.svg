@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>et_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -505.000000)">
+            <g id="flag" transform="translate(401.000000, 505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="et" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 13.4765625 9.98828125 12.265625 20 13.4765625 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 6.5234375 10.078125 4.93359375 20 6.5234375 20 13.4765625 0 13.4765625"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 0 20 0 20 6.5234375 0 6.5234375"></polygon>
+                    <circle id="Oval" fill="#0052B4" cx="10" cy="10" r="4.78125"></circle>
+                    <g id="Group" transform="translate(6.335938, 6.296875)" fill="#FFDA44">
+                        <polygon id="Path" points="3.6640625 0 4.5234375 2.65625 7.32421875 2.65625 5.05859375 4.296875 5.9296875 6.96484375 3.6640625 5.3125 1.3984375 6.9609375 2.265625 4.30078125 0 2.66015625 2.8046875 2.66015625"></polygon>
+                        <polygon id="Path" points="7.10546875 4.3671875 4.37109375 3.47265625 6.05859375 1.14453125 5.35546875 0.63671875 3.6640625 2.9609375 1.97265625 0.62890625 1.26953125 1.140625 2.9609375 3.47265625 0.22265625 4.359375 0.4921875 5.1875 3.2265625 4.296875 3.2265625 7.1796875 4.09765625 7.1796875 4.09765625 4.30078125 6.8359375 5.19140625"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

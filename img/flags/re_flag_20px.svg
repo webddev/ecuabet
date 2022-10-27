@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>re_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-51.000000, -1355.000000)">
+            <g id="flag" transform="translate(51.000000, 1355.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="re" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="2.5 0 0 2.5 0 8.75 1.25 10 0 11.25 0 20 10 18.75 20 20 20 11.25 18.75 10 20 8.75 20 2.5 17.5 0 11.25 0 10 1.25 8.75 0"></polygon>
+                    <polygon id="Path" fill="#D80027" points="10 10 0 20 20 20"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 8.75 0 11.25 20 8.75 20 11.25"></polygon>
+                    <path d="M10,10 L0,2.5 L0,0 L2.5,0 L10,10 Z M10,10 L17.5,0 L20,0 L20,2.5 L10,10 Z M10,10 L8.75,0 L11.25,0 L10,10 Z" id="Shape" fill="#FFDA44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

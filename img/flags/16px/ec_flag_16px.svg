@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ec_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-101.000000, -455.000000)">
+            <g id="flag" transform="translate(101.000000, 455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ec" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 12 7.959375 10.978125 16 11.996875 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 8 7.96875 7.15625 16 8 16 12 0 12"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 0 16 0 16 8 0 8"></polygon>
+                    <circle id="Oval" fill="#FFDA44" cx="8" cy="8" r="2.78125"></circle>
+                    <path d="M8,9.7375 C7.040625,9.7375 6.259375,8.95625 6.259375,8 L6.259375,6.95625 C6.259375,5.99492936 7.03867936,5.215625 8,5.215625 C8.96132064,5.215625 9.740625,5.99492936 9.740625,6.95625 L9.740625,8 C9.740625,8.95625 8.959375,9.7375 8,9.7375 L8,9.7375 Z" id="Path" fill="#338AF3"></path>
+                    <path d="M10.78125,3.825 L8.696875,3.825 C8.696875,3.44012656 8.38487344,3.128125 8,3.128125 C7.61512656,3.128125 7.303125,3.44012656 7.303125,3.825 L5.21875,3.825 C5.2305759,4.21338656 5.54893348,4.522055 5.9375,4.521875 L5.9125,4.521875 C5.9125,4.90625 6.225,5.21875 6.609375,5.21875 C6.609375,5.603125 6.921875,5.9125 7.303125,5.9125 L8.696875,5.9125 C9.08125,5.9125 9.390625,5.6 9.390625,5.21875 C9.775,5.21875 10.0875,4.90625 10.0875,4.521875 L10.0625,4.521875 C10.4510665,4.522055 10.7694241,4.21338656 10.78125,3.825 Z" id="Path" fill="#333333"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

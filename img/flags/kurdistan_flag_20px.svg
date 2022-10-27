@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>kurdistan_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-101.000000, -955.000000)">
+            <g id="flag" transform="translate(101.000000, 955.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="kurdistan" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.65234375 10.0390625 4.77734375 20 5.65234375 20 14.3476562 10.0429688 15.5585938 0 14.3476562"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 5.65234375 0 5.65234375"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 14.3476562 20 14.3476562 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="10 3.74609375 10.7578125 7.01171875 12.9492187 4.47265625 12.1054687 7.71484375 15.2226562 6.48828125 12.96875 8.96875 16.3007812 9.328125 13.1484375 10.4726562 15.9375 12.34375 12.6171875 11.8945313 14.2109375 14.84375 11.4765625 12.9023438 11.5234375 16.25 10 13.265625 8.48046875 16.25 8.52734375 12.8984375 5.79296875 14.8398438 7.38671875 11.890625 4.06640625 12.3398438 6.8515625 10.46875 3.69921875 9.32421875 7.03125 8.9609375 4.77734375 6.484375 7.89453125 7.71484375 7.05078125 4.46875 9.23828125 7.0078125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mw_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -1105.000000)">
+            <g id="flag" transform="translate(401.000000, 1105.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mw" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 6.5234375 9.9140625 5.76953125 20 6.5234375 20 13.4765625 10.0429688 14.7382812 0 13.4765625"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 20 0 20 6.5234375 0 6.5234375"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="0 13.4765625 20 13.4765625 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#D80027" points="12.9882812 4.78125 11.7695312 4.20703125 12.4179688 3.0234375 11.0898438 3.27734375 10.921875 1.9375 10 2.9296875 9.078125 1.94140625 8.90625 3.28125 7.578125 3.02734375 8.23046875 4.2109375 7.0078125 4.78515625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

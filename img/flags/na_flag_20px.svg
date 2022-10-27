@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>na_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-101.000000, -1155.000000)">
+            <g id="flag" transform="translate(101.000000, 1155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="na" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 15.6992188 6.2734375 6.4375 15.6992188 0 17.5390625 0 20 2.4609375 20 4.30859375 13.6835938 13.25 4.30859375 20 2.4609375 20 0 17.5390625"></polygon>
+                    <polygon id="Path" fill="#A2001D" points="0 20 2.4609375 20 20 2.4609375 20 0 17.5390625 0 0 17.5390625"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 0 0 15.6992188 15.6992188 0"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="20 20 20 4.30859375 4.30859375 20"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="8.26171875 5.65234375 7.140625 6.1796875 7.734375 7.265625 6.515625 7.03125 6.359375 8.26171875 5.515625 7.35546875 4.66796875 8.26171875 4.51171875 7.03125 3.30078125 7.265625 3.89453125 6.1796875 2.7734375 5.65234375 3.89453125 5.125 3.296875 4.0390625 4.51171875 4.2734375 4.66796875 3.04296875 5.515625 3.94921875 6.3671875 3.046875 6.5234375 4.27734375 7.734375 4.04296875 7.140625 5.12890625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

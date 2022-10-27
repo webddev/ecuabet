@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mk_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -1055.000000)">
+            <g id="flag" transform="translate(301.000000, 1055.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mk" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="0 0 2.6640625 0 6.0234375 1.3125 8.45703125 0 11.5351562 0 13.9257812 1.359375 17.3359375 0 20 0 20 2.66796875 18.7734375 6.10546875 20 8.45703125 20 11.5351562 18.6484375 13.90625 20 17.3359375 20 20 17.3359375 20 14.328125 18.5429688 11.5429688 20 8.46484375 20 6.08203125 18.4492188 2.6640625 20 0 20 0 17.34375 1.57421875 13.8984375 0 11.5429688 0 8.46484375 1.57421875 6.1328125 0 2.6640625"></polygon>
+                    <path d="M11.5429688,20 L17.3359375,20 L10,10 L11.5429688,20 Z M8.45703125,0 L2.6640625,0 L10,10 L8.45703125,0 Z M8.46484375,20 L10,10 L2.6640625,20 L8.46484375,20 Z M0,8.46484375 L10,10 L0,2.6640625 L0,8.46484375 Z M0,17.3398438 L10,10 L0,11.5429688 L0,17.3398438 Z M20,2.66796875 L10,10 L20,8.45703125 L20,2.66796875 Z M17.3359375,0 L11.5351562,0 L10,10 L17.3359375,0 Z M20,17.3359375 L20,11.5351562 L10,10 L20,17.3359375 Z" id="Shape" fill="#D80027"></path>
+                    <circle id="Oval" fill="#D80027" cx="10" cy="10" r="3.4765625"></circle>
+                    <circle id="Oval" fill="#FFDA44" cx="10" cy="10" r="2.609375"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tw_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -1605.000000)">
+            <g id="flag" transform="translate(301.000000, 1605.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="tw" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 10 10 0 20 0 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="10 10 10 0 0 0 0 10"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="8.6953125 5.8515625 7.47265625 6.42578125 8.125 7.609375 6.796875 7.35546875 6.62890625 8.6953125 5.70703125 7.7109375 4.78125 8.6953125 4.61328125 7.35546875 3.28515625 7.609375 3.9375 6.42578125 2.71875 5.8515625 3.9375 5.27734375 3.2890625 4.09375 4.6171875 4.34765625 4.78125 3.0078125 5.70703125 3.99609375 6.62890625 3.0078125 6.796875 4.34765625 8.125 4.09375 7.47265625 5.27734375"></polygon>
+                    <circle id="Oval" fill="#0052B4" cx="5.70703125" cy="5.8515625" r="1.86328125"></circle>
+                    <circle id="Oval" fill="#EEEEEE" cx="5.70703125" cy="5.8515625" r="1.62109375"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

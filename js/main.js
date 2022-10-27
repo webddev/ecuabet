@@ -105,3 +105,15 @@ for (let i = 0; i < accordeon4.length; i++) {
 
     })
 }
+
+const lotsItem = document.getElementsByClassName("lots__item");
+
+for (let i = 0; i < lotsItem.length; i++) {
+    lotsItem[i]?.addEventListener("click", function () {
+        this.classList.toggle("lots__item_active");
+
+        const accordeonItem = this.nextElementSibling;
+        accordeonItem.classList.toggle('hidden')
+
+    })
+}

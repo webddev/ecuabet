@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bq_se_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-201.000000, -255.000000)">
+            <g id="bq_se_flag_16px" transform="translate(201.000000, 255.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="bq-se" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 1.39375 7.978125 0.5625 16 1.39375 16 7.478125 15.428125 8 16 8.521875 16 14.60625 8.015625 15.465625 0 14.60625 0 8.521875 0.546875 7.98125 0 7.478125"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="3.13125 8.003125 8 4.940625 12.86875 8.003125 8 11.065625"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="5.21875 9.39375 11.478125 9.39375 10.0875 7.30625 9.390625 8.003125 8.696875 7.659375 8 8.7 6.609375 8.7 5.9125 8.003125"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="8 5.915625 8.171875 6.446875 8.734375 6.446875 8.278125 6.775 8.453125 7.30625 8 6.978125 7.546875 7.30625 7.721875 6.775 7.26875 6.446875 7.828125 6.446875"></polygon>
+                    <path d="M0,0 L0,1.39375 L7.48125,1.39375 L7.48125,4.39375 L2.575,7.478125 L0,7.478125 L0,8.521875 L2.5625,8.521875 L7.478125,11.615625 L7.478125,14.60625 L0,14.60625 L0,16 L16,16 L16,14.60625 L8.521875,14.60625 L8.521875,11.6125 L13.4375,8.521875 L16,8.521875 L16,7.478125 L13.425,7.478125 L8.521875,4.396875 L8.521875,1.396875 L16,1.396875 L16,0 L0,0 Z M8,5.3 L12.3,8.003125 L8,10.70625 L3.7,8.003125 L8,5.3 Z" id="Shape" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

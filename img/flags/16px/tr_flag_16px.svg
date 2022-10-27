@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tr_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-101.000000, -1605.000000)">
+            <g id="flag" transform="translate(101.000000, 1605.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="tr" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 16 0 16 16 0 16"></polygon>
+                    <g id="Group" transform="translate(2.231040, 5.217187)" fill="#EEEEEE">
+                        <polygon id="Path" points="5.44083537 1.320313 6.09708537 2.226563 7.15958537 1.879688 6.50333537 2.785938 7.15958537 3.689063 6.09708537 3.342188 5.44083537 4.248438 5.44083537 3.126563 4.37833537 2.779688 5.44083537 2.435938"></polygon>
+                        <path d="M3.65021037,5.042188 C2.70966166,5.03957181 1.86911444,4.45455291 1.53997643,3.57347011 C1.21083843,2.69238731 1.46196485,1.69956192 2.17044131,1.08093454 C2.87891777,0.462307167 3.89653198,0.347293803 4.72521037,0.792188 C3.63261502,-0.275632675 1.88324842,-0.262259038 0.807106464,0.822141299 C-0.269035488,1.90654164 -0.269035488,3.65595936 0.807106464,4.7403597 C1.88324842,5.82476004 3.63261502,5.83813368 4.72521037,4.770313 C4.39516866,4.9491986 4.02561331,5.04266173 3.65021037,5.042188 L3.65021037,5.042188 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

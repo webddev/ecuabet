@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ss_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-151.000000, -1505.000000)">
+            <g id="flag" transform="translate(151.000000, 1505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ss" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="2.89453125 4.4921875 20 6.12890625 20 7.359375 18.34375 10.1054688 20 12.6132812 20 13.84375 2.89453125 15.109375"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 20 0 20 6.125 1.953125 6.125"></polygon>
+                    <polygon id="Path" fill="#A2001D" points="5.8828125 7.35546875 20 7.35546875 20 12.609375 5.8828125 12.609375"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="1.953125 13.8398437 20 13.8398437 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 0 0 20 10 10"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="3.2578125 7.515625 4.4765625 9.21875 6.4765625 8.58203125 5.23046875 10.2695313 6.453125 11.9726563 4.4609375 11.3125 3.22265625 13 3.234375 10.9023438 1.25 10.2421875 3.2421875 9.609375"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

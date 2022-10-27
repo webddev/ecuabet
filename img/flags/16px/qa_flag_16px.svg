@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>qa_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-451.000000, -1305.000000)">
+            <g id="flag" transform="translate(451.000000, 1305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="qa" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 5.40625 0 7.3125 7.99375 5.41875 16 0 16"></polygon>
+                    <polygon id="Path" fill="#751A46" points="5.40625 0 3.134375 0.9625 5.5 1.96875 3.134375 2.975 5.5 3.978125 3.134375 4.984375 5.5 5.9875 3.134375 6.990625 5.5 7.996875 3.134375 9.003125 5.5 10.00625 3.134375 11.0125 5.5 12.015625 3.134375 13.021875 5.5 14.025 3.134375 15.03125 5.41875 16 16 16 16 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

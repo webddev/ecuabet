@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ni_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -1155.000000)">
+            <g id="flag" transform="translate(401.000000, 1155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ni" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 20 0 20 5.65234375 18.3828125 10.015625 20 14.3476562 20 20 0 20 0 14.3476562 1.62109375 10.1328125 0 5.65234375"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.65234375 20 5.65234375 20 14.3476562 0 14.3476562"></polygon>
+                    <path d="M10,6.953125 C8.3172574,6.953125 6.953125,8.3172574 6.953125,10 C6.953125,11.6827426 8.3172574,13.046875 10,13.046875 C11.6827426,13.046875 13.046875,11.6827426 13.046875,10 C13.046875,8.3172574 11.6827426,6.953125 10,6.953125 Z M10,11.7382812 C9.03997377,11.7382812 8.26171875,10.9600262 8.26171875,10 C8.26171875,9.03997377 9.03997377,8.26171875 10,8.26171875 C10.9600262,8.26171875 11.7382812,9.03997377 11.7382812,10 C11.7382812,10.9600262 10.9600262,11.7382812 10,11.7382812 Z" id="Shape" fill="#FFDA44"></path>
+                    <polygon id="Path" fill="#0052B4" points="11.5078125 10.4335938 10 10 8.4921875 10.4335938 7.9921875 11.3046875 12.0078125 11.3046875"></polygon>
+                    <polygon id="Path" fill="#338AF3" points="10 7.82421875 8.99609375 9.5703125 10 10 11.0039062 9.56640625"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="8.4921875 10.4335938 11.5078125 10.4335938 11.0039062 9.5703125 8.99609375 9.5703125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

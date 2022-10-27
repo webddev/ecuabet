@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>soviet_union_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-51.000000, -1505.000000)">
+            <g id="flag" transform="translate(51.000000, 1505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="soviet_union" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="3.515625 9.4921875 4.4921875 10.46875 5.3125 9.6484375 9.8046875 14.140625 10.5078125 13.4375 6.015625 8.9453125 7.1484375 7.8125 5.4296875 7.578125"></polygon>
+                    <path d="M6.7578125,6.484375 C7.48628805,6.80307554 8.09008239,7.35197948 8.4765625,8.046875 C9.3359375,9.53125 9.1015625,11.2890625 7.9296875,11.953125 C7.0703125,12.4609375 5.8984375,12.2265625 5,11.3671875 L2.734375,13.4375 L3.4375,14.140625 L5.078125,12.34375 C6.1328125,13.28125 7.5390625,13.515625 8.59375,12.890625 C10,12.0703125 10.3515625,10.0390625 9.375,8.359375 C8.8332636,7.36877898 7.87001737,6.67869212 6.7578125,6.484375 Z M5.078125,6.25 L9.1796875,3.2421875 L4.1015625,3.2421875 L8.203125,6.25 L6.640625,1.40625 L5.078125,6.25 Z" id="Shape" fill="#FFDA44"></path>
+                    <polygon id="Path" fill="#D80027" points="5.9765625 5.0390625 7.734375 3.7109375 5.546875 3.7109375 7.3046875 5.0390625 6.640625 2.9296875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

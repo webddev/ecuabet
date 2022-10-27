@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>east_african_federation_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-501.000000, -405.000000)">
+            <g id="flag" transform="translate(501.000000, 405.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="east_african_federation" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 20 0 20 5.5078125 17.5 10 20 14.4921875 20 20 0 20 0 14.4921875 2.5 10 0 5.5078125"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.5078125 20 5.5078125 20 6.40625 10 7.03125 0 6.40625"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 6.40625 20 6.40625 20 7.890625 10 8.515625 0 7.890625"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 8.59375 10 9.21875 20 8.59375 20 7.890625 0 7.890625"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 14.4921875 20 14.4921875 20 13.59375 10 12.96875 0 13.59375"></polygon>
+                    <polygon id="Path" fill="#FF9811" points="0 13.59375 20 13.59375 20 12.109375 10 11.484375 0 12.109375"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 11.40625 10 10.78125 20 11.40625 20 12.109375 0 12.109375"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 8.59375 20 8.59375 20 11.40625 0 11.40625"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="10" cy="9.6875" r="2.5"></circle>
+                    <polygon id="Path" fill="#EEEEEE" points="6.953125 11.7578125 10 10.625 13.046875 11.7578125 13.046875 12.8125 6.953125 12.8125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mz_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-51.000000, -1155.000000)">
+            <g id="flag" transform="translate(51.000000, 1155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mz" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="3.8649229 5.34062073 19.9882881 6.12141323 19.9882881 7.35116143 18.5867656 9.93168066 20 12.601991 19.9882881 13.8668749 3.8649229 14.7257466"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="19.9882881 6.12141323 19.9882881 0 0 0 4.76283428 6.12141323"></polygon>
+                    <polygon id="Path" fill="#333333" points="6.51961741 7.35116143 6.51961741 12.601991 20 12.601991 19.9882881 7.35116143"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="19.9882881 13.8668749 19.9882881 19.9882881 0 19.9882881 4.76283428 13.8668749"></polygon>
+                    <polygon id="Path" fill="#A2001D" points="0 0 0 19.9882881 9.99414406 9.99414406"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="4.04450517 7.38629709 4.69256295 9.37731798 6.78508686 9.37731798 5.09076713 10.6109701 5.73882491 12.601991 4.04450517 11.3722428 2.35018544 12.601991 2.99824322 10.6109701 1.30392348 9.37731798 3.39644739 9.37731798"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="2.15108335 9.99414406 5.937927 9.99414406 5.937927 11.7314074 2.15108335 11.7314074"></polygon>
+                    <polygon id="Path" fill="#333333" points="6.6562561 8.00312317 6.04333398 7.38629709 4.04450517 9.3851259 2.04958032 7.38629709 1.43275425 8.00312317 3.43548702 9.99414406 1.43665821 11.9968768 2.05348429 12.601991 4.04840914 10.6109701 6.04723795 12.601991 6.66016006 11.9968768 4.66133125 9.99804802"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

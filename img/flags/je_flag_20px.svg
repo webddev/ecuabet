@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>je_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -855.000000)">
+            <g id="flag" transform="translate(301.000000, 855.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="je" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 1.83984375 1.8359375 0 18.15625 0 20 1.84375 20 18.1601562 18.1601562 20 1.8359375 20 0 18.1601562"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 0 1.83984375 8.15625 10 0 18.1601562 0 20 1.83984375 20 10 11.84375 18.1601562 20 20 20 20 18.1640625 11.8398438 10 20 1.84375 20 0 18.15625 0 10 8.16015625 1.8359375 0"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="8.26171875 3.046875 10 3.4765625 11.7382812 3.046875 11.7382812 1.5625 11.0429688 1.9140625 10 0.87109375 8.95703125 1.9140625 8.26171875 1.5625"></polygon>
+                    <path d="M8.26171875,3.046875 L8.26171875,4.12890625 C8.26171875,5.4609375 10,5.87109375 10,5.87109375 C10,5.87109375 11.7382812,5.4609375 11.7382812,4.12890625 L11.7382812,3.046875 L8.26171875,3.046875 Z" id="Path" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

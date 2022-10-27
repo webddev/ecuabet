@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ly_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -1005.000000)">
+            <g id="flag" transform="translate(301.000000, 1005.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ly" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#333333" points="0 5.65234375 10.0390625 4.77734375 20 5.65234375 20 14.3476562 10.0429688 15.5585938 0 14.3476562"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 5.65234375 0 5.65234375"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="0 14.3476562 20 14.3476562 20 20 0 20"></polygon>
+                    <g id="Group" transform="translate(5.527081, 6.525390)" fill="#EEEEEE">
+                        <polygon id="Path" points="6.80104422 1.65039125 7.62135672 2.78320375 8.94948172 2.35351625 8.12916922 3.48632875 8.94948172 4.61132875 7.62135672 4.18164125 6.80104422 5.31445375 6.80104422 3.90820375 5.47291922 3.47851625 6.80104422 3.04882875"></polygon>
+                        <path d="M4.56276297,6.302735 C3.38707707,6.29946476 2.33639305,5.56819114 1.92497054,4.46683764 C1.51354803,3.36548414 1.82745606,2.1244524 2.71305164,1.35116818 C3.59864722,0.577883958 4.87066497,0.434117254 5.90651297,0.990235 C4.54076878,-0.344540844 2.35406052,-0.327823797 1.00888308,1.02767662 C-0.33629436,2.38317705 -0.33629436,4.56994921 1.00888308,5.92544963 C2.35406052,7.28095005 4.54076878,7.29766709 5.90651297,5.96289125 C5.49396082,6.18649825 5.03201664,6.30332716 4.56276297,6.302735 L4.56276297,6.302735 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

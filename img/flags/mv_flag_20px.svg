@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mv_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-351.000000, -1105.000000)">
+            <g id="flag" transform="translate(351.000000, 1105.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mv" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="3.4765625 5.21875 16.5234375 5.21875 16.5234375 14.78125 3.4765625 14.78125"></polygon>
+                    <path d="M11.609375,12.8242188 C10.4336891,12.8209485 9.38300508,12.0896749 8.97158257,10.9883214 C8.56016006,9.88696789 8.87406809,8.64593615 9.75966367,7.87265193 C10.6452593,7.09936771 11.917277,6.955601 12.953125,7.51171875 C11.5873808,6.17694291 9.40067255,6.19365995 8.05549511,7.54916037 C6.71031767,8.9046608 6.71031767,11.091433 8.05549511,12.4469334 C9.40067255,13.8024338 11.5873808,13.8191508 12.953125,12.484375 C12.5405729,12.707982 12.0786287,12.8248109 11.609375,12.8242187 L11.609375,12.8242188 Z" id="Path" fill="#EEEEEE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>qa_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-451.000000, -1305.000000)">
+            <g id="flag" transform="translate(451.000000, 1305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="qa" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 6.7578125 0 9.140625 9.9921875 6.7734375 20 0 20"></polygon>
+                    <polygon id="Path" fill="#751A46" points="6.7578125 0 3.91796875 1.203125 6.875 2.4609375 3.91796875 3.71875 6.875 4.97265625 3.91796875 6.23046875 6.875 7.484375 3.91796875 8.73828125 6.875 9.99609375 3.91796875 11.2539062 6.875 12.5078125 3.91796875 13.765625 6.875 15.0195312 3.91796875 16.2773438 6.875 17.53125 3.91796875 18.7890625 6.7734375 20 20 20 20 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

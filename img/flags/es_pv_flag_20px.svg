@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>es_pv_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -505.000000)">
+            <g id="flag" transform="translate(301.000000, 505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="es-pv" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 1.84375 1.84375 0 8.6953125 0 10 1.06640625 11.3046875 0 18.1640625 0 20 1.84765625 20 8.6953125 19.0546875 10.0703125 20 11.3046875 20 18.15625 18.15625 20 11.3046875 20 10.0546875 18.96875 8.6953125 20 1.84375 20 0 18.15625 0 11.3046875 0.9765625 10.0390625 0 8.6953125"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="0 0 0 1.84375 8.15625 10 0 18.15625 0 20 1.84375 20 10 11.84375 18.15625 20 20 20 20 18.15625 11.84375 10 20 1.84765625 20 0 18.1640625 0 10 8.15625 1.84375 0"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="8.6953125 0 8.6953125 8.6953125 0 8.6953125 0 11.3046875 8.6953125 11.3046875 8.6953125 20 11.3046875 20 11.3046875 11.3046875 20 11.3046875 20 8.6953125 11.3046875 8.6953125 11.3046875 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

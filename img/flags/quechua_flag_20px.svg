@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>quechua_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-501.000000, -1305.000000)">
+            <g id="flag" transform="translate(501.000000, 1305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="quechua" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#4A1F63" points="0 20 20 20 20 17.265625 10 16.015625 0 17.265625"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 17.265625 20 17.265625 20 14.53125 10 13.28125 0 14.53125"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 2.734375 10 3.984375 0 2.734375"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 2.734375 20 2.734375 20 5.46875 10 6.71875 0 5.46875"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.46875 20 5.46875 20 8.203125 18.75 10 20 11.796875 20 14.53125 0 14.53125 0 11.796875 1.25 10 0 8.203125"></polygon>
+                    <polygon id="Path" fill="#496E2D" points="0 8.203125 20 8.203125 20 11.796875 0 11.796875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>east_african_federation_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-501.000000, -405.000000)">
+            <g id="flag" transform="translate(501.000000, 405.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="east_african_federation" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 16 0 16 4.40625 14 8 16 11.59375 16 16 0 16 0 11.59375 2 8 0 4.40625"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 4.40625 16 4.40625 16 5.125 8 5.625 0 5.125"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 5.125 16 5.125 16 6.3125 8 6.8125 0 6.3125"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 6.875 8 7.375 16 6.875 16 6.3125 0 6.3125"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 11.59375 16 11.59375 16 10.875 8 10.375 0 10.875"></polygon>
+                    <polygon id="Path" fill="#FF9811" points="0 10.875 16 10.875 16 9.6875 8 9.1875 0 9.6875"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 9.125 8 8.625 16 9.125 16 9.6875 0 9.6875"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 6.875 16 6.875 16 9.125 0 9.125"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="7.75" r="2"></circle>
+                    <polygon id="Path" fill="#EEEEEE" points="5.5625 9.40625 8 8.5 10.4375 9.40625 10.4375 10.25 5.5625 10.25"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

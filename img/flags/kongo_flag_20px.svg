@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>kongo_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-451.000000, -905.000000)">
+            <g id="flag" transform="translate(451.000000, 905.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="kongo" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 6.25 10 5 20 6.25 20 13.75 10 15 0 13.75"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 6.25 0 6.25"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 13.75 20 13.75 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#333333" points="5.625 16.5234375 10 3.0859375 14.375 16.5234375 2.9296875 8.2421875 17.0703125 8.2421875"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="6.8359375 14.8828125 10 5.1171875 13.1640625 14.8828125 4.84375 8.8671875 15.15625 8.8671875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

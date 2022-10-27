@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>at_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-151.000000, -155.000000)">
+            <g id="at_flag_20px" transform="translate(151.000000, 155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="at" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 6.5234375 19.09375 10.0273438 20 13.4765625 20 20 0 20 0 13.4765625 1.1484375 10 0 6.5234375"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 6.5234375 20 6.5234375 20 13.4765625 0 13.4765625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

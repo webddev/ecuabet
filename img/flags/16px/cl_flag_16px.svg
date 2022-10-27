@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cl_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-51.000000, -355.000000)">
+            <g id="flag" transform="translate(51.000000, 355.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="cl" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 8 7.953125 6.396875 16 8 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 0 8 0 9.646875 4.15 8 8 0 8"></polygon>
+                    <path d="M8,0 L16,0 L16,8 L8,8 L8,0 Z M4.7625,2.78125 L5.28125,4.375 L6.95625,4.375 L5.6,5.3625 L6.11875,6.95625 L4.7625,5.971875 L3.40625,6.95625 L3.925,5.3625 L2.56875,4.375 L4.24375,4.375 L4.7625,2.78125 Z" id="Shape" fill="#EEEEEE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

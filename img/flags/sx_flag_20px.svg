@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sx_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-301.000000, -1505.000000)">
+            <g id="flag" transform="translate(301.000000, 1505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="sx" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 10 9.6484375 11.765625"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="8.203125 10 20 10 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 20 10 10"></polygon>
+                    <g id="Group" transform="translate(1.085928, 6.953125)" fill="#FFDA44">
+                        <path d="M0.00782243861,3.046875 C0.00242344358,3.11966502 -0.000182637316,3.19263528 1.38777878e-16,3.265625 C0.0604160831,4.82431926 1.3729563,6.03892177 2.93165056,5.97851562 C4.49034483,5.91810948 5.70494733,4.60556926 5.64454119,3.046875 L0.00782243861,3.046875 Z" id="Path"></path>
+                        <circle id="Oval" cx="2.82813494" cy="0.87109375" r="1"></circle>
+                    </g>
+                    <path d="M1.953125,7.609375 L1.953125,10.4296875 C1.953125,11.9296875 3.9140625,12.3828125 3.9140625,12.3828125 C3.9140625,12.3828125 5.8671875,11.9296875 5.8671875,10.4296875 L5.8671875,7.60546875 L1.9609375,7.60546875 L1.953125,7.609375 Z" id="Path" fill="#D80027"></path>
+                    <path d="M3.9140625,11.484375 C3.55078125,11.3515625 2.8203125,11.015625 2.8203125,10.4296875 L2.8203125,8.4765625 L5,8.4765625 L5,10.4296875 C5,11.015625 4.2734375,11.3515625 3.9140625,11.4804688 L3.9140625,11.484375 Z" id="Path" fill="#338AF3"></path>
+                    <polygon id="Path" fill="#EEEEEE" points="4.34765625 9.56640625 4.34765625 9.12890625 3.9140625 8.9140625 3.4765625 9.12890625 3.4765625 9.5703125 3.26171875 9.78515625 3.26171875 10.65625 4.56640625 10.65625 4.56640625 9.78515625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

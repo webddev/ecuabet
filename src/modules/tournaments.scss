@@ -1,0 +1,285 @@
+.tournaments-page {
+  background: url(../img/bg_pic_large.jpg);
+  background-position: top;
+  @media screen and (max-width: 767px) {
+    background-position: bottom;
+  }
+  header {
+    background: none;
+    height: fit-content;
+    @media screen and (max-width: 1279px) {
+      margin-bottom: 20px;
+    }
+  }
+  .selects-row {
+    margin-bottom: 20px;
+    select {
+      font-size: 14px;
+      font-weight: normal;
+      color: $black;
+      padding: 8px 16px;
+      padding-right: 56px;
+      border-radius: 12px;
+      background: $white;
+      &:not(:last-child) {
+        margin-right: 16px;
+        @media screen and (max-width: 575px) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+.lots {
+  color: $white;
+  &__item {
+    position: relative;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: solid 1px #404040;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 20px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    &:hover .lots__title {
+      color: $canary-yellow;
+    }
+    @media screen and (max-width: 767px) {
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+    }
+    @media screen and (max-width: 360px) {
+      padding: 5px 13px;
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 13px;
+      display: block;
+      width: 12px;
+      height: 2px;
+      background-color: $white;
+      transform: translate(-4px, -50%) rotate(45deg);
+    }
+    &::after {
+      transform: translate(4px, -50%) rotate(-45deg);
+    }
+    &_active {
+      margin-bottom: 0;
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 13px;
+        display: block;
+        width: 12px;
+        height: 2px;
+        background-color: $canary-yellow;
+        transform: translate(-4px, -50%) rotate(130deg);
+      }
+      &::after {
+        transform: translate(4px, -50%) rotate(50deg);
+      }
+      + .lots__item-hidden {
+        margin-bottom: 10px;
+      }
+    }
+    & .playing-row {
+      @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  &__item-hidden {
+    padding: 20px;
+    border: solid 1px #404040;
+    border-top: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    & .descrip-row {
+      justify-content: space-between;
+      width: 100%;
+      align-items: flex-start;
+      & div:first-child {
+        @media screen and (max-width: 575px) {
+          flex-wrap: wrap;
+        }
+      }
+    }
+    & h4 {
+      font-size: 18px;
+      font-weight: 500;
+      color: $canary-yellow;
+      margin-bottom: 16px;
+    }
+    & p {
+      font-size: 16px;
+      font-weight: normal;
+      max-width: 420px;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    & .vermas {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 12px;
+      color: $white;
+      border: solid 1px $canary-yellow;
+      transition: all 0.4s;
+      &:hover {
+        background: $canary-yellow;
+        color: $black;
+        transition: all 0.4s;
+      }
+    }
+    & .ranking {
+      flex-direction: column;
+      max-height: 210px;
+      display: block;
+      @media screen and (max-width: 1023px) {
+        display: none !important;
+      }
+      h4 {
+        text-align: center;
+      }
+      .scroll-table {
+        display: block;
+        width: 340px;
+        background: $black;
+      }
+      .scroll-table-body {
+        overflow-y: scroll;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        max-height: 150px;
+        display: block;
+      }
+      .scroll-table table {
+        width: 100%;
+        table-layout: fixed;
+        border: none;
+        tr td:first-child {
+          width: 40px;
+        }
+        tr td:nth-child(3) {
+          width: 60px;
+        }
+        tr th:nth-child(3) {
+          width: 60px;
+        }
+        tr th:first-child {
+          width: 40px;
+        }
+      }
+      .scroll-table thead th {
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+      .scroll-table tbody td {
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        color: #909090;
+        padding: 10px 15px;
+        font-size: 14px;
+        vertical-align: top;
+      }
+    }
+    & .games-row {
+      margin-top: 40px;
+      h4 {
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
+    }
+    .gamesSwiper {
+      .swiper-button-next {
+        top: 16%;
+        @media screen and (max-width: 575px) {
+          top: 18%;
+        }
+        @media screen and (max-width: 450px) {
+          top: 22%;
+        }
+      }
+    }
+  }
+  &__hidden-description {
+    flex-direction: column;
+    align-items: flex-start !important;
+    margin-left: 20px;
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    @media screen and (max-width: 1023px) {
+      max-width: 192px;
+    }
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
+    @media screen and (max-width: 360px) {
+      font-size: 18px;
+    }
+  }
+
+  &__date-row {
+    @media screen and (max-width: 767px) {
+      margin-top: 10px;
+    }
+  }
+  div:not(.swiper):not(.swiper
+      > *):not(.games-row):not(.scroll-table-body):not(.scroll-table):not(.lots__item-hidden) {
+    display: flex;
+    align-items: center;
+  }
+}
+.isPlaying {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 23px;
+  border-radius: 12px;
+  border: 1px solid $canary-yellow;
+  @media screen and (max-width: 1023px) {
+    font-size: 16px;
+  }
+}
+.isPlaying + span {
+  margin: 0 20px;
+  font-weight: 500;
+  @media screen and (max-width: 1023px) {
+    margin: 0 10px;
+  }
+}
+.date-row {
+  &__item {
+    padding: 6px 0;
+    text-align: center;
+    width: 51px;
+    border-radius: 12px;
+    border: solid 1px #606060;
+    flex-direction: column;
+    &:not(:last-of-type) {
+      margin-right: 6px;
+    }
+  }
+  &__num {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &__per {
+    font-size: 8px;
+    font-weight: normal;
+    color: #909090;
+  }
+}

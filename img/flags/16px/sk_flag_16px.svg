@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sk_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-201.000000, -1455.000000)">
+            <g id="flag" transform="translate(201.000000, 1455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="sk" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 5 8 4 16 5 16 11 8 12 0 11"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 16 0 16 5 0 5"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 11 16 11 16 16 0 16"></polygon>
+                    <path d="M2,1.96875 L2,8.75 C2,12 6.5,13.03125 6.5,13.03125 C6.5,13.03125 11,12 11,8.75 L11,1.96875 L2,1.96875 Z" id="Path" fill="#EEEEEE"></path>
+                    <path d="M3,2.96875 L3,8.75 C3.00680031,9.11962723 3.10297632,9.48295882 3.28125,9.8125 L9.71875,9.8125 C9.89919746,9.48306625 9.9954348,9.11950297 10,8.75 L10,2.96875 L3,2.96875 Z" id="Path" fill="#D80027"></path>
+                    <polygon id="Path" fill="#EEEEEE" points="9 7 7 7 7 6 8 6 8 5 7 5 7 4 6 4 6 5 5 5 5 6 6 6 6 7 4 7 4 8 6 8 6 9 7 9 7 8 9 8"></polygon>
+                    <path d="M4.75,11.21875 C5.29758404,11.5360647 5.88548815,11.7880236 6.5,11.96875 C6.875,11.875 7.5625,11.625 8.25,11.21875 C8.86983846,10.886715 9.37844619,10.3997501 9.71875,9.8125 C9.40668279,9.61027352 9.03615846,9.50129578 8.65625,9.5 L8.21875,9.5625 C7.92068927,8.92442709 7.2457995,8.5118921 6.5,8.5118921 C5.7542005,8.5118921 5.07931073,8.92442709 4.78125,9.5625 C4.63857183,9.52561883 4.49171563,9.50463937 4.34375,9.5 C3.96875,9.5 3.59375,9.625 3.28125,9.8125 C3.62155381,10.3997501 4.13016154,10.886715 4.75,11.21875 L4.75,11.21875 Z" id="Path" fill="#0052B4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

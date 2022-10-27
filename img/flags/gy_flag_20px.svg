@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gy_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -705.000000)">
+            <g id="flag" transform="translate(401.000000, 705.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="gy" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#6DA544" points="3.03515625 0 20 0 20 20 3.0390625 20"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="16.6171875 9.94921875 1.2265625 20 3.0390625 20 20 10 3.03515625 0 1.2265625 0"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="10 10 1.2265625 20 18.2890625 10 1.2265625 0"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 0 0.0703125 8.578125 9.984375 0 19.921875 0 20 1.2265625 20 11.2265625 10 1.2265625 0"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 0 20 10 10"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

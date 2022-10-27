@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pf_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-151.000000, -1255.000000)">
+            <g id="flag" transform="translate(151.000000, 1255.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="pf" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 20 0 20 5.22265625 17.96875 10.1445312 20 14.7851562 20 20 0 20 0 14.7851562 2.0703125 10.0585938 0 5.21875"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 5.22265625 20 5.22265625 20 14.7851562 0 14.7851562"></polygon>
+                    <path d="M13.4765625,10.0039062 C13.4765625,11.9257812 11.921875,13.0507812 10,13.0507812 C8.078125,13.0507812 6.5234375,11.9257812 6.5234375,10.0039062 C6.5234375,8.0838538 8.07994755,6.52734375 10,6.52734375 C11.9200525,6.52734375 13.4765625,8.0838538 13.4765625,10.0039062 L13.4765625,10.0039062 Z" id="Path" fill="#FFDA44"></path>
+                    <path d="M13.4765625,10.0039062 C13.4765625,11.9239587 11.9200525,13.4804688 10,13.4804688 C8.07994755,13.4804688 6.5234375,11.9239587 6.5234375,10.0039062" id="Path" fill="#0052B4"></path>
+                    <path d="M7.82421875,9.1328125 L8.6953125,9.1328125 L8.6953125,10.875 L7.82421875,10.875 L7.82421875,9.1328125 Z M11.3007812,9.1328125 L12.1757812,9.1328125 L12.1757812,10.875 L11.3046875,10.875 L11.3007812,9.1328125 Z M9.5703125,7.828125 L10.4296875,7.828125 L10.4296875,10.875 L9.5703125,10.875 L9.5703125,7.828125 Z" id="Shape" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

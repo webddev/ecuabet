@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ca_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-51.000000, -305.000000)">
+            <g id="flag" transform="translate(51.000000, 305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ca" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 0 20 5.625 20 10 17.5 14.375 20 20 20 20 0 14.375 0 10 2.5 5.625 0"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="5.625 0 14.375 0 14.375 20 5.625 20"></polygon>
+                    <polygon id="Path" fill="#D80027" points="11.7578125 11.2890625 13.4765625 10.4296875 12.6171875 10 12.6171875 9.140625 10.859375 10 11.7578125 8.28125 10.859375 8.28125 10 6.953125 9.140625 8.2421875 8.2421875 8.2421875 9.140625 10 7.3828125 9.140625 7.3828125 10 6.5234375 10.4296875 8.28125 11.2890625 7.8125 12.1875 9.5703125 12.1875 9.5703125 13.4765625 10.4296875 13.4765625 10.4296875 12.1875 12.1875 12.1875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

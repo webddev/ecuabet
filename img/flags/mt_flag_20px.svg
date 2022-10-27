@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mt_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-251.000000, -1105.000000)">
+            <g id="flag" transform="translate(251.000000, 1105.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mt" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 10 0 12.03125 10.125 10 20 0 20"></polygon>
+                    <polygon id="Path" fill="#D80027" points="10 0 20 0 20 20 10 20"></polygon>
+                    <polygon id="Path" fill="#ACABB1" points="6.953125 3.9140625 6.953125 2.609375 5.65234375 2.609375 5.65234375 3.9140625 4.34765625 3.9140625 4.34765625 5.21875 5.65234375 5.21875 5.65234375 6.5234375 6.95703125 6.5234375 6.95703125 5.21875 8.26171875 5.21875 8.26171875 3.9140625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

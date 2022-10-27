@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pa_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-51.000000, -1255.000000)">
+            <g id="flag" transform="translate(51.000000, 1255.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="pa" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 10 0 20 10 20 20 10 20 0 10"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 10 0 20 10 20 10 10"></polygon>
+                    <polygon id="Path" fill="#D80027" points="10 0 20 0 20 10 10 10"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="5.953125 3.4765625 6.6015625 5.46875 8.6953125 5.46875 7 6.703125 7.6484375 8.6953125 5.953125 7.46484375 4.2578125 8.6953125 4.90625 6.703125 3.2109375 5.46875 5.3046875 5.46875"></polygon>
+                    <polygon id="Path" fill="#D80027" points="14.046875 11.3046875 14.6953125 13.296875 16.7890625 13.296875 15.09375 14.53125 15.7421875 16.5234375 14.046875 15.2929688 12.3515625 16.5273438 13 14.5351563 11.3046875 13.3007812 13.3984375 13.3007812"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

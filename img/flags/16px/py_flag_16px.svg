@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>py_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-401.000000, -1305.000000)">
+            <g id="flag" transform="translate(401.000000, 1305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="py" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 4.521875 7.978125 3.38125 16 4.521875 16 11.478125 7.828125 12.71875 0 11.478125"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 0 16 0 16 4.521875 0 4.521875"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 11.478125 16 11.478125 16 16 0 16"></polygon>
+                    <path d="M9.96875,5.6875 L9.23125,6.421875 C9.73368367,6.91774629 9.88544313,7.66866288 9.6150067,8.32073041 C9.34457027,8.97279794 8.70590378,9.39589577 8,9.390625 C7.29764753,9.38846565 6.66540944,8.96440331 6.39692279,8.31538977 C6.12843613,7.66637623 6.27631365,6.91959239 6.771875,6.421875 L6.03125,5.6875 C4.94681929,6.77426061 4.94807832,8.53416538 6.03406286,9.61937328 C7.12004739,10.7045812 8.87995261,10.7045812 9.96593714,9.61937328 C11.0519217,8.53416538 11.0531807,6.77426061 9.96875,5.6875 L9.96875,5.6875 Z" id="Path" fill="#6DA544"></path>
+                    <polygon id="Path" fill="#FFDA44" points="8 6.609375 8.259375 7.40625 9.09375 7.40625 8.415625 7.9 8.675 8.696875 7.996875 8.203125 7.31875 8.696875 7.578125 7.9 6.9 7.40625 7.7375 7.40625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

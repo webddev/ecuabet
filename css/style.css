@@ -296,6 +296,21 @@ input[name=Settings] {
   width: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+  height: 90px;
+  background-color: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffe640;
+  border-radius: 9em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffe640;
+}
+
 .header {
   background: url(../img/bg_header_small.jpg);
   height: 250px;
@@ -1918,8 +1933,20 @@ input[name=Settings] {
     background: none;
   }
 }
-.sports-forecasts .content-block__body {
-  max-width: 680px;
+@media screen and (max-width: 1599px) {
+  .sports-forecasts .content-block__body {
+    max-width: 860px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .sports-forecasts .content-block__body {
+    max-width: 780px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .sports-forecasts .content-block__body {
+    max-width: 720px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .sports-forecasts .content-block__body {
@@ -1948,6 +1975,26 @@ input[name=Settings] {
 }
 .sports-forecasts .content-block__body .search-by__bottom {
   margin-top: 0;
+}
+@media screen and (min-width: 1280px) {
+  .sports-forecasts .container {
+    max-width: 1265px;
+  }
+}
+@media screen and (min-width: 1349px) {
+  .sports-forecasts .container {
+    max-width: 1320px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .sports-forecasts .container {
+    max-width: 1425px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .sports-forecasts .container {
+    max-width: 1520px;
+  }
 }
 .sports-forecasts .block-aside .search-by__top {
   margin-bottom: 20px;
@@ -2053,6 +2100,12 @@ input[name=Settings] {
   }
 }
 @media screen and (max-width: 575px) {
+  .sports-forecasts .search-by .match-row .match-next,
+.sports-forecasts .search-by .match-row .match-prev {
+    top: 13%;
+  }
+}
+@media screen and (min-width: 1430px) {
   .sports-forecasts .search-by .match-row .match-next,
 .sports-forecasts .search-by .match-row .match-prev {
     top: 13%;
@@ -2394,6 +2447,345 @@ input[name=Settings] {
 }
 .highligts .block-info .list-row .listI-1::before {
   display: none;
+}
+
+.tournaments-page {
+  background: url(../img/bg_pic_large.jpg);
+  background-position: top;
+}
+@media screen and (max-width: 767px) {
+  .tournaments-page {
+    background-position: bottom;
+  }
+}
+.tournaments-page header {
+  background: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media screen and (max-width: 1279px) {
+  .tournaments-page header {
+    margin-bottom: 20px;
+  }
+}
+.tournaments-page .selects-row {
+  margin-bottom: 20px;
+}
+.tournaments-page .selects-row select {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  padding: 8px 16px;
+  padding-right: 56px;
+  border-radius: 12px;
+  background: #fff;
+}
+.tournaments-page .selects-row select:not(:last-child) {
+  margin-right: 16px;
+}
+@media screen and (max-width: 575px) {
+  .tournaments-page .selects-row select:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.lots {
+  color: #fff;
+}
+.lots__item {
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+  border: solid 1px #404040;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 20px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.lots__item:hover .lots__title {
+  color: #ffe640;
+}
+@media screen and (max-width: 767px) {
+  .lots__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .lots__item {
+    padding: 5px 13px;
+  }
+}
+.lots__item::before, .lots__item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  display: block;
+  width: 12px;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transform: translate(-4px, -50%) rotate(45deg);
+          transform: translate(-4px, -50%) rotate(45deg);
+}
+.lots__item::after {
+  -webkit-transform: translate(4px, -50%) rotate(-45deg);
+          transform: translate(4px, -50%) rotate(-45deg);
+}
+.lots__item_active {
+  margin-bottom: 0;
+}
+.lots__item_active::before, .lots__item_active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  display: block;
+  width: 12px;
+  height: 2px;
+  background-color: #ffe640;
+  -webkit-transform: translate(-4px, -50%) rotate(130deg);
+          transform: translate(-4px, -50%) rotate(130deg);
+}
+.lots__item_active::after {
+  -webkit-transform: translate(4px, -50%) rotate(50deg);
+          transform: translate(4px, -50%) rotate(50deg);
+}
+.lots__item_active + .lots__item-hidden {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .lots__item .playing-row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.lots__item-hidden {
+  padding: 20px;
+  border: solid 1px #404040;
+  border-top: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.lots__item-hidden .descrip-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+@media screen and (max-width: 575px) {
+  .lots__item-hidden .descrip-row div:first-child {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.lots__item-hidden h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffe640;
+  margin-bottom: 16px;
+}
+.lots__item-hidden p {
+  font-size: 16px;
+  font-weight: normal;
+  max-width: 420px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.lots__item-hidden .vermas {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #fff;
+  border: solid 1px #ffe640;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.lots__item-hidden .vermas:hover {
+  background: #ffe640;
+  color: #000;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.lots__item-hidden .ranking {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 210px;
+  display: block;
+}
+@media screen and (max-width: 1023px) {
+  .lots__item-hidden .ranking {
+    display: none !important;
+  }
+}
+.lots__item-hidden .ranking h4 {
+  text-align: center;
+}
+.lots__item-hidden .ranking .scroll-table {
+  display: block;
+  width: 340px;
+  background: #000;
+}
+.lots__item-hidden .ranking .scroll-table-body {
+  overflow-y: scroll;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  max-height: 150px;
+  display: block;
+}
+.lots__item-hidden .ranking .scroll-table table {
+  width: 100%;
+  table-layout: fixed;
+  border: none;
+}
+.lots__item-hidden .ranking .scroll-table table tr td:first-child {
+  width: 40px;
+}
+.lots__item-hidden .ranking .scroll-table table tr td:nth-child(3) {
+  width: 60px;
+}
+.lots__item-hidden .ranking .scroll-table table tr th:nth-child(3) {
+  width: 60px;
+}
+.lots__item-hidden .ranking .scroll-table table tr th:first-child {
+  width: 40px;
+}
+.lots__item-hidden .ranking .scroll-table thead th {
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+.lots__item-hidden .ranking .scroll-table tbody td {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #909090;
+  padding: 10px 15px;
+  font-size: 14px;
+  vertical-align: top;
+}
+.lots__item-hidden .games-row {
+  margin-top: 40px;
+}
+.lots__item-hidden .games-row h4 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.lots__item-hidden .gamesSwiper .swiper-button-next {
+  top: 16%;
+}
+@media screen and (max-width: 575px) {
+  .lots__item-hidden .gamesSwiper .swiper-button-next {
+    top: 18%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lots__item-hidden .gamesSwiper .swiper-button-next {
+    top: 22%;
+  }
+}
+.lots__hidden-description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  margin-left: 20px;
+}
+.lots__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1023px) {
+  .lots__title {
+    max-width: 192px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lots__title {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .lots__title {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lots__date-row {
+    margin-top: 10px;
+  }
+}
+.lots div:not(.swiper):not(.swiper > *):not(.games-row):not(.scroll-table-body):not(.scroll-table):not(.lots__item-hidden) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.isPlaying {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 23px;
+  border-radius: 12px;
+  border: 1px solid #ffe640;
+}
+@media screen and (max-width: 1023px) {
+  .isPlaying {
+    font-size: 16px;
+  }
+}
+
+.isPlaying + span {
+  margin: 0 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1023px) {
+  .isPlaying + span {
+    margin: 0 10px;
+  }
+}
+
+.date-row__item {
+  padding: 6px 0;
+  text-align: center;
+  width: 51px;
+  border-radius: 12px;
+  border: solid 1px #606060;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.date-row__item:not(:last-of-type) {
+  margin-right: 6px;
+}
+.date-row__num {
+  font-size: 16px;
+  font-weight: bold;
+}
+.date-row__per {
+  font-size: 8px;
+  font-weight: normal;
+  color: #909090;
 }
 
 .contry-sa::before {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mm_flag_20px</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-20x20" transform="translate(-401.000000, -1055.000000)">
+            <g id="flag" transform="translate(401.000000, 1055.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mm" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#6DA544" points="0 6.5234375 9.9140625 5.76953125 20 6.5234375 20 13.4765625 10.0429688 14.7382812 0 13.4765625"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 0 20 0 20 6.5234375 0 6.5234375"></polygon>
+                    <polygon id="Path" fill="#D80027" points="0 13.4765625 20 13.4765625 20 20 0 20"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="16.8554687 8.45703125 11.6210937 8.45703125 10 3.4765625 8.3828125 8.4609375 3.1484375 8.4609375 7.37890625 11.5390625 5.76171875 16.5234375 10 13.4765625 14.2382812 16.5234375 12.6210937 11.5390625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
