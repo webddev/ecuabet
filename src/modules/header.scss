@@ -22,6 +22,9 @@
     @media screen and (max-width: 390px) {
       display: none;
     }
+    & svg:hover path {
+      fill: $canary-yellow;
+    }
   }
   &__top-icon {
     margin-right: 6px;

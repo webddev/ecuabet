@@ -129,6 +129,9 @@
   &__icons-row {
     display: flex;
     column-gap: 16px;
+    & svg:hover path {
+      fill: $canary-yellow;
+    }
   }
   &__google-img {
     display: block;

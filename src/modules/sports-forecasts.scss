@@ -225,6 +225,18 @@
       }
     }
   }
+  .search-by .match-row__bottom-item {
+    padding: 9px;
+    @media (max-width: 1350px) {
+      padding: 9px 5px;
+    }
+    @media (max-width: 575px) {
+      padding: 9px;
+    }
+  }
+  .search-by .match-row__bottom-item div:first-child {
+    font-size: 12px;
+  }
 }
 .menu-left {
   margin-top: 20px;

@@ -26,11 +26,14 @@ body {
   margin: 0;
 }
 select {
-  border: none;
   background: none;
   cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0);
   &:focus-visible {
     outline: none;
+  }
+  &:hover {
+    border: 1px solid $canary-yellow !important;
   }
 }
 option[default] {
@@ -217,7 +220,7 @@ input[name="Settings"] {
 
   // Box hover
   &:hover + label:before {
-    background: $background-lightgrey;
+    background: rgb(255 255 255 / 48%);
   }
 
   // Box focus
@@ -262,8 +265,4 @@ input[name="Settings"] {
 ::-webkit-scrollbar-thumb {
   background-color: $canary-yellow;
   border-radius: 9em;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: $canary-yellow;
 }
