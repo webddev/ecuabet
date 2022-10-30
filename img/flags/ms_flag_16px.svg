@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ms_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-201.000000, -1105.000000)">
+            <g id="flag" transform="translate(201.000000, 1105.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ms" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="8 0 16 0 16 16 0 16 0 8"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 1 1 2 0 3 0 8 1 8 2 7 3 8 4 8 4 5.40625 6.59375 8 8 8 7.75 7.5 8 7.03125 8 6.59375 5.40625 4 8 4 8 3 7 2 8 1 8 0 3 0 2 1 1 0"></polygon>
+                    <path d="M1,0 L1,1 L0,1 L0,3 L1,3 L1,8 L3,8 L3,3 L8,3 L8,1 L3,1 L3,0 L1,0 Z M4,4 L8,8 L8,7.03125 L4.96875,4 L4,4 Z" id="Shape" fill="#D80027"></path>
+                    <polygon id="Path" fill="#338AF3" points="9.04375 4.175 9.04375 8 11.48125 9.2625 13.915625 8 13.915625 4.175 9.040625 4.175"></polygon>
+                    <path d="M9.04375,8 C9.04375,9.8625 11.478125,10.4375 11.478125,10.4375 C11.478125,10.4375 13.915625,9.8625 13.915625,8 L9.040625,8 L9.04375,8 Z" id="Path" fill="#A2001D"></path>
+                    <polygon id="Path" fill="#333333" points="12.521875 5.9125 11.825 5.9125 11.825 5.21875 11.13125 5.21875 11.13125 5.9125 10.434375 5.9125 10.434375 6.609375 11.13125 6.609375 11.13125 8.696875 11.825 8.696875 11.825 6.609375 12.521875 6.609375"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

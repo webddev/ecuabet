@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cd_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-201.000000, -305.000000)">
+            <g id="flag" transform="translate(201.000000, 305.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="cd" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 12.559375 0 16 3.446875 16 16 3.446875 16 0 12.559375"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="12.559375 0 0 12.559375 0 14.03125 1.96875 16 3.446875 16 16 3.446875 16 1.96875 14.03125 0"></polygon>
+                    <polygon id="Path" fill="#D80027" points="14.03125 0 0 14.03125 0 16 1.96875 16 16 1.96875 16 0"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="4.2625 2.4375 4.69375 3.7625 6.09375 3.7625 4.96875 4.584375 5.396875 5.9125 4.265625 5.090625 3.140625 5.9125 3.56875 4.584375 2.4375 3.7625 3.834375 3.7625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

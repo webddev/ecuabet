@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>easter_island_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-51.000000, -455.000000)">
+            <g id="flag" transform="translate(51.000000, 455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="easter_island" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 16 0 16 16 0 16"></polygon>
+                    <path d="M10.4375,6.609375 L10.4375,7.303125 L11.390625,7.303125 C10.9901816,7.86062455 10.4590166,8.31130999 9.84375,8.615625 C9.62298775,8.3822785 9.29116047,8.2903696 8.98180355,8.37688467 C8.67244663,8.46339974 8.43643674,8.71411056 8.36875,9.028125 C8.12338942,9.04968592 7.87661058,9.04968592 7.63125,9.028125 C7.56164276,8.71550954 7.32568104,8.46654693 7.01724433,8.3802892 C6.70880763,8.29403148 6.37792842,8.38447078 6.15625,8.615625 C5.54098336,8.31130999 5.00981839,7.86062455 4.609375,7.303125 L5.565625,7.303125 L5.565625,6.609375 L3.128125,6.609375 C3.128125,9.29917428 5.30863822,11.4796874 7.9984375,11.4796874 C10.6882368,11.4796874 12.86875,9.29917428 12.86875,6.609375 L10.4375,6.609375 L10.4375,6.609375 Z" id="Path" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

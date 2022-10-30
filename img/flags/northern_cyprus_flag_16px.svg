@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>northern_cyprus_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-101.000000, -1205.000000)">
+            <g id="flag" transform="translate(101.000000, 1205.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="northern_cyprus" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 1.5 1 2.25 0 3 0 13 1 13.75 0 14.5 0 16 16 16 16 14.5 15 13.75 16 13 16 3 15 2.25 16 1.5 16 0"></polygon>
+                    <path d="M0,14.5 L16,14.5 L16,13 L0,13 L0,14.5 Z M0,1.5 L0,3 L16,3 L16,1.5 L0,1.5 Z M8.4375,9.46875 L8.4375,6.53125 L10.15625,8.90625 L7.375,8 L10.15625,7.09375 L8.4375,9.46875 Z" id="Shape" fill="#D80027"></path>
+                    <path d="M5.78125,5.21874587 C4.52893087,5.22091064 3.43250274,6.05976863 3.10287314,7.2679293 C2.77324354,8.47608997 3.2917181,9.75555138 4.3694133,10.3934236 C5.44710851,11.0312958 6.8182027,10.8702427 7.71875,10 C7.39047144,10.1692787 7.02556785,10.2551383 6.65625,10.25 C5.72752711,10.23672 4.90241267,9.65412858 4.57911731,8.78339172 C4.25582194,7.91265486 4.50079811,6.93275015 5.19581726,6.31659192 C5.8908364,5.70043369 6.8930392,5.57467159 7.71875,6 C7.19897275,5.49770961 6.50406566,5.21750514 5.78125,5.21874587 L5.78125,5.21874587 Z" id="Path" fill="#D80027"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

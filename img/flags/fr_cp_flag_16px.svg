@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fr_cp_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-51.000000, -605.000000)">
+            <g id="flag" transform="translate(51.000000, 605.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="fr-cp" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#FFFFFF" points="8 1.625 14.375 8 8 14.375 1.625 8"></polygon>
+                    <polygon id="Path" fill="#FF9811" points="7.25 14.46875 7.625 5.125 8.375 5.125 8.75 14.46875"></polygon>
+                    <path d="M9.15625,5.375 C10.125,4.9375 10.46875,4.65625 11.96875,4.6875 C10.71875,4.125 9.5625,3.96875 8.59375,4.6875 C8.875,3.96875 9.4375,3 10.4375,2.28125 C8.71875,2.5625 7.875,3.40625 7.75,4.40625 C7.3125,3.40625 6.03125,3 4.625,3 C6.1875,3.84375 5.75,3.84375 6.90625,4.96875 C5.90625,4.8125 4.78125,5.25 3.65625,6.53125 C5.1875,5.6875 5.90625,5.96875 6.90625,6.09375 C6.00114547,6.67154058 5.50402465,7.71428181 5.625,8.78125 C6.75,7.375 6.59375,7.78125 8.03125,6.53125 C8.59375,7.78125 9.28125,8.0625 9.5625,9.21875 C9.84375,8.0625 9.5625,6.8125 9,6.375 C10.125,6.8125 11.125,7.09375 11.6875,7.9375 C11.40625,5.96875 10.125,5.6875 9.15625,5.375 Z" id="Path" fill="#6DA544"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

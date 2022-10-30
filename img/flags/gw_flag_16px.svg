@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gw_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-351.000000, -705.000000)">
+            <g id="flag" transform="translate(351.000000, 705.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="gw" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="0 0 5.9125 0 7.6 8.05 5.9125 16 0 16"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="5.9125 0 16 0 16 8 11.03125 9.671875 5.909375 8"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="5.9125 8 16 8 16 16 5.9125 16"></polygon>
+                    <polygon id="Path" fill="#333333" points="3.021875 5.9125 3.540625 7.50625 5.21875 7.50625 3.8625 8.49375 4.378125 10.0875 3.021875 9.103125 1.665625 10.0875 2.184375 8.49375 0.828125 7.50625 2.50625 7.50625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

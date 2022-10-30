@@ -5,7 +5,7 @@ $grey30: #303030;
 $green-gradient: linear-gradient(to bottom, #3ad13c, #1ba51c);
 $red-gradient: linear-gradient(to bottom, #f26105, #e0020f);
 $grey-text: #afafaf;
-$red: #ff4f00;
+$red: #d85120;
 $green: #3ad13c;
 $black: #000;
 $white: #fff;
@@ -32,7 +32,7 @@ select {
   &:focus-visible {
     outline: none;
   }
-  &:hover {
+  &:not(#bet-id):not(#page-lang):hover {
     border: 1px solid $canary-yellow !important;
   }
 }
@@ -159,6 +159,7 @@ input[name="Settings"] {
   position: absolute;
   top: 12%;
   right: 5%;
+  z-index: 3;
   &:hover::after {
     color: $white;
     transition: all 0.4s;

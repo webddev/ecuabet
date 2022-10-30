@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nf_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-301.000000, -1155.000000)">
+            <g id="flag" transform="translate(301.000000, 1155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="nf" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#6DA544" points="0 0 4.521875 0 7.909375 1.2875 11.478125 0 16 0 16 16 11.478125 16 8.034375 14.70625 4.521875 16 0 16"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="4.521875 0 11.478125 0 11.478125 16 4.521875 16"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="10.09375 10.4375 8 3.825 5.915625 10.4375 7.48125 10.4375 7.48125 12.178125 8.525 12.178125 8.525 10.4375"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

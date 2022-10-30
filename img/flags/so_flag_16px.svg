@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>so_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-401.000000, -1455.000000)">
+            <g id="flag" transform="translate(401.000000, 1455.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="so" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="8 4.175 8.8625 6.83125 11.65625 6.83125 9.396875 8.46875 10.259375 11.125 8 9.484375 5.740625 11.128125 6.603125 8.471875 4.34375 6.828125 7.1375 6.828125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

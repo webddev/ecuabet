@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tf_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-51.000000, -1555.000000)">
+            <g id="flag" transform="translate(51.000000, 1555.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="tf" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="8 0 16 0 16 16 0 16 0 8"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 8 0 8 8 0 8"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="0 0 2.34375 0 2.34375 7 0 7"></polygon>
+                    <polygon id="Path" fill="#D80027" points="4.65625 0 7 0 7 7 4.65625 7"></polygon>
+                    <path d="M10.09375,4.9375 L10.5,5.59375 L11.625,5.59375 L11.625,7.8125 L10.78125,6.46875 L9.625,8.3125 L10.1875,8.3125 L10.78125,7.25 L12,9.4375 L13.21875,7.25 L13.8125,8.3125 L14.375,8.3125 L13.21875,6.46875 L12.375,7.8125 L12.375,6.59375 L12.875,6.59375 L13.25,5.96875 L12.375,5.96875 L12.375,5.59375 L13.5,5.59375 L13.90625,4.9375 L10.09375,4.9375 Z M11.4375,7.6875 L10.1875,7.6875 L10.1875,8.125 L11.4375,8.125 L11.4375,7.6875 Z M13.8125,7.6875 L12.5625,7.6875 L12.5625,8.125 L13.8125,8.125 L13.8125,7.6875 Z" id="Shape" fill="#EEEEEE"></path>
+                    <path d="M9.40625,5.65625 L9.8125,6.84375 L8.75,6.125 L10.0625,6.125 L9,6.84375 L9.40625,5.65625 Z M14.59375,5.65625 L15,6.84375 L13.9375,6.125 L15.25,6.125 L14.1875,6.84375 L14.59375,5.65625 Z M10.59375,8.8125 L11,10 L9.9375,9.28125 L11.25,9.28125 L10.1875,10 L10.59375,8.8125 Z M13.40625,8.8125 L13.8125,10 L12.75,9.28125 L14.0625,9.28125 L13,10 L13.40625,8.8125 Z M12,9.875 L12.40625,11.0625 L11.34375,10.34375 L12.65625,10.34375 L11.59375,11.0625 L12,9.875 Z" id="Shape" fill="#EEEEEE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

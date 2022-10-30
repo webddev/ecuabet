@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>kn_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-401.000000, -905.000000)">
+            <g id="flag" transform="translate(401.000000, 905.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="kn" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="0 12.559375 5.425 5.51875 12.559375 0 14.03125 0 16 1.96875 15.996875 3.446875 10.76875 10.43125 3.446875 16 1.96875 16 0 14.03125"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="0 0 0 12.559375 12.559375 0"></polygon>
+                    <polygon id="Path" fill="#D80027" points="16 16 16 3.446875 3.446875 16"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 16 1.96875 16 16 1.96875 16 0 14.03125 0 0 14.03125"></polygon>
+                    <path d="M5.0875,9.4375 L5.8375,9.81875 L6.43125,9.225 L6.29375,10.053125 L7.04375,10.434375 L6.2125,10.565625 L6.08125,11.39375 L5.70625,10.64375 L4.875,10.78125 L5.46875,10.1875 L5.0875,9.4375 Z M9.4375,5.0875 L10.1875,5.465625 L10.78125,4.871875 L10.646875,5.703125 L11.396875,6.08125 L10.565625,6.2125 L10.434375,7.040625 L10.053125,6.29375 L9.225,6.425 L9.81875,5.83125 L9.4375,5.0875 Z" id="Shape" fill="#EEEEEE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mn_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-451.000000, -1055.000000)">
+            <g id="flag" transform="translate(451.000000, 1055.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="mn" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#A2001D" points="0 0 5.21875 0 7.871875 1.40625 10.78125 0 16 0 16 16 10.78125 16 8.040625 14.496875 5.21875 16 0 16"></polygon>
+                    <polygon id="Path" fill="#0052B4" points="5.21875 0 10.78125 0 10.78125 16 5.21875 16"></polygon>
+                    <g id="Group" transform="translate(1.043750, 4.171875)" fill="#FFDA44">
+                        <path d="M2.78125,3.828125 L3.478125,3.828125 L3.478125,6.609375 L2.78125,6.609375 L2.78125,3.828125 Z M-2.22044605e-16,3.828125 L0.696875,3.828125 L0.696875,6.609375 L-2.22044605e-16,6.609375 L-2.22044605e-16,3.828125 Z" id="Shape"></path>
+                        <circle id="Oval" cx="1.7375" cy="4.871875" r="1"></circle>
+                        <circle id="Oval" cx="1.7375" cy="2.4375" r="1"></circle>
+                        <path d="M1.04375,5.915625 L2.434375,5.915625 L2.434375,6.609375 L1.04375,6.609375 L1.04375,5.915625 Z M1.04375,3.134375 L2.434375,3.134375 L2.434375,3.828125 L1.04375,3.828125 L1.04375,3.134375 Z M1.7375,0 L1.9875,0.75625 L2.78125,0.75625 L2.1375,1.225 L2.384375,1.984375 L1.7375,1.515625 L1.09375,1.984375 L1.340625,1.225 L0.696875,0.75625 L1.49375,0.75625 L1.7375,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

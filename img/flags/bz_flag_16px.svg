@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bz_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-501.000000, -255.000000)">
+            <g id="flag" transform="translate(501.000000, 255.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="bz" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 1.390625 8.05625 0.65 16 1.390625 16 14.609375 8.109375 15.421875 0 14.609375"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="8" r="3.825"></circle>
+                    <circle id="Oval" fill="#6DA544" cx="8" cy="8" r="3.13125"></circle>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="8" r="2.0875"></circle>
+                    <polygon id="Path" fill="#0052B4" points="8 7.478125 6.86875 8 6.86875 8.86875 8 9.565625 9.13125 8.86875 9.13125 8"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="6.86875 6.95625 9.13125 6.95625 9.13125 8 6.86875 8"></polygon>
+                    <path d="M0,0 L16,0 L16,1.390625 L0,1.390625 L0,0 Z M0,14.609375 L16,14.609375 L16,16 L0,16 L0,14.609375 Z" id="Shape" fill="#A2001D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

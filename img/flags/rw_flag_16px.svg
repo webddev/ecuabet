@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rw_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-101.000000, -1405.000000)">
+            <g id="flag" transform="translate(101.000000, 1405.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="rw" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#496E2D" points="0 11.828125 7.940625 11.1375 16 11.828125 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="0 8.003125 7.96875 7.05625 16 8.003125 16 11.828125 0 11.828125"></polygon>
+                    <polygon id="Path" fill="#338AF3" points="0 0 16 0 16 8 0 8"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="9.04375 4.6875 10.021875 5.14375 9.5 6.09375 10.5625 5.890625 10.696875 6.9625 11.434375 6.175 12.175 6.9625 12.309375 5.890625 13.371875 6.09375 12.85 5.146875 13.825 4.6875 12.85 4.228125 13.36875 3.28125 12.30625 3.484375 12.175 2.4125 11.434375 3.203125 10.696875 2.4125 10.5625 3.484375 9.5 3.28125 10.021875 4.228125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

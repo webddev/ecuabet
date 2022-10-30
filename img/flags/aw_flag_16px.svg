@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aw_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-301.000000, -155.000000)">
+            <g id="aw_flag_16px" transform="translate(301.000000, 155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="aw" mask="url(#mask-2)" fill-rule="nonzero">
+                    <path d="M0,10.0875 L7.925,9.5125 L16,10.0875 L16,11.13125 L7.9375,11.609375 L0,11.13125 L0,10.0875 Z M0,12.175 L8.0375,11.74375 L16,12.175 L16,13.21875 L8.09375,13.746875 L0,13.21875 L0,12.175 Z" id="Shape" fill="#FFDA44"></path>
+                    <path d="M0,0 L16,0 L16,10.0875 L0,10.0875 L0,0 Z M0,11.13125 L16,11.13125 L16,12.175 L0,12.175 L0,11.13125 Z M0,13.21875 L16,13.21875 L16,16 L0,16 L0,13.21875 Z" id="Shape" fill="#338AF3"></path>
+                    <polygon id="Path" fill="#EEEEEE" points="3.665625 5.046875 2.103125 4.35625 3.665625 3.66875 4.353125 2.103125 5.046875 3.665625 6.609375 4.353125 5.046875 5.046875 4.35625 6.609375"></polygon>
+                    <polygon id="Path" fill="#D80027" points="4.35625 2.965625 4.78125 3.93125 5.75 4.35625 4.78125 4.78125 4.35625 5.75 3.93125 4.78125 2.9625 4.35625 3.93125 3.93125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

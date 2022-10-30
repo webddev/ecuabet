@@ -94,6 +94,12 @@
     margin-right: 6px;
   }
 }
+.country-se16 {
+  &::before {
+    content: url(../img/flags/se_flag_16px.svg);
+    margin-right: 6px;
+  }
+}
 .world-icon {
   &::before {
     content: url(../img/icons/menu-left/globe-icon.webp);

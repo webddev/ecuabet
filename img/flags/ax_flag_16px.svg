@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ax_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-351.000000, -155.000000)">
+            <g id="ax_flag_16px" transform="translate(351.000000, 155.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="ax" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#0052B4" points="0 0 3.13125 0 5.265625 1.271875 7.303125 0 16 0 16 5.9125 14.578125 7.975 16 10.11875 16 16 7.303125 16 5.246875 14.775 3.13125 16 0 16 0 10.0875 1.425 7.978125 0 5.9125"></polygon>
+                    <polygon id="Path" fill="#FFDA44" points="3.13125 0 3.13125 5.9125 0 5.9125 0 6.95625 0.71875 8.01875 0 9.04375 0 10.0875 3.13125 10.0875 3.13125 16 4.175 16 5.234375 15.29375 6.259375 16 7.303125 16 7.303125 10.11875 16 10.11875 16 9.04375 15.24375 8.0375 16 6.95625 16 5.9125 7.303125 5.9125 7.303125 0 6.259375 0 5.240625 0.625 4.175 0"></polygon>
+                    <polygon id="Path" fill="#D80027" points="4.175 0 4.175 6.95625 0 6.95625 0 9.04375 4.175 9.04375 4.175 16 6.259375 16 6.259375 9.04375 16 9.04375 16 6.95625 6.259375 6.95625 6.259375 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>vu_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-51.000000, -1705.000000)">
+            <g id="flag" transform="translate(51.000000, 1705.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="vu" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#D80027" points="16 6.95625 16 0 0 0 6.7375 7.48125"></polygon>
+                    <polygon id="Path" fill="#6DA544" points="16 9.04375 16 16 0 16 6.765625 8.5"></polygon>
+                    <polygon id="Path" fill="#333333" points="0 0 6.95625 6.95625 16 6.95625 16 7.65 15.659375 8.01875 16 8.34375 16 9.04375 6.95625 9.04375 0 16 0 15.015625 0.25 14.296875 0 14.028125 0 1.96875 0.296875 1.64375 0 0.9875"></polygon>
+                    <g id="Group" transform="translate(0.000000, 0.990625)" fill="#FFDA44">
+                        <polygon id="Path" points="16 6.659375 6.6625 6.659375 0 -1.44328993e-15 0 0.978125 6.025 7.009375 0 13.040625 0 14.025 6.6625 7.353125 16 7.353125"></polygon>
+                        <path d="M1.94375,8.715625 L1.94375,8.040625 C2.61339526,8.040625 3.15625,7.49777026 3.15625,6.828125 C3.15111201,6.35717051 2.76785752,5.97809697 2.296875,5.978125 C1.9741336,5.978125 1.7125,6.2397586 1.7125,6.5625 C1.7125,6.76960678 1.88039322,6.9375 2.0875,6.9375 C2.203125,6.9375 2.3,6.84375 2.3,6.725 L2.96875,6.725 C2.96702843,7.2104801 2.57298315,7.60312805 2.0875,7.603125 C1.5125,7.603125 1.04375,7.134375 1.04375,6.559375 C1.04375,5.865625 1.60625,5.303125 2.29375,5.303125 C3.13943602,5.303125 3.825,5.98868898 3.825,6.834375 C3.825,7.86875 2.98125,8.715625 1.94375,8.715625 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -587,11 +587,11 @@
 
 .block-info_active {
   .block-info__x-item:first-child {
-    background: $canary-yellow;
-    color: $black;
+    background: $canary-yellow !important;
+    color: $black !important;
   }
   .block-x__item:not(.block-x__item_disabled) {
-    border: 1px solid $canary-yellow;
+    border: 1px solid $canary-yellow !important;
   }
 }
 .block-info-hidden {

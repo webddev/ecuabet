@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nu_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-251.000000, -1205.000000)">
+            <g id="flag" transform="translate(251.000000, 1205.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="nu" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#FFDA44" points="0 8 8 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="0 0 0 1 1 2 0 3 0 8 1 8 2 7 3 8 4 8 5.3125 7.5 6.59375 8 8 8 7.75 7.5 8 7.03125 8 6.59375 7.5 5.28125 8 4 8 3 7 2 8 1 8 0 3 0 2 1 1 0"></polygon>
+                    <path d="M4,8 L4,5.40625 L6.59375,8 L4,8 Z M8,6.59375 L5.40625,4 L8,4 L8,6.59375 Z" id="Shape" fill="#0052B4"></path>
+                    <polygon id="Path" fill="#D80027" points="4 4 8 8 8 7.03125 4.96875 4"></polygon>
+                    <polygon id="Path" fill="#D80027" points="1 0 1 1 0 1 0 3 1 3 1 8 3 8 3 3 8 3 8 1 3 1 3 0"></polygon>
+                    <circle id="Oval" fill="#0052B4" cx="2" cy="2" r="1.5"></circle>
+                    <path d="M1.5625,6.1875 L2,4.8125 L2.46875,6.1875 L1.28125,5.34375 L2.75,5.34375 L1.5625,6.1875 Z M5.0625,2.6875 L5.5,1.3125 L5.96875,2.6875 L4.78125,1.84375 L6.25,1.84375 L5.0625,2.6875 Z M2,0.53125 L2.875,3.21875 L0.59375,1.5625 L3.40625,1.5625 L1.125,3.21875 L2,0.53125 Z" id="Shape" fill="#FFDA44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

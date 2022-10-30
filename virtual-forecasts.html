@@ -1,0 +1,2542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ecuabet</title>
+  </head>
+  <body>
+    <div class="vitual-forecasts-page">
+      <header class="header">
+        <div class="container">
+          <div class="header__top">
+            <svg
+              class="ham3"
+              viewBox="0 0 100 100"
+              width="60"
+              onclick="this.classList.toggle('active')"
+            >
+              <path
+                class="top"
+                d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+              />
+              <path class="middle" d="m 30,50 h 40" />
+              <path
+                class="bottom"
+                d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+              />
+            </svg>
+            <div class="header__top-icons">
+              <div class="header__top-icon">
+                <a href="#"
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0H1.1A1.1 1.1 0 0 0 0 1.1v17.8A1.1 1.1 0 0 0 1.1 20h9.58v-7.75h-2.6v-3h2.6V7a3.64 3.64 0 0 1 3.88-4 20.26 20.26 0 0 1 2.33.12v2.7H15.3c-1.26 0-1.5.6-1.5 1.47v1.93h3l-.39 3H13.8V20h5.1a1.1 1.1 0 0 0 1.1-1.1V1.1A1.1 1.1 0 0 0 18.9 0z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="header__top-icon">
+                <a href=""
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-6.98 4.357a3.003 3.003 0 0 0-1.54 3.373 8.782 8.782 0 0 1-6.338-3.162c-.27.465-.412.99-.412 1.526a3 3 0 0 0 1.365 2.513A3.078 3.078 0 0 1 3.6 8.231v.037c.008 1.436 1.042 2.668 2.475 2.948-.268.08-.545.122-.825.125a3.738 3.738 0 0 1-.578-.051 3.077 3.077 0 0 0 2.873 2.093A6.234 6.234 0 0 1 3 14.636 8.789 8.789 0 0 0 7.718 16a8.772 8.772 0 0 0 6.228-2.494A8.467 8.467 0 0 0 16.5 7.39V7A6.26 6.26 0 0 0 18 5.437c-.564.24-1.16.399-1.77.471a3.054 3.054 0 0 0 1.357-1.673 6.223 6.223 0 0 1-1.957.737 3.114 3.114 0 0 0-3.71-.616z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="header__top-icon">
+                <a href=""
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-5.84 2.65H6.94l-.308.017A5.73 5.73 0 0 0 5.13 3c-.477.18-.91.46-1.27.82A3.51 3.51 0 0 0 3 5.13a5.49 5.49 0 0 0-.34 1.81v6.12c.01.618.126 1.23.34 1.81.178.478.458.911.82 1.27a3.51 3.51 0 0 0 1.31.86 5.73 5.73 0 0 0 1.81.35h6.12a5.73 5.73 0 0 0 1.81-.35A3.86 3.86 0 0 0 17 14.87a5.73 5.73 0 0 0 .39-1.8v-.01c.004-.103.006-.196.007-.285v-.173c-.004-.51-.047-.99-.047-2.602V6.94A5.73 5.73 0 0 0 17 5.13a3.51 3.51 0 0 0-.82-1.27A3.51 3.51 0 0 0 14.87 3a5.73 5.73 0 0 0-1.81-.35zM13 4a4 4 0 0 1 1.38.22 2.38 2.38 0 0 1 1.41 1.41v-.01c.172.44.26.908.26 1.38v6a4 4 0 0 1-.26 1.38 2.38 2.38 0 0 1-1.41 1.41 4 4 0 0 1-1.38.26H7l-.272-.018a4.27 4.27 0 0 1-1.058-.242 2.38 2.38 0 0 1-1.41-1.41A4.27 4.27 0 0 1 4 13V7a4.27 4.27 0 0 1 .21-1.38 2.38 2.38 0 0 1 1.41-1.36A4 4 0 0 1 7 4zm-.285 3.302A3.82 3.82 0 0 0 6.19 10l.006.233A3.81 3.81 0 0 0 10 13.82a3.82 3.82 0 0 0 2.715-6.518zM10 7.52a2.48 2.48 0 1 1 0 4.96 2.48 2.48 0 0 1 0-4.96zm4-2.38-.112.019A.9.9 0 0 0 14 6.93a.9.9 0 0 0 0-1.79z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="header__top-icon">
+                <a href=""
+                  ><svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-8.783 4.999h-.268l-.283.002c-.887.006-2.965.031-4.467.142-.274.032-.87.035-1.403.602-.419.432-.556 1.413-.556 1.413S3 8.308 3 9.458v1.08c0 1.15.14 2.3.14 2.3s.136.98.556 1.412c.534.565 1.232.548 1.544.607C6.36 14.967 10 15 10 15H10.148c.405-.003 1.586-.012 2.83-.053l.44-.015a44.85 44.85 0 0 0 1.483-.08c.274-.033.87-.036 1.403-.602.419-.43.556-1.411.556-1.411s.14-1.151.14-2.302V9.458c0-1.15-.14-2.301-.14-2.301s-.136-.98-.556-1.413c-.533-.566-1.13-.569-1.403-.601-1.502-.11-3.58-.136-4.467-.142l-.283-.002h-.064zm-1.865 2.5 4.376 2.5-4.376 2.5v-5z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="header__top-icon-lang">
+                <img src="img/flags/us_flag_20px.svg" class="lang-img" />
+                <select name="Page-lang" id="page-lang">
+                  <option value="" default disabled selected>EN</option>
+                  <option value="RU">RU</option>
+                  <option value="ES">ES</option>
+                </select>
+              </div>
+            </div>
+            <div class="sign-mob-btns">
+              <button class="sign-mob-btns__sign-up">SING UP</button>
+              <button class="sign-mob-btns__log-in">LOG IN</button>
+            </div>
+          </div>
+          <div class="mobile-menu" style="display: none">
+            <div class="mobile-menu__signboard">
+              <p class="signboard-text">
+                BIENVENIDO AL CLUB DE ORO LEALTAD!
+                <span class="close-btn"></span>
+              </p>
+            </div>
+            <div class="mobile-menu__top-row">
+              <svg
+                class="ham3-close active"
+                viewBox="0 0 100 100"
+                width="60"
+                onclick="this.classList.toggle('active')"
+              >
+                <path
+                  class="top"
+                  d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                />
+                <path class="middle" d="m 30,50 h 40" />
+                <path
+                  class="bottom"
+                  d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                />
+              </svg>
+              <img src="img/logo.png" alt="logo" width="88" height="22" />
+            </div>
+            <div class="mobile-menu__nav">
+              <ul>
+                <li>
+                  <a href="main-page.html" class="mobile-menu__nav-link"
+                    >HOME</a
+                  >
+                </li>
+                <li>
+                  <a href="index.html" class="mobile-menu__nav-link"
+                    >LIVE FORECASTS</a
+                  >
+                </li>
+                <li>
+                  <a href="casino.html" class="mobile-menu__nav-link">CASINO</a>
+                </li>
+                <li>
+                  <a href="tournaments.html" class="mobile-menu__nav-link"
+                    >TOURNAMENTS</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-link"
+                    >VIRTUAL FORECASTS</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-link"
+                    >CASINO <span class="mobile-menu__nav-link_live">LIVE</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu__nav-bottom">
+              <ul>
+                <li>
+                  <a href="#" class="mobile-menu__nav-bottom-link"
+                    >Terms and Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-bottom-link"
+                    >Site Privacy and Coocies Noties</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-bottom-link"
+                    >Contact Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="tournaments.html"
+                    class="mobile-menu__nav-bottom-link"
+                    >TOURNAMENTS</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-bottom-link"
+                    >Work with Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-bottom-link"
+                    >Responsible Gaming</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="mobile-menu__nav-bottom-link">Results</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="logo header__logo-desk">
+            <img src="img/logo.png" alt="Logo" width="200" height="50" />
+          </div>
+          <nav class="header__nav-desk">
+            <ul>
+              <li>
+                <a href="main-page.html" class="home-link"
+                  ><svg
+                    width="12"
+                    height="10"
+                    viewBox="0 0 12 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="home-icon"
+                  >
+                    <path
+                      d="m6 2.019 4.28 3.694c.005.01.007.026.007.047V9.5a.49.49 0 0 1-.141.352.448.448 0 0 1-.335.148H6.953V7.007H5.047V10H2.19a.448.448 0 0 1-.335-.148.49.49 0 0 1-.141-.351V5.76c0-.006.001-.013.004-.023l.002-.014.001-.01L6 2.02zM6 0c.219 0 .407.068.566.203l1.816 1.59V.273a.25.25 0 0 1 .067-.18.227.227 0 0 1 .171-.07h1.43c.069 0 .126.024.17.07a.249.249 0 0 1 .067.18v3.18l1.63 1.418A.23.23 0 0 1 12 5.04a.26.26 0 0 1-.052.183l-.461.577a.25.25 0 0 1-.157.085h-.022a.223.223 0 0 1-.156-.054L6 1.333.85 5.83a.268.268 0 0 1-.18.055.25.25 0 0 1-.156-.086l-.461-.577A.26.26 0 0 1 0 5.04a.23.23 0 0 1 .082-.168L5.435.203A.845.845 0 0 1 6 0z"
+                      fill="#000"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                  HOME</a
+                >
+              </li>
+              <li><a href="sports-forecasts.html">SPORTS FORECASTS</a></li>
+              <li><a href="index.html">LIVE FORECASTS</a></li>
+              <li><a href="tournaments.html">TOURNAMENTS</a></li>
+              <li><a href="#">VIRTUAL FORECASTS</a></li>
+              <li><a href="casino.html">CASINO</a></li>
+              <li><a href="#">CASINO LIVE</a></li>
+              <li class="signup-link"><a href="#">SING UP</a></li>
+              <li><a href="#">LOG IN</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="main-row">
+            <div class="main-row__body">
+              <div class="search-by__bottom category-row">
+                <div class="swiper vCategory">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/tshirt_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-LEAGUE"
+                        />
+                        <span class="category-row__name">V-LEAGUE</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/tshirt_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="VFB"
+                        />
+                        <span class="category-row__name">VFB</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/tshirt_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="VFEL"
+                        />
+                        <span class="category-row__name">VFEL</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/worldcup_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-WORLD CUP"
+                        />
+                        <span class="category-row__name">V-WORLD CUP</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/veuro_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-EURO"
+                        />
+                        <span class="category-row__name">V-EURO</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vbasketball_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-BASKETBALL"
+                        />
+                        <span class="category-row__name">V-BASKETBALL</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vtennis_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-TENNIS"
+                        />
+                        <span class="category-row__name">V-TENNIS</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vbaseball_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-BASEBALL"
+                        />
+                        <span class="category-row__name">V-BASEBALL</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vdogs_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-DOGS"
+                        />
+                        <span class="category-row__name">V-DOGS</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vhorses_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-HORSES"
+                        />
+                        <span class="category-row__name">V-HORSES</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vmotor_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-MOTOR"
+                        />
+                        <span class="category-row__name">V-MOTOR</span>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#" class="category-row__item">
+                        <img
+                          src="img/virtual-f/vtabletennis_icon_34px.svg"
+                          width="34"
+                          height="34"
+                          alt="V-TABLE TEN…"
+                        />
+                        <span class="category-row__name">V-TABLE TEN…</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+              <div class="player">
+                <div class="player__decription">
+                  <div class="player__title-row">
+                    <div class="player__title">
+                      <div>
+                        <img src="img/virtual-f/player-icon-black.svg" />
+                      </div>
+                      <div>
+                        <span>Season 26708</span>
+                        <h5>Match Day 18</h5>
+                      </div>
+                    </div>
+                    <div class="player__ticker">
+                      <p>+++53’ Goal, América de Kali - Grêmio do Porto+++</p>
+                      <p>+++53’ Goal, América de Kali - Grêmio do Porto+++</p>
+                      <p>+++53’ Goal, América de Kali - Grêmio do Porto+++</p>
+                      <p>+++53’ Goal, América de Kali - Grêmio do Porto+++</p>
+                      <p>+++53’ Goal, América de Kali - Grêmio do Porto+++</p>
+                    </div>
+                  </div>
+                  <div class="player__grid player-grid">
+                    <div class="player-grid__item player-grid__item_active">
+                      <div class="btn-play btn-play_active">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>C. A Vitoria</span>
+                        <span>San Olympia</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>Boca F.C</span>
+                        <span>América de Kali</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>S.P. Leão Verde</span>
+                        <span>C.A Flamengo</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>C. Barranquilla</span>
+                        <span>S.P. Leão Verde</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>Paulista F.C</span>
+                        <span>Club Avellaneda</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>Sandtos F.C</span>
+                        <span>Grêmio do Porto</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>C.F Rimac</span>
+                        <span>Idolo Guayaquil</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="player-grid__item">
+                      <div class="btn-play">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10c-.006 5.52-4.48 9.994-10 10zm-8-9.828A8 8 0 1 0 2 10v.172zM8 14.5v-9l6 4.5-6 4.5z"
+                            fill="#000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <div class="player-grid__name">
+                        <span>C.A Flamengo</span>
+                        <span>C. A Vitória</span>
+                      </div>
+                      <div class="player-grid__check">
+                        <div>
+                          <span class="check-red">2</span>
+                          <span class="check-grey">0</span>
+                        </div>
+                        <div>
+                          <span class="check-red">2</span
+                          ><span class="check-grey">0</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="videoblock-titlemob">
+                  <div class="title-row">
+                    <h4>Virtual Football Euro Cup</h4>
+                    <div>
+                      <span>26748 / 3 E&F</span>
+                      <span class="post-group">POST GROUP</span>
+                    </div>
+                  </div>
+                  <div class="icons-row">
+                    <img src="img/virtual-f/cup-icon.svg" />
+                    <img src="img/virtual-f/date-icon.svg" />
+                  </div>
+                </div>
+                <div class="videoblock-rangemob">
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="60"
+                    name="range"
+                    step="1"
+                  />
+                </div>
+                <div class="videoblock-top-checkrow">
+                  <div class="country1 country-bra20">Brazil</div>
+                  <div class="check">0:3</div>
+                  <div class="country2 country-se">Sweden</div>
+                </div>
+                <div class="player__videoblock videoblock">
+                  <img
+                    src="img/virtual-f/video.png"
+                    alt="Video"
+                    class="video"
+                  />
+                  <div class="btn-off">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 34 34"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title>btn_off_hover</title>
+                      <g
+                        id="Design-System"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="buttons+icons"
+                          transform="translate(-90.000000, -1042.000000)"
+                        >
+                          <g
+                            id="video_buttons"
+                            transform="translate(50.000000, 992.000000)"
+                          >
+                            <g
+                              id="btn_off_hover"
+                              transform="translate(40.000000, 50.000000)"
+                            >
+                              <circle
+                                id="shape"
+                                stroke="#CCCCCC"
+                                stroke-width="2"
+                                fill-opacity="0.5"
+                                fill="#FFFFFF"
+                                cx="17"
+                                cy="17"
+                                r="16"
+                              ></circle>
+                              <path
+                                d="M20.1578947,8.48341 C24.1332632,9.73934 27,13.30162 27,17.5 C27,22.7467 22.5228421,27 17,27 C11.4771474,27 7,22.7467 7,17.5 C7,13.30162 9.86675789,9.73933 13.8421053,8.48341 L13.8421053,8.48341 L13.8421053,10.62407 C11.0538316,11.7814 9.10526316,14.42452 9.10526316,17.5 C9.10526316,21.6421 12.6398526,25 17,25 C21.3601053,25 24.8947368,21.6421 24.8947368,17.5 C24.8947368,14.42452 22.9462105,11.7814 20.1578947,10.62407 L20.1578947,10.62407 Z M18.0526316,7 L18.0526316,19.5 L15.9473684,19.5 L15.9473684,7 L18.0526316,7 Z"
+                                id="power_icon_off_hover"
+                                fill="#CCCCCC"
+                                fill-rule="nonzero"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="btn-sound">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 34 34"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title>btn_sound_on_hover</title>
+                      <g
+                        id="Design-System"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="buttons+icons"
+                          transform="translate(-190.000000, -1042.000000)"
+                        >
+                          <g
+                            id="video_buttons"
+                            transform="translate(50.000000, 992.000000)"
+                          >
+                            <g
+                              id="btn_sound_on_hover"
+                              transform="translate(140.000000, 50.000000)"
+                            >
+                              <circle
+                                id="shape"
+                                stroke="#CCCCCC"
+                                stroke-width="2"
+                                fill-opacity="0.5"
+                                fill="#FFFFFF"
+                                cx="17"
+                                cy="17"
+                                r="16"
+                              ></circle>
+                              <path
+                                d="M19.3107226,8.69230661 C19.3107226,8.44292358 19.1782182,8.2128144 18.9638475,8.08991597 C18.7494768,7.96700784 18.4863693,7.97031014 18.2750899,8.09855596 L11.598178,12.1511443 L9.05178711,12.1511443 C7.91813096,12.1511443 7,13.0790026 7,14.2270424 L7,19.7692274 C7,20.9166579 7.91747712,21.84615 9.05178711,21.84615 L11.5980686,21.84615 L18.2749121,25.9012722 C18.4862052,26.029626 18.74934,26.0330876 18.9637654,25.9101338 C19.1781772,25.7871799 19.3107226,25.5570569 19.3107226,25.3076877 L19.3107226,8.69230661 Z M24.4745054,12.7577323 C26.8138322,15.0970591 26.8130862,18.9036869 24.4741324,21.2426407 L24.4741324,21.2426407 L23.8214185,20.5899267 C25.8004472,18.610898 25.8011931,15.3898479 23.8217914,13.4104462 L23.8217914,13.4104462 Z M23.1687045,14.0627872 C24.788927,15.6830097 24.788554,18.3173632 23.1687045,19.9372128 L23.1687045,19.9372128 L22.5159906,19.2844988 C23.775542,18.0249474 23.775542,15.9750526 22.5159906,14.7155012 L22.5159906,14.7155012 Z M21.8636496,15.3685881 C22.7629029,16.2678414 22.7632759,17.7317856 21.8632766,18.6317849 L21.8632766,18.6317849 L21.2105627,17.9790709 C21.7502638,17.4393697 21.7510098,16.5613762 21.2109356,16.0213021 L21.2109356,16.0213021 Z"
+                                id="sound_on_icon"
+                                fill="#CCCCCC"
+                                fill-rule="nonzero"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="btn-stat">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 34 34"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title>btn_stats_normal</title>
+                      <g
+                        id="Design-System"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="buttons+icons"
+                          transform="translate(-250.000000, -992.000000)"
+                        >
+                          <g
+                            id="video_buttons"
+                            transform="translate(50.000000, 992.000000)"
+                          >
+                            <g
+                              id="btn_stats_normal"
+                              transform="translate(200.000000, 0.000000)"
+                            >
+                              <circle
+                                id="shape"
+                                stroke="#FFFFFF"
+                                stroke-width="2"
+                                fill-opacity="0.5"
+                                fill="#000000"
+                                cx="17"
+                                cy="17"
+                                r="16"
+                              ></circle>
+                              <path
+                                d="M17.7272727,7 L20.6363636,7 L20.6363636,27 L17.7272727,27 L17.7272727,7 Z M13.3636364,11.6153846 L16.2727273,11.6153846 L16.2727273,27 L13.3636364,27 L13.3636364,11.6153846 Z M9,16.2307692 L11.9090909,16.2307692 L11.9090909,27 L9,27 L9,16.2307692 Z M22.0909091,19.3076923 L25,19.3076923 L25,27 L22.0909091,27 L22.0909091,19.3076923 Z"
+                                id="icon_stats"
+                                fill="#FFFFFF"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="btn-groups">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 34 34"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title>btn_groups_normal</title>
+                      <g
+                        id="Design-System"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="buttons+icons"
+                          transform="translate(-250.000000, -1042.000000)"
+                        >
+                          <g
+                            id="video_buttons"
+                            transform="translate(50.000000, 992.000000)"
+                          >
+                            <g
+                              id="btn_groups_normal"
+                              transform="translate(200.000000, 50.000000)"
+                            >
+                              <circle
+                                id="shape"
+                                stroke="#FFFFFF"
+                                stroke-width="2"
+                                fill-opacity="0.5"
+                                fill="#000000"
+                                cx="17"
+                                cy="17"
+                                r="16"
+                              ></circle>
+                              <path
+                                d="M16,9 L26,9 L26,11 L16,11 L16,9 Z M16,13 L22,13 L22,15 L16,15 L16,13 Z M16,19 L26,19 L26,21 L16,21 L16,19 Z M16,23 L22,23 L22,25 L16,25 L16,23 Z M8,9 L14,9 L14,15 L8,15 L8,9 Z M10,11 L10,13 L12,13 L12,11 L10,11 Z M8,19 L14,19 L14,25 L8,25 L8,19 Z M10,21 L10,23 L12,23 L12,21 L10,21 Z"
+                                id="groups_icon"
+                                fill="#FFFFFF"
+                                fill-rule="nonzero"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="btn-champ">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 34 34"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title>btn_champ_normal</title>
+                      <g
+                        id="Design-System"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="buttons+icons"
+                          transform="translate(-350.000000, -992.000000)"
+                        >
+                          <g
+                            id="video_buttons"
+                            transform="translate(50.000000, 992.000000)"
+                          >
+                            <g
+                              id="btn_champ_normal"
+                              transform="translate(300.000000, 0.000000)"
+                            >
+                              <circle
+                                id="shape"
+                                stroke="#FFFFFF"
+                                stroke-width="2"
+                                fill-opacity="0.5"
+                                fill="#000000"
+                                cx="17"
+                                cy="17"
+                                r="16"
+                              ></circle>
+                              <path
+                                d="M17.8571429,23.8823529 L17.8571429,26 L11,26 L11,23.8823529 L17.8571429,23.8823529 Z M21.2857143,20.7058824 L21.2857143,22.8235294 L14.4285714,22.8235294 L14.4285714,20.7058824 L21.2857143,20.7058824 Z M17.8571429,17.5294118 L17.8571429,19.6470588 L11,19.6470588 L11,17.5294118 L17.8571429,17.5294118 Z M27,15.4117647 L27,18.5882353 L20.1428571,18.5882353 L20.1428571,15.4117647 L27,15.4117647 Z M17.8571429,14.3529412 L17.8571429,16.4705882 L11,16.4705882 L11,14.3529412 L17.8571429,14.3529412 Z M21.2857143,11.1764706 L21.2857143,13.2941176 L14.4285714,13.2941176 L14.4285714,11.1764706 L21.2857143,11.1764706 Z M17.8571429,8 L17.8571429,10.1176471 L11,10.1176471 L11,8 L17.8571429,8 Z"
+                                id="champ_icon"
+                                fill="#FFFFFF"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <div class="player__bottom">
+                  <div class="player__rage-line">
+                    <div class="cvl">CVL</div>
+                    <div>
+                      <span class="country1 country-bra"></span>
+                      <span class="country2 country-se16"></span>
+                    </div>
+                    <div class="range-div">
+                      <img
+                        src="img/virtual-f/whistle_icon.svg"
+                        class="whistle-icon1"
+                      />
+                      <img
+                        src="img/virtual-f/whistle_icon.svg"
+                        class="whistle-icon2"
+                      />
+                      <img
+                        src="img/virtual-f/whistle_icon.svg"
+                        class="whistle-icon3"
+                      />
+                      <div class="range-div__item">0’</div>
+                      <div class="range-div__item" style="text-align: center">
+                        <img src="img/virtual-f/ball-icon-2.svg" />
+                      </div>
+                      <div class="range-div__item" style="text-align: end">
+                        <img src="img/virtual-f/ball-icon-2.svg" />
+                      </div>
+                      <div class="range-div__item">45’</div>
+                      <div class="range-div__item">&nbsp;</div>
+                      <div class="range-div__item" style="text-align: end">
+                        90’
+                      </div>
+                    </div>
+                  </div>
+                  <div class="player__time-line">
+                    <div class="player__title">
+                      <div>
+                        <img src="img/virtual-f/player-icon-white.svg" />
+                      </div>
+                      <div>
+                        <span>Season 26708</span>
+                        <h5>Match Day 18</h5>
+                      </div>
+                    </div>
+                    <div class="timer">01:19</div>
+                    <a href="#" class="place-bet">PLACE YOUR BETS</a>
+                  </div>
+                  <div class="player__date-line">
+                    <a href="#" class="date-item">1</a>
+                    <a href="#" class="date-item">2</a>
+                    <a href="#" class="date-item">3</a>
+                    <a href="#" class="date-item">4</a>
+                    <a href="#" class="date-item">5</a>
+                    <a href="#" class="date-item">6</a>
+                    <a href="#" class="date-item">7</a>
+                    <a href="#" class="date-item">8</a>
+                    <a href="#" class="date-item">9</a>
+                    <a href="#" class="date-item">10</a>
+                    <a href="#" class="date-item">11</a>
+                    <a href="#" class="date-item">12</a>
+                    <a href="#" class="date-item">13</a>
+                    <a href="#" class="date-item">14</a>
+                    <a href="#" class="date-item">15</a>
+                    <a href="#" class="date-item">16</a>
+                    <a href="#" class="date-item">17</a>
+                    <a href="#" class="date-item">18</a>
+                    <a href="#" class="date-item">19</a>
+                    <a href="#" class="date-item">20</a>
+                    <a href="#" class="date-item">21</a>
+                    <a href="#" class="date-item">22</a>
+                    <a href="#" class="date-item date-item_active">23</a>
+                    <a href="#" class="date-item">24</a>
+                    <a href="#" class="date-item">25</a>
+                    <a href="#" class="date-item">26</a>
+                    <a href="#" class="date-item">27</a>
+                    <a href="#" class="date-item">28</a>
+                    <a href="#" class="date-item">29</a>
+                    <a href="#" class="date-item">30</a>
+                  </div>
+                  <div class="equipo-mob">
+                    <div class="col">
+                      <div class="title-row">
+                        <h5 class="title-row__item">EQUIPO</h5>
+                        <div>
+                          <span class="title-row__item">TM</span
+                          ><span class="title-row__item">MT</span>
+                        </div>
+                      </div>
+                      <div class="check-row check-row_active">
+                        <div class="check-row__countries">
+                          <span class="country-bra">Brazil</span>
+                          <span class="country-se16">Sweden</span>
+                        </div>
+                        <div class="check-row__num">
+                          <div><span>0</span> <span>–</span></div>
+                          <div><span>1</span> <span>–</span></div>
+                        </div>
+                      </div>
+                      <div class="check-row">
+                        <div class="check-row__countries">
+                          <span class="country-bra">Brazil</span>
+                          <span class="country-se16">Sweden</span>
+                        </div>
+                        <div class="check-row__num">
+                          <div><span>0</span> <span>–</span></div>
+                          <div><span>1</span> <span>–</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="title-row">
+                        <h5 class="title-row__item">EQUIPO</h5>
+                        <div>
+                          <span class="title-row__item">TM</span
+                          ><span class="title-row__item">MT</span>
+                        </div>
+                      </div>
+                      <div class="check-row">
+                        <div class="check-row__countries">
+                          <span class="country-bra">Brazil</span>
+                          <span class="country-se16">Sweden</span>
+                        </div>
+                        <div class="check-row__num">
+                          <div><span>0</span> <span>–</span></div>
+                          <div><span>1</span> <span>–</span></div>
+                        </div>
+                      </div>
+                      <div class="check-row">
+                        <div class="check-row__countries">
+                          <span class="country-bra">Brazil</span>
+                          <span class="country-se16">Sweden</span>
+                        </div>
+                        <div class="check-row__num">
+                          <div><span>0</span> <span>–</span></div>
+                          <div><span>1</span> <span>–</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section class="matches live">
+                <div class="live__sections">
+                  <div class="live-links desk">
+                    <span class="live-link live-link_active">MATCHES</span>
+                  </div>
+                  <div class="live__sport sport-block" id="football">
+                    <div class="sport-block__bet">
+                      <div class="sport-block__selects">
+                        <select name="teams-score" id="teams-score">
+                          <option value="" default disabled selected>
+                            Total
+                          </option>
+                          <option value="Both Teams To Score">Total</option>
+                          <option value="Both Teams To Score">Total</option>
+                        </select>
+                        <select name="chance" id="chance">
+                          <option value="" default disabled selected>
+                            1 x 2
+                          </option>
+                          <option value="Both Teams To Score">1 x 2</option>
+                          <option value="Both Teams To Score">1 x 2</option>
+                        </select>
+                        <select
+                          name="result"
+                          id="chance"
+                          style="margin-right: 0"
+                        >
+                          <option value="" default disabled selected>
+                            Full Time Result
+                          </option>
+                          <option value="Both Teams To Score">
+                            Full Time Result
+                          </option>
+                          <option value="Both Teams To Score">
+                            Full Time Result
+                          </option>
+                        </select>
+                      </div>
+                      <div class="sport-block__selects-mob">
+                        <select name="teams-score" id="teams-score">
+                          <option value="" default disabled selected>
+                            1 x 2
+                          </option>
+                          <option value="Both Teams To Score">1 x 3</option>
+                          <option value="Both Teams To Score">1 x 4</option>
+                        </select>
+                      </div>
+                      <div class="sport-block__x block-x">
+                        <div class="block-x__item">Goals</div>
+                        <div class="block-x__item">Over</div>
+                        <div class="block-x__item">Under</div>
+                        <div class="block-x__item">1</div>
+                        <div class="block-x__item">X</div>
+                        <div class="block-x__item">2</div>
+                        <div class="block-x__item">1</div>
+                        <div class="block-x__item">X</div>
+                        <div class="block-x__item">2</div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item">Netherlands</li>
+                            <li class="list-row__item">Ukraine</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="icon-stat">
+                        <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 1024 1024"
+                          t="1569682885975"
+                          class="icon"
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          p-id="8305"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs><style type="text/css"></style></defs>
+                          <path
+                            d="M584 352H440c-17.7 0-32 14.3-32 32v544c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V384c0-17.7-14.3-32-32-32zM892 64H748c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zM276 640H132c-17.7 0-32 14.3-32 32v256c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V672c0-17.7-14.3-32-32-32z"
+                            p-id="8306"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item block-info__x-item_active"
+                        >
+                          3.30
+                        </div>
+                        <div class="block-x__item">5.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">5.45</div>
+                        <div class="block-x__item">3.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">1.75</div>
+                        <div class="block-x__item">1.30</div>
+                        <div class="block-x__item">1.30</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item">Sweden</li>
+                            <li class="list-row__item">Spain</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="icon-stat">
+                        <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 1024 1024"
+                          t="1569682885975"
+                          class="icon"
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          p-id="8305"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs><style type="text/css"></style></defs>
+                          <path
+                            d="M584 352H440c-17.7 0-32 14.3-32 32v544c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V384c0-17.7-14.3-32-32-32zM892 64H748c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zM276 640H132c-17.7 0-32 14.3-32 32v256c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V672c0-17.7-14.3-32-32-32z"
+                            p-id="8306"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item block-info__x-item_active"
+                        >
+                          3.30
+                        </div>
+                        <div class="block-x__item">5.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">5.45</div>
+                        <div class="block-x__item">3.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">1.75</div>
+                        <div class="block-x__item">1.30</div>
+                        <div class="block-x__item">1.30</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item">Portugal</li>
+                            <li class="list-row__item">Germany</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="icon-stat">
+                        <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 1024 1024"
+                          t="1569682885975"
+                          class="icon"
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          p-id="8305"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs><style type="text/css"></style></defs>
+                          <path
+                            d="M584 352H440c-17.7 0-32 14.3-32 32v544c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V384c0-17.7-14.3-32-32-32zM892 64H748c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zM276 640H132c-17.7 0-32 14.3-32 32v256c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V672c0-17.7-14.3-32-32-32z"
+                            p-id="8306"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item block-info__x-item_active"
+                        >
+                          3.30
+                        </div>
+                        <div class="block-x__item">5.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">5.45</div>
+                        <div class="block-x__item">3.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">1.75</div>
+                        <div class="block-x__item">1.30</div>
+                        <div class="block-x__item">1.30</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sport-block__info block-info">
+                      <div class="block-info__text">
+                        <div class="list-row">
+                          <ul>
+                            <li class="list-row__item">Hungary</li>
+                            <li class="list-row__item">France</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="icon-stat icon-stat_active">
+                        <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 1024 1024"
+                          t="1569682885975"
+                          class="icon"
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          p-id="8305"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs><style type="text/css"></style></defs>
+                          <path
+                            d="M584 352H440c-17.7 0-32 14.3-32 32v544c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V384c0-17.7-14.3-32-32-32zM892 64H748c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zM276 640H132c-17.7 0-32 14.3-32 32v256c0 17.7 14.3 32 32 32h144c17.7 0 32-14.3 32-32V672c0-17.7-14.3-32-32-32z"
+                            p-id="8306"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="block-info__x block-x">
+                        <div
+                          class="block-x__item block-info__x-item block-info__x-item_active"
+                        >
+                          3.30
+                        </div>
+                        <div class="block-x__item">5.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">5.45</div>
+                        <div class="block-x__item">3.20</div>
+                        <div class="block-x__item">3.70</div>
+                        <div class="block-x__item">1.75</div>
+                        <div class="block-x__item">1.30</div>
+                        <div class="block-x__item">1.30</div>
+                      </div>
+                    </div>
+                    <div class="block-info-hidden hidden">
+                      <div class="live-links links-info-hidden">
+                        <span class="live-link live-link_active">All</span>
+                        <span class="live-link">Main</span>
+                        <span class="live-link">Extra</span>
+                        <span class="live-link">1st Half</span>
+                        <span class="live-link">2nd Half</span>
+                        <span class="live-link">Combo</span>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="1x1">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">1 x 2</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="winner">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star_active"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title">Winner</span>
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block-info-hidden__subblock" id="total-games">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Total Games</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="block-info-hidden__subblock"
+                        id="correct-score"
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="block-info-hidden__star"
+                        >
+                          <path
+                            d="m7.368 1.361 3.216 3.748 4.631.838-3.133 4.204.677 4.916-4.787-1.794-4.109 2.114c-.315-.053-.614-.096-.627-.257l.679-4.98L.603 6.588l4.88-1.491L7.369 1.36z"
+                            fill-rule="nonzero"
+                            stroke="#FFF"
+                            fill="none"
+                          />
+                        </svg>
+                        <span class="block-info-hidden__title"
+                          >Correct Score</span
+                        >
+                      </div>
+                      <div class="block-info-hidden__row hidden">
+                        <div class="block-info-hidden__rate rate rate_active">
+                          <div class="rate__item">
+                            <span>1</span>
+                            <span>30.75</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>Draw</span>
+                            <span>4.35</span>
+                          </div>
+                        </div>
+                        <div class="block-info-hidden__rate rate">
+                          <div class="rate__item">
+                            <span>2</span>
+                            <span>9.25</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="all-events-btn">VIEW ALL EVENTS</div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <aside class="content-block__aside block-aside">
+              <div class="search-by__top">
+                <h3 class="section-subtitle">SEARCH BY</h3>
+                <div class="search-by__search-row">
+                  <select name="Bet-id" id="bet-id">
+                    <option value="" default disabled selected>BET ID</option>
+                    <option value="123">123</option>
+                    <option value="1234">1234</option>
+                  </select>
+                  <input
+                    type="text"
+                    placeholder="Enter Bet ID…"
+                    class="search-by__input"
+                    id="input-id"
+                  />
+                </div>
+              </div>
+              <h3 class="section-subtitle">
+                BETSLIP <span class="block-aside__num">3</span>
+              </h3>
+              <div class="live-links block-aside__links">
+                <span class="live-link block-aside__link">SINGLE</span>
+                <span class="live-link live-link_active block-aside__link"
+                  >MULTIPLE</span
+                >
+                <span class="live-link block-aside__link">SYSTEM</span>
+              </div>
+              <div class="block-aside__item">
+                <div class="close-btn"></div>
+                <span class="live-icon">LIVE</span>
+                <span class="block-aside__partakers"
+                  >FC Caspietz Kamyzyak 2 vs. FC Astrakhan-M</span
+                >
+                <span class="block-aside__double-chance">Double chance</span>
+                <div class="block-aside__bottom-row">
+                  <span class="block-aside__x">1 x</span>
+                  <span class="block-aside__lock"
+                    ><svg
+                      width="10"
+                      height="12"
+                      viewBox="0 0 10 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.889 4.8h.555c.307 0 .556.269.556.6v6c0 .331-.249.6-.556.6H.556C.249 12 0 11.731 0 11.4v-6c0-.331.249-.6.556-.6h.555v-.6c0-1.5.741-2.887 1.945-3.637a3.641 3.641 0 0 1 3.888 0C8.148 1.313 8.89 2.699 8.89 4.2v.6zm-1.111 0v-.6c0-1.657-1.244-3-2.778-3s-2.778 1.343-2.778 3v.6h5.556zM4.444 7.2v2.4h1.112V7.2H4.444z"
+                        fill="#909090"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                    2.37</span
+                  >
+                </div>
+              </div>
+              <div class="block-aside__item">
+                <div class="close-btn"></div>
+                <span class="live-icon">LIVE</span>
+                <span class="block-aside__partakers"
+                  >Palmeiras vs. Atlético Goianiense</span
+                >
+                <span class="block-aside__double-chance">1 x 2</span>
+                <div class="block-aside__bottom-row">
+                  <span class="block-aside__x">1 x</span>
+                  <span class="block-aside__lock"
+                    ><svg
+                      width="10"
+                      height="12"
+                      viewBox="0 0 10 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.889 4.8h.555c.307 0 .556.269.556.6v6c0 .331-.249.6-.556.6H.556C.249 12 0 11.731 0 11.4v-6c0-.331.249-.6.556-.6h.555v-.6c0-1.5.741-2.887 1.945-3.637a3.641 3.641 0 0 1 3.888 0C8.148 1.313 8.89 2.699 8.89 4.2v.6zm-1.111 0v-.6c0-1.657-1.244-3-2.778-3s-2.778 1.343-2.778 3v.6h5.556zM4.444 7.2v2.4h1.112V7.2H4.444z"
+                        fill="#909090"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                    2.37</span
+                  >
+                </div>
+              </div>
+              <div class="block-aside__item">
+                <div class="close-btn"></div>
+                <span class="block-aside__partakers"
+                  >Palmeiras vs. Atlético Goianiense</span
+                >
+                <span class="block-aside__double-chance">Double chance</span>
+                <div class="block-aside__bottom-row">
+                  <span class="block-aside__x">1 x</span>
+                  <span class="block-aside__lock"
+                    ><svg
+                      width="10"
+                      height="12"
+                      viewBox="0 0 10 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.889 4.8h.555c.307 0 .556.269.556.6v6c0 .331-.249.6-.556.6H.556C.249 12 0 11.731 0 11.4v-6c0-.331.249-.6.556-.6h.555v-.6c0-1.5.741-2.887 1.945-3.637a3.641 3.641 0 0 1 3.888 0C8.148 1.313 8.89 2.699 8.89 4.2v.6zm-1.111 0v-.6c0-1.657-1.244-3-2.778-3s-2.778 1.343-2.778 3v.6h5.556zM4.444 7.2v2.4h1.112V7.2H4.444z"
+                        fill="#909090"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                    2.37</span
+                  >
+                </div>
+              </div>
+              <div class="block-aside__delete-btn">Delete All</div>
+              <div class="block-aside__combo combo-block">
+                <div class="combo-block__text">Combo</div>
+                <div class="combo-block__input">
+                  1 x <input type="tel" value="10" id="combo-inp" />
+                </div>
+              </div>
+              <div class="block-aside__total">
+                <table>
+                  <tr>
+                    <td>Total odds</td>
+                    <td align="right">0</td>
+                  </tr>
+                  <tr>
+                    <td>Total stake</td>
+                    <td align="right">0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Total win</td>
+                    <td align="right">0.00</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="block-aside__btns">
+                <button type="submit" class="place-btn">PLACE BET</button>
+                <button type="submit" class="book-btn">BOOK</button>
+              </div>
+              <div
+                class="block-aside__settings"
+                style="
+                  border-bottom-left-radius: 5px;
+                  border-bottom-right-radius: 5px;
+                "
+              >
+                <div class="block-aside__set-text">
+                  Always ask on odds change
+                </div>
+              </div>
+              <div
+                class="block-aside__settings-options"
+                style="height: 0; padding: 0; opacity: 0"
+              >
+                <span class="block-aside__settings-options-text"
+                  >Odds change settings:</span
+                >
+                <ul>
+                  <li>
+                    <label>
+                      <input
+                        type="radio"
+                        name="Settings"
+                        value="Accept any odds change"
+                      />Accept any odds change
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input
+                        type="radio"
+                        name="Settings"
+                        value="Accept higher odds"
+                      />Accept higher odds
+                    </label>
+                  </li>
+
+                  <li>
+                    <label>
+                      <input
+                        type="radio"
+                        name="Settings"
+                        value="Always ask on odds change"
+                      />Always ask on odds change
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer desk">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__left-block footer-left-block">
+              <div class="logo footer__logo">
+                <img src="img/logo.png" alt="Logo" width="120" height="30" />
+              </div>
+              <p class="footer-left-block__text">
+                This website is operated by VS Network Solutions NV, a company
+                registered on September 20, 2021 under the laws of Curacao, with
+                registration number 158663 and under license No. 365 / JAZ
+                sub-license GLH-OCCHKTW0711042021 granted by the government of
+                curacao on November 4, 2021.
+              </p>
+              <a href="#" class="footer-left-block__google-img"
+                ><img
+                  src="img/google-p.png"
+                  alt="Google App"
+                  width="115"
+                  height="34"
+              /></a>
+              <div class="footer-left-block__icons-row">
+                <div class="footer-left-block__icon">
+                  <a href="#"
+                    ><svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.9 0H1.1A1.1 1.1 0 0 0 0 1.1v17.8A1.1 1.1 0 0 0 1.1 20h9.58v-7.75h-2.6v-3h2.6V7a3.64 3.64 0 0 1 3.88-4 20.26 20.26 0 0 1 2.33.12v2.7H15.3c-1.26 0-1.5.6-1.5 1.47v1.93h3l-.39 3H13.8V20h5.1a1.1 1.1 0 0 0 1.1-1.1V1.1A1.1 1.1 0 0 0 18.9 0z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="footer-left-block__icon">
+                  <a href=""
+                    ><svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-6.98 4.357a3.003 3.003 0 0 0-1.54 3.373 8.782 8.782 0 0 1-6.338-3.162c-.27.465-.412.99-.412 1.526a3 3 0 0 0 1.365 2.513A3.078 3.078 0 0 1 3.6 8.231v.037c.008 1.436 1.042 2.668 2.475 2.948-.268.08-.545.122-.825.125a3.738 3.738 0 0 1-.578-.051 3.077 3.077 0 0 0 2.873 2.093A6.234 6.234 0 0 1 3 14.636 8.789 8.789 0 0 0 7.718 16a8.772 8.772 0 0 0 6.228-2.494A8.467 8.467 0 0 0 16.5 7.39V7A6.26 6.26 0 0 0 18 5.437c-.564.24-1.16.399-1.77.471a3.054 3.054 0 0 0 1.357-1.673 6.223 6.223 0 0 1-1.957.737 3.114 3.114 0 0 0-3.71-.616z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="footer-left-block__icon">
+                  <a href=""
+                    ><svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-5.84 2.65H6.94l-.308.017A5.73 5.73 0 0 0 5.13 3c-.477.18-.91.46-1.27.82A3.51 3.51 0 0 0 3 5.13a5.49 5.49 0 0 0-.34 1.81v6.12c.01.618.126 1.23.34 1.81.178.478.458.911.82 1.27a3.51 3.51 0 0 0 1.31.86 5.73 5.73 0 0 0 1.81.35h6.12a5.73 5.73 0 0 0 1.81-.35A3.86 3.86 0 0 0 17 14.87a5.73 5.73 0 0 0 .39-1.8v-.01c.004-.103.006-.196.007-.285v-.173c-.004-.51-.047-.99-.047-2.602V6.94A5.73 5.73 0 0 0 17 5.13a3.51 3.51 0 0 0-.82-1.27A3.51 3.51 0 0 0 14.87 3a5.73 5.73 0 0 0-1.81-.35zM13 4a4 4 0 0 1 1.38.22 2.38 2.38 0 0 1 1.41 1.41v-.01c.172.44.26.908.26 1.38v6a4 4 0 0 1-.26 1.38 2.38 2.38 0 0 1-1.41 1.41 4 4 0 0 1-1.38.26H7l-.272-.018a4.27 4.27 0 0 1-1.058-.242 2.38 2.38 0 0 1-1.41-1.41A4.27 4.27 0 0 1 4 13V7a4.27 4.27 0 0 1 .21-1.38 2.38 2.38 0 0 1 1.41-1.36A4 4 0 0 1 7 4zm-.285 3.302A3.82 3.82 0 0 0 6.19 10l.006.233A3.81 3.81 0 0 0 10 13.82a3.82 3.82 0 0 0 2.715-6.518zM10 7.52a2.48 2.48 0 1 1 0 4.96 2.48 2.48 0 0 1 0-4.96zm4-2.38-.112.019A.9.9 0 0 0 14 6.93a.9.9 0 0 0 0-1.79z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="footer-left-block__icon">
+                  <a href=""
+                    ><svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-8.783 4.999h-.268l-.283.002c-.887.006-2.965.031-4.467.142-.274.032-.87.035-1.403.602-.419.432-.556 1.413-.556 1.413S3 8.308 3 9.458v1.08c0 1.15.14 2.3.14 2.3s.136.98.556 1.412c.534.565 1.232.548 1.544.607C6.36 14.967 10 15 10 15H10.148c.405-.003 1.586-.012 2.83-.053l.44-.015a44.85 44.85 0 0 0 1.483-.08c.274-.033.87-.036 1.403-.602.419-.43.556-1.411.556-1.411s.14-1.151.14-2.302V9.458c0-1.15-.14-2.301-.14-2.301s-.136-.98-.556-1.413c-.533-.566-1.13-.569-1.403-.601-1.502-.11-3.58-.136-4.467-.142l-.283-.002h-.064zm-1.865 2.5 4.376 2.5-4.376 2.5v-5z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="footer-left-block__icon">
+                  <a href=""
+                    ><?xml version="1.0" encoding="UTF-8"?>
+                    <svg
+                      width="34px"
+                      height="34px"
+                      viewBox="0 0 34 34"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title>telegram_icon_normal</title>
+                      <g
+                        id="Design-System"
+                        stroke="none"
+                        stroke-width="1"
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <g
+                          id="buttons+icons"
+                          transform="translate(-226.000000, -802.000000)"
+                          fill="#FFFFFF"
+                          fill-rule="nonzero"
+                        >
+                          <g
+                            id="social_buttons_footer"
+                            transform="translate(50.000000, 802.000000)"
+                          >
+                            <path
+                              d="M203.590287,2.58960077e-16 C205.819084,-1.50463262e-16 206.627299,0.232064028 207.442114,0.667831759 C208.256929,1.10359949 208.896401,1.74307093 209.332168,2.55788574 C209.767936,3.37270056 210,4.18091615 210,6.409713 L210,27.590287 C210,29.8190838 209.767936,30.6272994 209.332168,31.4421143 C208.896401,32.2569291 208.256929,32.8964005 207.442114,33.3321682 C206.627299,33.767936 205.819084,34 203.590287,34 L182.409713,34 C180.180916,34 179.372701,33.767936 178.557886,33.3321682 C177.743071,32.8964005 177.103599,32.2569291 176.667832,31.4421143 C176.232064,30.6272994 176,29.8190838 176,27.590287 L176,6.409713 C176,4.18091615 176.232064,3.37270056 176.667832,2.55788574 C177.103599,1.74307093 177.743071,1.10359949 178.557886,0.667831759 C179.372701,0.232064028 180.180916,4.13911637e-16 182.409713,-7.12377147e-16 L203.590287,2.58960077e-16 Z M203.404178,7.10640549 L182.114178,15.2574055 C180.661178,15.8214055 180.683178,16.6314055 181.867178,16.9984055 L187.310178,18.6914055 L199.953178,10.7804055 C200.548178,10.3864055 201.089178,10.6044055 200.644178,10.9984055 L190.417178,20.1814055 L190.020178,25.7654055 C190.588178,25.7654055 190.834178,25.5214055 191.129178,25.2284055 L193.792178,22.6834055 L199.310178,26.7244055 C200.322178,27.2884055 201.035178,26.9914055 201.308178,25.7934055 L204.930178,8.82140549 L204.931178,8.82040549 C205.252178,7.32440549 204.390178,6.73940549 203.404178,7.10640549 Z"
+                              id="telegram_icon_normal"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__second-block">
+              <div class="footer__second-subblock">
+                <h4 class="footer__title">Our Sections</h4>
+                <ul>
+                  <li><a href="sports-forecasts.html">Sports forecasts</a></li>
+                  <li><a href="index.html">Live forecasts</a></li>
+                  <li><a href="casino.html">Casino</a></li>
+                  <li><a href="#">Promos</a></li>
+                  <li><a href="#">Results</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Puntos de lealtad</a></li>
+                  <li><a href="#">Tienda de premios</a></li>
+                </ul>
+              </div>
+              <div class="footer__third-block">
+                <h4 class="footer__title">Security & Privacy</h4>
+                <ul>
+                  <li><a href="#">Site Privacy & Cookies Notice</a></li>
+                  <li><a href="#">Responsible Gaming</a></li>
+                  <li><a href="#">Terms and Conditions</a></li>
+                  <li><a href="#">Anti Money Laundering</a></li>
+                  <li><a href="#">KYC Policies</a></li>
+                  <li><a href="#">Accounts, Payments and Bonuses</a></li>
+                  <li><a href="#">Privacy and Personal Data Management</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right-block">
+              <div>
+                <h4 class="footer__title">Afiliados & Agentes</h4>
+                <ul>
+                  <li><a href="#">Become an Affiliate</a></li>
+                  <li><a href="#">Become an Agent</a></li>
+                </ul>
+              </div>
+              <div class="help-supblock">
+                <h4 class="footer__title">Need help?</h4>
+                <ul>
+                  <li><a href="#">Work with us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Conflict resolution</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="footer-mob">
+        <div class="container">
+          <div class="footer-mob__row">
+            <div class="footer-mob__item">
+              <h4 class="footer-mob__title">Our Sections</h4>
+              <ul>
+                <li><a href="sports-forecasts.html">Sports forecasts</a></li>
+                <li><a href="index.html">Live forecasts</a></li>
+                <li><a href="casino.html">Casino</a></li>
+                <li><a href="#">Promos</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Puntos de lealtad</a></li>
+                <li><a href="#">Tienda de premios</a></li>
+              </ul>
+            </div>
+            <div class="footer-mob__item">
+              <h4 class="footer-mob__title">Security & Privacy</h4>
+              <ul>
+                <li><a href="#">Site Privacy & Cookies Notice</a></li>
+                <li><a href="#">Responsible Gaming</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Anti Money Laundering</a></li>
+                <li><a href="#">KYC Policies</a></li>
+                <li><a href="#">Accounts, Payments and Bonuses</a></li>
+                <li><a href="#">Privacy and Personal Data Management</a></li>
+              </ul>
+            </div>
+            <div class="footer-mob__item">
+              <h4 class="footer-mob__title">Afiliados & Agentes</h4>
+              <ul>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">Become an Agent</a></li>
+              </ul>
+            </div>
+            <div class="footer-mob__item">
+              <h4 class="footer-mob__title">Need help?</h4>
+              <ul>
+                <li><a href="#">Work with us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Conflict resolution</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-mob__bottom-row">
+            <img
+              src="img/google-p.png"
+              alt="Google App"
+              width="115"
+              height="34"
+            />
+            <div class="footer-left-block__icons-row">
+              <div class="footer-left-block__icon">
+                <a href="#"
+                  ><svg
+                    width="34"
+                    height="34"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0H1.1A1.1 1.1 0 0 0 0 1.1v17.8A1.1 1.1 0 0 0 1.1 20h9.58v-7.75h-2.6v-3h2.6V7a3.64 3.64 0 0 1 3.88-4 20.26 20.26 0 0 1 2.33.12v2.7H15.3c-1.26 0-1.5.6-1.5 1.47v1.93h3l-.39 3H13.8V20h5.1a1.1 1.1 0 0 0 1.1-1.1V1.1A1.1 1.1 0 0 0 18.9 0z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-left-block__icon">
+                <a href=""
+                  ><svg
+                    width="34"
+                    height="34"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-6.98 4.357a3.003 3.003 0 0 0-1.54 3.373 8.782 8.782 0 0 1-6.338-3.162c-.27.465-.412.99-.412 1.526a3 3 0 0 0 1.365 2.513A3.078 3.078 0 0 1 3.6 8.231v.037c.008 1.436 1.042 2.668 2.475 2.948-.268.08-.545.122-.825.125a3.738 3.738 0 0 1-.578-.051 3.077 3.077 0 0 0 2.873 2.093A6.234 6.234 0 0 1 3 14.636 8.789 8.789 0 0 0 7.718 16a8.772 8.772 0 0 0 6.228-2.494A8.467 8.467 0 0 0 16.5 7.39V7A6.26 6.26 0 0 0 18 5.437c-.564.24-1.16.399-1.77.471a3.054 3.054 0 0 0 1.357-1.673 6.223 6.223 0 0 1-1.957.737 3.114 3.114 0 0 0-3.71-.616z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-left-block__icon">
+                <a href=""
+                  ><svg
+                    width="34"
+                    height="34"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-5.84 2.65H6.94l-.308.017A5.73 5.73 0 0 0 5.13 3c-.477.18-.91.46-1.27.82A3.51 3.51 0 0 0 3 5.13a5.49 5.49 0 0 0-.34 1.81v6.12c.01.618.126 1.23.34 1.81.178.478.458.911.82 1.27a3.51 3.51 0 0 0 1.31.86 5.73 5.73 0 0 0 1.81.35h6.12a5.73 5.73 0 0 0 1.81-.35A3.86 3.86 0 0 0 17 14.87a5.73 5.73 0 0 0 .39-1.8v-.01c.004-.103.006-.196.007-.285v-.173c-.004-.51-.047-.99-.047-2.602V6.94A5.73 5.73 0 0 0 17 5.13a3.51 3.51 0 0 0-.82-1.27A3.51 3.51 0 0 0 14.87 3a5.73 5.73 0 0 0-1.81-.35zM13 4a4 4 0 0 1 1.38.22 2.38 2.38 0 0 1 1.41 1.41v-.01c.172.44.26.908.26 1.38v6a4 4 0 0 1-.26 1.38 2.38 2.38 0 0 1-1.41 1.41 4 4 0 0 1-1.38.26H7l-.272-.018a4.27 4.27 0 0 1-1.058-.242 2.38 2.38 0 0 1-1.41-1.41A4.27 4.27 0 0 1 4 13V7a4.27 4.27 0 0 1 .21-1.38 2.38 2.38 0 0 1 1.41-1.36A4 4 0 0 1 7 4zm-.285 3.302A3.82 3.82 0 0 0 6.19 10l.006.233A3.81 3.81 0 0 0 10 13.82a3.82 3.82 0 0 0 2.715-6.518zM10 7.52a2.48 2.48 0 1 1 0 4.96 2.48 2.48 0 0 1 0-4.96zm4-2.38-.112.019A.9.9 0 0 0 14 6.93a.9.9 0 0 0 0-1.79z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-left-block__icon">
+                <a href=""
+                  ><svg
+                    width="34"
+                    height="34"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9 0A1.1 1.1 0 0 1 20 1.1v17.8a1.1 1.1 0 0 1-1.1 1.1H1.1A1.1 1.1 0 0 1 0 18.9V1.1A1.1 1.1 0 0 1 1.1 0zm-8.783 4.999h-.268l-.283.002c-.887.006-2.965.031-4.467.142-.274.032-.87.035-1.403.602-.419.432-.556 1.413-.556 1.413S3 8.308 3 9.458v1.08c0 1.15.14 2.3.14 2.3s.136.98.556 1.412c.534.565 1.232.548 1.544.607C6.36 14.967 10 15 10 15H10.148c.405-.003 1.586-.012 2.83-.053l.44-.015a44.85 44.85 0 0 0 1.483-.08c.274-.033.87-.036 1.403-.602.419-.43.556-1.411.556-1.411s.14-1.151.14-2.302V9.458c0-1.15-.14-2.301-.14-2.301s-.136-.98-.556-1.413c-.533-.566-1.13-.569-1.403-.601-1.502-.11-3.58-.136-4.467-.142l-.283-.002h-.064zm-1.865 2.5 4.376 2.5-4.376 2.5v-5z"
+                      fill="#FFF"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-left-block__icon">
+                <a href=""
+                  ><?xml version="1.0" encoding="UTF-8"?>
+                  <svg
+                    width="34px"
+                    height="34px"
+                    viewBox="0 0 34 34"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <title>telegram_icon_normal</title>
+                    <g
+                      id="Design-System"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                    >
+                      <g
+                        id="buttons+icons"
+                        transform="translate(-226.000000, -802.000000)"
+                        fill="#FFFFFF"
+                        fill-rule="nonzero"
+                      >
+                        <g
+                          id="social_buttons_footer"
+                          transform="translate(50.000000, 802.000000)"
+                        >
+                          <path
+                            d="M203.590287,2.58960077e-16 C205.819084,-1.50463262e-16 206.627299,0.232064028 207.442114,0.667831759 C208.256929,1.10359949 208.896401,1.74307093 209.332168,2.55788574 C209.767936,3.37270056 210,4.18091615 210,6.409713 L210,27.590287 C210,29.8190838 209.767936,30.6272994 209.332168,31.4421143 C208.896401,32.2569291 208.256929,32.8964005 207.442114,33.3321682 C206.627299,33.767936 205.819084,34 203.590287,34 L182.409713,34 C180.180916,34 179.372701,33.767936 178.557886,33.3321682 C177.743071,32.8964005 177.103599,32.2569291 176.667832,31.4421143 C176.232064,30.6272994 176,29.8190838 176,27.590287 L176,6.409713 C176,4.18091615 176.232064,3.37270056 176.667832,2.55788574 C177.103599,1.74307093 177.743071,1.10359949 178.557886,0.667831759 C179.372701,0.232064028 180.180916,4.13911637e-16 182.409713,-7.12377147e-16 L203.590287,2.58960077e-16 Z M203.404178,7.10640549 L182.114178,15.2574055 C180.661178,15.8214055 180.683178,16.6314055 181.867178,16.9984055 L187.310178,18.6914055 L199.953178,10.7804055 C200.548178,10.3864055 201.089178,10.6044055 200.644178,10.9984055 L190.417178,20.1814055 L190.020178,25.7654055 C190.588178,25.7654055 190.834178,25.5214055 191.129178,25.2284055 L193.792178,22.6834055 L199.310178,26.7244055 C200.322178,27.2884055 201.035178,26.9914055 201.308178,25.7934055 L204.930178,8.82140549 L204.931178,8.82040549 C205.252178,7.32440549 204.390178,6.73940549 203.404178,7.10640549 Z"
+                            id="telegram_icon_normal"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+              <img
+                src="img/icons/age-icon.svg"
+                alt="18+"
+                width="32"
+                height="40"
+              />
+            </div>
+            <p class="footer-mob__text">
+              This website is operated by VS Network Solutions NV, a company
+              registered on September 20, 2021 under the laws of Curacao, with
+              registration number 158663 and under license No. 365 / JAZ
+              sub-license GLH-OCCHKTW0711042021 granted by the government of
+              curacao on November 4, 2021.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="footer__bottom-row">
+            <div class="footer__sponsors">
+              <span class="footer__sponsor-text">Official Sponsor:</span>
+              <img src="img/sponsor-1-normal.webp" alt="" />
+              <img src="img/sponsor-2-normal.webp" alt="" />
+              <img src="img/sponsor-3-normal.webp" alt="" />
+            </div>
+            <div class="footer__age">
+              <img src="img/icons/age-icon.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/virtual.js"></script>
+  </body>
+</html>

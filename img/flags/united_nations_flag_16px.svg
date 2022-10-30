@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>united_nations_flag_16px</title>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags-16x16" transform="translate(-501.000000, -1605.000000)">
+            <g id="flag" transform="translate(501.000000, 1605.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="united_nations" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#338AF3" points="0 0 16 0 16 16 0 16"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="8" r="4.53125"></circle>
+                    <circle id="Oval" fill="#338AF3" cx="8" cy="8" r="3.46875"></circle>
+                    <polygon id="Path" fill="#338AF3" points="2.375 2.375 13.625 2.375 8 8"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="8" r="2.78125"></circle>
+                    <circle id="Oval" fill="#338AF3" cx="8" cy="8" r="2.15625"></circle>
+                    <polygon id="Path" fill="#EEEEEE" points="7.6875 5.5625 8.3125 5.5625 8.3125 10.4375 7.6875 10.4375"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="10.4375 7.6875 10.4375 8.3125 5.5625 8.3125 5.5625 7.6875"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="9.5 6.053125 9.94375 6.496875 6.496875 9.94375 6.053125 9.503125"></polygon>
+                    <polygon id="Path" fill="#EEEEEE" points="9.94375 9.5 9.503125 9.94375 6.053125 6.496875 6.496875 6.053125"></polygon>
+                    <circle id="Oval" fill="#EEEEEE" cx="8" cy="8" r="1.375"></circle>
+                    <circle id="Oval" fill="#338AF3" cx="8" cy="8" r="1"></circle>
+                    <ellipse id="Oval" fill="#EEEEEE" cx="8" cy="12.875" rx="1.375" ry="1.25"></ellipse>
+                    <polygon id="Path" fill="#338AF3" points="8 12.71875 5.5625 14.6875 10.4375 14.6875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
