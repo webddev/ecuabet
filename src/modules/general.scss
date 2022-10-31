@@ -267,3 +267,164 @@ input[name="Settings"] {
   background-color: $canary-yellow;
   border-radius: 9em;
 }
+
+#teams-score,
+#chance,
+#full-time {
+  width: 193px;
+}
+
+.dropdown-container {
+  position: relative;
+  max-width: 193px;
+
+  .dropdown-toggle {
+    color: #cecece;
+    background-color: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid #414141;
+    border-radius: 12px;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+
+    &:focus-visible {
+      outline: none;
+    }
+    &:hover {
+      border: 1px solid $canary-yellow !important;
+    }
+
+    label {
+      cursor: pointer;
+      width: 100%;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #ffffff;
+    }
+  }
+  .dropdown-menu {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5);
+    margin-top: 4px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: #ffffff;
+    z-index: 10;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+      display: block;
+      color: #000000;
+      font-size: 14px;
+      padding: 8px 16px;
+      font-weight: normal;
+      box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5);
+      transition: all ease-in-out 0.3s;
+
+      &:hover,
+      &:active,
+      &:focus {
+        background: $canary-yellow;
+      }
+    }
+  }
+}
+
+#bet-id {
+  .dropdown-toggle {
+    border: none;
+    &:hover {
+      border: none !important;
+    }
+  }
+}
+#page-lang {
+  .dropdown-toggle {
+    border: none;
+    color: $black;
+    padding: 2px 7px;
+    padding-right: 17px;
+    &:hover {
+      border: none !important;
+    }
+    &::before {
+      right: 3px;
+      top: 44%;
+    }
+  }
+  .dropdown-menu {
+    border-radius: 3px;
+    ul {
+      border-radius: 3px;
+    }
+    a {
+      padding: 5px 10px;
+      border-radius: 0;
+    }
+  }
+}
+
+.dropdown-toggle {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border: 5px solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    margin-top: -2.5px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out 0.2s;
+  }
+}
+
+.dropdown-menu {
+  z-index: 10;
+  position: relative;
+
+  &::before {
+    z-index: -1;
+    transform: rotate(-135deg);
+    top: -4px;
+    border-color: #ffffff;
+    box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.dropdown-open {
+  .dropdown-menu.dropdown-active {
+    display: block;
+  }
+}
+
+.dropdown-container.dropdown-open {
+  .dropdown-toggle {
+    color: #ffffff;
+
+    &:before {
+      transform: rotate(-135deg);
+    }
+  }
+}

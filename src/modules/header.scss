@@ -118,6 +118,14 @@
       }
     }
   }
+  .logo-header-mob {
+    display: none;
+    @media screen and (max-width: 1279px) {
+      display: block;
+      margin-right: auto;
+      margin-top: 5px;
+    }
+  }
 }
 .sign-mob-btns {
   display: none;
@@ -149,7 +157,6 @@
   transition: transform 400ms;
   user-select: none;
   display: none;
-  margin-right: auto;
   @media screen and (max-width: 1279px) {
     display: block;
   }

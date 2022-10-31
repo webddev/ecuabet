@@ -27,11 +27,12 @@
 
 .search-by {
   &__search-row {
+    display: flex;
+    align-items: center;
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     @media screen and (max-width: 575px) {
-      display: flex;
       flex-wrap: wrap;
     }
   }
@@ -151,12 +152,23 @@
     color: $grey-text;
   }
   #bet-id {
-    width: 7%;
+    width: 10%;
     @media screen and (max-width: 767px) {
       width: 13%;
     }
     @media screen and (max-width: 575px) {
       width: 22%;
+    }
+    .dropdown-toggle {
+      border: none;
+      padding: 0;
+      &:hover {
+        border: none !important;
+      }
+      &::before {
+        right: 9px;
+        top: 40%;
+      }
     }
   }
   #input-id {
@@ -376,8 +388,12 @@
 
   &__selects {
     padding-bottom: 16px;
+    display: flex;
     @media screen and (max-width: 576px) {
       display: none;
+    }
+    & .dropdown-container:first-of-type {
+      margin-right: 40px;
     }
   }
   &__x {
@@ -385,17 +401,7 @@
       display: none !important;
     }
   }
-  #teams-score,
-  #chance {
-    padding: 8px 16px;
-    border-radius: 12px;
-    border: solid 1px #414141;
-    color: #cecece;
-    width: 193px;
-  }
-  #teams-score {
-    margin-right: 42px;
-  }
+
   .all-events-btn {
     color: $green;
     font-size: 15px;

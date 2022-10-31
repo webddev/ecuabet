@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play_circle_outline</title>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buttons+icons" transform="translate(-76.000000, -765.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M86,785 C80.47715,785 76,780.5228 76,775 C76,769.47715 80.47715,765 86,765 C91.5228,765 96,769.47715 96,775 C95.9939,780.5203 91.5203,784.9939 86,785 Z M78,775.172 C78.04732,779.5732 81.64111,783.1095 86.0425,783.086116 C90.444,783.0622 93.9995,779.4875 93.9995,775.086 C93.9995,770.68451 90.444,767.10977 86.0425,767.085883 C81.64111,767.06246 78.04732,770.59876 78,775 L78,775.172 Z M84,779.5 L84,770.5 L90,775 L84,779.5 Z" id="play_circle_outline"></path>
+        </g>
+    </g>
+</svg>

@@ -311,6 +311,155 @@ input[name=Settings] {
   border-radius: 9em;
 }
 
+#teams-score,
+#chance,
+#full-time {
+  width: 193px;
+}
+
+.dropdown-container {
+  position: relative;
+  max-width: 193px;
+}
+.dropdown-container .dropdown-toggle {
+  color: #cecece;
+  background-color: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: 1px solid #414141;
+  border-radius: 12px;
+  font-weight: normal;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.dropdown-container .dropdown-toggle:focus-visible {
+  outline: none;
+}
+.dropdown-container .dropdown-toggle:hover {
+  border: 1px solid #ffe640 !important;
+}
+.dropdown-container .dropdown-toggle label {
+  cursor: pointer;
+  width: 100%;
+}
+.dropdown-container .dropdown-toggle:hover, .dropdown-container .dropdown-toggle:active, .dropdown-container .dropdown-toggle:focus {
+  color: #ffffff;
+}
+.dropdown-container .dropdown-menu {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5);
+  margin-top: 4px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  background-color: #ffffff;
+  z-index: 10;
+}
+.dropdown-container .dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  z-index: 10;
+}
+.dropdown-container .dropdown-menu a {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  font-size: 14px;
+  padding: 8px 16px;
+  font-weight: normal;
+  -webkit-box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.dropdown-container .dropdown-menu a:hover, .dropdown-container .dropdown-menu a:active, .dropdown-container .dropdown-menu a:focus {
+  background: #ffe640;
+}
+
+#bet-id .dropdown-toggle {
+  border: none;
+}
+#bet-id .dropdown-toggle:hover {
+  border: none !important;
+}
+
+#page-lang .dropdown-toggle {
+  border: none;
+  color: #000;
+  padding: 2px 7px;
+  padding-right: 17px;
+}
+#page-lang .dropdown-toggle:hover {
+  border: none !important;
+}
+#page-lang .dropdown-toggle::before {
+  right: 3px;
+  top: 44%;
+}
+#page-lang .dropdown-menu {
+  border-radius: 3px;
+}
+#page-lang .dropdown-menu ul {
+  border-radius: 3px;
+}
+#page-lang .dropdown-menu a {
+  padding: 5px 10px;
+  border-radius: 0;
+}
+
+.dropdown-toggle {
+  position: relative;
+}
+.dropdown-toggle::before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+  border: 5px solid;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-left-color: rgba(0, 0, 0, 0);
+  margin-top: -2.5px;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+.dropdown-menu {
+  z-index: 10;
+  position: relative;
+}
+.dropdown-menu::before {
+  z-index: -1;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  top: -4px;
+  border-color: #ffffff;
+  -webkit-box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-open .dropdown-menu.dropdown-active {
+  display: block;
+}
+
+.dropdown-container.dropdown-open .dropdown-toggle {
+  color: #ffffff;
+}
+.dropdown-container.dropdown-open .dropdown-toggle:before {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
 .header {
   background: url(../img/bg_header_small.jpg);
   height: 250px;
@@ -473,6 +622,16 @@ input[name=Settings] {
 .header__nav-desk ul .signup-link a {
   color: #fff;
 }
+.header .logo-header-mob {
+  display: none;
+}
+@media screen and (max-width: 1279px) {
+  .header .logo-header-mob {
+    display: block;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+}
 
 .sign-mob-btns {
   display: none;
@@ -519,7 +678,6 @@ input[name=Settings] {
       -ms-user-select: none;
           user-select: none;
   display: none;
-  margin-right: auto;
 }
 @media screen and (max-width: 1279px) {
   .ham3,
@@ -850,15 +1008,18 @@ input[name=Settings] {
 }
 
 .search-by__search-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 @media screen and (max-width: 575px) {
   .search-by__search-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1002,7 +1163,7 @@ input[name=Settings] {
   color: #afafaf;
 }
 .search-by #bet-id {
-  width: 7%;
+  width: 10%;
 }
 @media screen and (max-width: 767px) {
   .search-by #bet-id {
@@ -1013,6 +1174,17 @@ input[name=Settings] {
   .search-by #bet-id {
     width: 22%;
   }
+}
+.search-by #bet-id .dropdown-toggle {
+  border: none;
+  padding: 0;
+}
+.search-by #bet-id .dropdown-toggle:hover {
+  border: none !important;
+}
+.search-by #bet-id .dropdown-toggle::before {
+  right: 9px;
+  top: 40%;
 }
 .search-by #input-id {
   width: 26.5%;
@@ -1306,27 +1478,22 @@ input[name=Settings] {
 }
 .sport-block__selects {
   padding-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @media screen and (max-width: 576px) {
   .sport-block__selects {
     display: none;
   }
 }
+.sport-block__selects .dropdown-container:first-of-type {
+  margin-right: 40px;
+}
 @media screen and (max-width: 576px) {
   .sport-block__x {
     display: none !important;
   }
-}
-.sport-block #teams-score,
-.sport-block #chance {
-  padding: 8px 16px;
-  border-radius: 12px;
-  border: solid 1px #414141;
-  color: #cecece;
-  width: 193px;
-}
-.sport-block #teams-score {
-  margin-right: 42px;
 }
 .sport-block .all-events-btn {
   color: #3ad13c;
@@ -2136,7 +2303,7 @@ input[name=Settings] {
 }
 @media (max-width: 767px) {
   .sports-forecasts .search-by__top #bet-id {
-    width: 12%;
+    width: 13%;
   }
 }
 @media (max-width: 575px) {
@@ -2822,7 +2989,12 @@ input[name=Settings] {
 }
 
 .casino-page__casino-categories {
-  margin: 60px 0 30px 0;
+  margin: 10px 0 30px 0;
+}
+@media screen and (max-width: 1279px) {
+  .casino-page__casino-categories {
+    margin: 60px 0 30px 0;
+  }
 }
 .casino-page__games {
   margin-top: 20px;
@@ -3079,6 +3251,9 @@ input[name=Settings] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (max-width: 1279px) {
   .vitual-forecasts-page .main-row {
@@ -3093,6 +3268,21 @@ input[name=Settings] {
     max-width: 732px;
   }
 }
+@media screen and (max-width: 767px) {
+  .vitual-forecasts-page .main-row__body {
+    max-width: 520px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .vitual-forecasts-page .main-row__body {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vitual-forecasts-page .main-row__body {
+    max-width: 358px;
+  }
+}
 .vitual-forecasts-page .search-by__bottom {
   margin-top: 0;
   margin-bottom: 20px;
@@ -3104,7 +3294,7 @@ input[name=Settings] {
   width: 57%;
 }
 @media screen and (max-width: 1023px) {
-  .vitual-forecasts-page select[name=result] {
+  .vitual-forecasts-page #full-time {
     display: none;
   }
 }
@@ -3126,6 +3316,16 @@ input[name=Settings] {
 .vitual-forecasts-page .videoblock-titlemob .title-row {
   color: #fff;
   margin-left: 40%;
+}
+@media screen and (max-width: 767px) {
+  .vitual-forecasts-page .videoblock-titlemob .title-row {
+    margin-left: 36%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .vitual-forecasts-page .videoblock-titlemob .title-row {
+    margin-left: 31%;
+  }
 }
 .vitual-forecasts-page .videoblock-titlemob .title-row div {
   display: -webkit-box;
@@ -3215,6 +3415,49 @@ input[name=Settings] {
     padding: 0px;
     margin: 0px;
   }
+}
+.vitual-forecasts-page .videoblock-top-checkrow {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .vitual-forecasts-page .videoblock-top-checkrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px;
+    background-color: #151515;
+  }
+}
+.vitual-forecasts-page .videoblock-top-checkrow .country1,
+.vitual-forecasts-page .videoblock-top-checkrow .country2,
+.vitual-forecasts-page .videoblock-top-checkrow .check {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+.vitual-forecasts-page .videoblock-top-checkrow .country1,
+.vitual-forecasts-page .videoblock-top-checkrow .country2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.vitual-forecasts-page #bet-id .dropdown-toggle {
+  border: none;
+  padding: 0;
+  padding-right: 20px;
+}
+.vitual-forecasts-page #bet-id .dropdown-toggle::before {
+  right: 4px;
+  top: 45%;
 }
 
 .player {
@@ -3319,6 +3562,16 @@ input[name=Settings] {
   margin-right: 50px;
   position: relative;
 }
+@media screen and (max-width: 575px) {
+  .player__rage-line .range-div {
+    margin-right: 3px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .player__rage-line .range-div {
+    margin-right: 10px;
+  }
+}
 .player__rage-line .range-div__item {
   font-size: 9px;
   font-weight: normal;
@@ -3330,6 +3583,22 @@ input[name=Settings] {
   border-right: 1px solid #606060;
   border-left: 1px solid #606060;
 }
+@media screen and (max-width: 767px) {
+  .player__rage-line .range-div__item {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .player__rage-line .range-div__item {
+    width: 50px;
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .player__rage-line .range-div__item {
+    width: 40px;
+  }
+}
 .player__rage-line::after {
   content: "";
   position: absolute;
@@ -3339,20 +3608,61 @@ input[name=Settings] {
   right: 7.5%;
   bottom: 19%;
 }
+@media screen and (max-width: 767px) {
+  .player__rage-line::after {
+    width: 466px;
+    height: 1px;
+    right: 4.5%;
+    bottom: 47%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .player__rage-line::after {
+    width: 339px;
+    right: 5.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .player__rage-line::after {
+    width: 290px;
+    right: 10.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .player__rage-line::after {
+    width: 289px;
+    right: 5.5%;
+  }
+}
 .player__rage-line .whistle-icon1 {
   position: absolute;
   bottom: -20%;
   left: -1%;
+}
+@media screen and (max-width: 767px) {
+  .player__rage-line .whistle-icon1 {
+    bottom: 17%;
+  }
 }
 .player__rage-line .whistle-icon2 {
   position: absolute;
   bottom: -20%;
   left: 49%;
 }
+@media screen and (max-width: 767px) {
+  .player__rage-line .whistle-icon2 {
+    bottom: 17%;
+  }
+}
 .player__rage-line .whistle-icon3 {
   position: absolute;
   bottom: -20%;
   right: -1%;
+}
+@media screen and (max-width: 767px) {
+  .player__rage-line .whistle-icon3 {
+    bottom: 17%;
+  }
 }
 .player__time-line {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3b3b3b), color-stop(77%, #151515));
@@ -3532,6 +3842,11 @@ input[name=Settings] {
   font-weight: bold;
   color: #fff;
 }
+@media screen and (max-width: 575px) {
+  .player .equipo-mob span {
+    font-size: 8px;
+  }
+}
 
 @-webkit-keyframes marquee {
   0% {
@@ -3646,6 +3961,7 @@ input[name=Settings] {
 
 .videoblock {
   position: relative;
+  overflow: hidden;
 }
 .videoblock .video {
   width: 100%;
@@ -3665,6 +3981,11 @@ input[name=Settings] {
   fill: rgb(204, 204, 204);
   stroke: rgb(204, 204, 204);
 }
+@media screen and (max-width: 1023px) {
+  .videoblock .btn-off {
+    display: none;
+  }
+}
 .videoblock .btn-sound {
   top: 24%;
   right: 3%;
@@ -3679,12 +4000,22 @@ input[name=Settings] {
 .videoblock .btn-sound:hover svg circle {
   fill: rgb(204, 204, 204);
 }
+@media screen and (max-width: 1023px) {
+  .videoblock .btn-sound {
+    display: none;
+  }
+}
 .videoblock .btn-stat {
   top: 40%;
   right: 3%;
 }
 .videoblock .btn-stat:hover svg circle {
   fill: rgb(204, 204, 204);
+}
+@media screen and (max-width: 1023px) {
+  .videoblock .btn-stat {
+    display: none;
+  }
 }
 .videoblock .btn-groups {
   top: 51%;
@@ -3693,12 +4024,58 @@ input[name=Settings] {
 .videoblock .btn-groups:hover svg circle {
   fill: rgb(204, 204, 204);
 }
+@media screen and (max-width: 1023px) {
+  .videoblock .btn-groups {
+    display: none;
+  }
+}
 .videoblock .btn-champ {
   top: 62%;
   right: 3%;
 }
 .videoblock .btn-champ:hover svg circle {
   fill: rgb(204, 204, 204);
+}
+@media screen and (max-width: 1023px) {
+  .videoblock .btn-champ {
+    display: none;
+  }
+}
+.videoblock .btn-play-mob {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .videoblock .btn-play-mob {
+    display: block;
+    position: absolute;
+    left: 25%;
+    top: 1%;
+  }
+  .videoblock .btn-play-mob path {
+    fill: rgba(173, 173, 173, 0.6);
+  }
+}
+@media screen and (max-width: 767px) {
+  .videoblock .btn-play-mob {
+    left: 26%;
+    top: 3%;
+  }
+  .videoblock .btn-play-mob svg {
+    width: 270px;
+    height: 270px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .videoblock .btn-play-mob svg {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .videoblock .btn-play-mob svg {
+    width: 180px;
+    height: 180px;
+  }
 }
 .videoblock .btn-off,
 .videoblock .btn-sound,
@@ -3717,6 +4094,13 @@ input[name=Settings] {
 .matches .block-info::before,
 .matches .block-info::after {
   top: 55%;
+}
+@media screen and (max-width: 575px) {
+  .matches .block-info::before,
+.matches .block-info::after {
+    top: 15%;
+    right: 13px;
+  }
 }
 .matches .sport-block__bet select {
   border-radius: 16px !important;
@@ -3757,6 +4141,11 @@ input[name=Settings] {
 }
 .matches .block-info .icon-stat:hover svg path {
   fill: #ffe640;
+}
+@media screen and (max-width: 575px) {
+  .matches .block-info .icon-stat {
+    display: none;
+  }
 }
 
 .contry-sa::before {

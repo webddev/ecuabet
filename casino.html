@@ -34,6 +34,9 @@
                 d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
               />
             </svg>
+            <a href="index.html" class="logo-header-mob"
+              ><img src="img/logo.png" alt="logo" width="90" height="25"
+            /></a>
             <div class="header__top-icons">
               <div class="header__top-icon">
                 <a href="#"
@@ -101,11 +104,15 @@
               </div>
               <div class="header__top-icon-lang">
                 <img src="img/flags/us_flag_20px.svg" class="lang-img" />
-                <select name="Page-lang" id="page-lang">
-                  <option value="" default disabled selected>EN</option>
-                  <option value="RU">RU</option>
-                  <option value="ES">ES</option>
-                </select>
+                <div class="dropdown-container" id="page-lang">
+                  <div class="dropdown-toggle click-dropdown">EN</div>
+                  <div class="dropdown-menu">
+                    <ul>
+                      <li><a href="#">RU</a></li>
+                      <li><a href="#">ES</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="sign-mob-btns">
@@ -160,7 +167,7 @@
                   >
                 </li>
                 <li>
-                  <a href="#" class="mobile-menu__nav-link"
+                  <a href="virtual-forecasts.html" class="mobile-menu__nav-link"
                     >VIRTUAL FORECASTS</a
                   >
                 </li>
@@ -237,7 +244,7 @@
               <li><a href="sports-forecasts.html">SPORTS FORECASTS</a></li>
               <li><a href="index.html">LIVE FORECASTS</a></li>
               <li><a href="tournaments.html">TOURNAMENTS</a></li>
-              <li><a href="#">VIRTUAL FORECASTS</a></li>
+              <li><a href="virtual-forecasts.html">VIRTUAL FORECASTS</a></li>
               <li><a href="casino.html">CASINO</a></li>
               <li><a href="#">CASINO LIVE</a></li>
               <li class="signup-link"><a href="#">SING UP</a></li>

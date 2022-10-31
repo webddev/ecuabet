@@ -6,6 +6,7 @@
   }
   .main-row {
     display: flex;
+    justify-content: center;
     @media screen and (max-width: 1279px) {
       margin-top: -170px;
     }
@@ -13,6 +14,15 @@
       max-width: 960px;
       @media screen and (max-width: 1023px) {
         max-width: 732px;
+      }
+      @media screen and (max-width: 767px) {
+        max-width: 520px;
+      }
+      @media screen and (max-width: 575px) {
+        max-width: 400px;
+      }
+      @media screen and (max-width: 450px) {
+        max-width: 358px;
       }
     }
   }
@@ -26,7 +36,7 @@
       width: 57%;
     }
   }
-  select[name="result"] {
+  #full-time {
     @media screen and (max-width: 1023px) {
       display: none;
     }
@@ -43,6 +53,12 @@
     .title-row {
       color: $white;
       margin-left: 40%;
+      @media screen and (max-width: 767px) {
+        margin-left: 36%;
+      }
+      @media screen and (max-width: 575px) {
+        margin-left: 31%;
+      }
       div {
         display: flex;
         align-items: center;
@@ -119,6 +135,39 @@
         border-radius: 0px;
         padding: 0px;
         margin: 0px;
+      }
+    }
+  }
+  .videoblock-top-checkrow {
+    display: none;
+    @media screen and (max-width: 1023px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #151515;
+    }
+    .country1,
+    .country2,
+    .check {
+      font-size: 13px;
+      font-weight: bold;
+      color: $white;
+    }
+    .country1,
+    .country2 {
+      display: flex;
+      align-items: center;
+    }
+  }
+  #bet-id {
+    .dropdown-toggle {
+      border: none;
+      padding: 0;
+      padding-right: 20px;
+      &::before {
+        right: 4px;
+        top: 45%;
       }
     }
   }
@@ -200,6 +249,12 @@
       margin-left: auto;
       margin-right: 50px;
       position: relative;
+      @media screen and (max-width: 575px) {
+        margin-right: 3px;
+      }
+      @media screen and (max-width: 450px) {
+        margin-right: 10px;
+      }
       &__item {
         font-size: 9px;
         font-weight: normal;
@@ -210,6 +265,16 @@
         padding-right: 3px;
         border-right: 1px solid #606060;
         border-left: 1px solid #606060;
+        @media screen and (max-width: 767px) {
+          width: 70px;
+        }
+        @media screen and (max-width: 575px) {
+          width: 50px;
+          font-size: 7px;
+        }
+        @media screen and (max-width: 450px) {
+          width: 40px;
+        }
       }
     }
     &::after {
@@ -220,21 +285,48 @@
       background-color: #f0ece5;
       right: 7.5%;
       bottom: 19%;
+      @media screen and (max-width: 767px) {
+        width: 466px;
+        height: 1px;
+        right: 4.5%;
+        bottom: 47%;
+      }
+      @media screen and (max-width: 575px) {
+        width: 339px;
+        right: 5.5%;
+      }
+      @media screen and (max-width: 450px) {
+        width: 290px;
+        right: 10.5%;
+      }
+      @media screen and (max-width: 450px) {
+        width: 289px;
+        right: 5.5%;
+      }
     }
     & .whistle-icon1 {
       position: absolute;
       bottom: -20%;
       left: -1%;
+      @media screen and (max-width: 767px) {
+        bottom: 17%;
+      }
     }
     & .whistle-icon2 {
       position: absolute;
       bottom: -20%;
       left: 49%;
+      @media screen and (max-width: 767px) {
+        bottom: 17%;
+      }
     }
     & .whistle-icon3 {
       position: absolute;
       bottom: -20%;
       right: -1%;
+      @media screen and (max-width: 767px) {
+        bottom: 17%;
+      }
     }
   }
   &__time-line {
@@ -356,6 +448,9 @@
       font-size: 10px;
       font-weight: bold;
       color: $white;
+      @media screen and (max-width: 575px) {
+        font-size: 8px;
+      }
     }
   }
 }
@@ -444,6 +539,7 @@
 }
 .videoblock {
   position: relative;
+  overflow: hidden;
   .video {
     width: 100%;
   }
@@ -463,6 +559,9 @@
         stroke: rgb(204, 204, 204);
       }
     }
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
   }
   .btn-sound {
     top: 24%;
@@ -479,6 +578,9 @@
         fill: rgb(204, 204, 204);
       }
     }
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
   }
   .btn-stat {
     top: 40%;
@@ -487,6 +589,9 @@
       svg circle {
         fill: rgb(204, 204, 204);
       }
+    }
+    @media screen and (max-width: 1023px) {
+      display: none;
     }
   }
   .btn-groups {
@@ -497,6 +602,9 @@
         fill: rgb(204, 204, 204);
       }
     }
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
   }
   .btn-champ {
     top: 62%;
@@ -504,6 +612,41 @@
     &:hover {
       svg circle {
         fill: rgb(204, 204, 204);
+      }
+    }
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+  }
+  .btn-play-mob {
+    display: none;
+    @media screen and (max-width: 1023px) {
+      display: block;
+      position: absolute;
+      left: 25%;
+      top: 1%;
+      path {
+        fill: rgb(173 173 173 / 60%);
+      }
+    }
+    @media screen and (max-width: 767px) {
+      left: 26%;
+      top: 3%;
+      svg {
+        width: 270px;
+        height: 270px;
+      }
+    }
+    @media screen and (max-width: 575px) {
+      svg {
+        width: 210px;
+        height: 210px;
+      }
+    }
+    @media screen and (max-width: 450px) {
+      svg {
+        width: 180px;
+        height: 180px;
       }
     }
   }
@@ -523,6 +666,10 @@
   .block-info::before,
   .block-info::after {
     top: 55%;
+    @media screen and (max-width: 575px) {
+      top: 15%;
+      right: 13px;
+    }
   }
   .sport-block__bet {
     select {
@@ -574,6 +721,9 @@
             fill: $canary-yellow;
           }
         }
+      }
+      @media screen and (max-width: 575px) {
+        display: none;
       }
     }
   }

@@ -30,6 +30,9 @@
                 d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
               />
             </svg>
+            <a href="index.html" class="logo-header-mob"
+              ><img src="img/logo.png" alt="logo" width="90" height="25"
+            /></a>
             <div class="header__top-icons">
               <div class="header__top-icon">
                 <a href="#"
@@ -97,11 +100,15 @@
               </div>
               <div class="header__top-icon-lang">
                 <img src="img/flags/us_flag_20px.svg" class="lang-img" />
-                <select name="Page-lang" id="page-lang">
-                  <option value="" default disabled selected>EN</option>
-                  <option value="RU">RU</option>
-                  <option value="ES">ES</option>
-                </select>
+                <div class="dropdown-container" id="page-lang">
+                  <div class="dropdown-toggle click-dropdown">EN</div>
+                  <div class="dropdown-menu">
+                    <ul>
+                      <li><a href="#">RU</a></li>
+                      <li><a href="#">ES</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="sign-mob-btns">
@@ -156,7 +163,7 @@
                   >
                 </li>
                 <li>
-                  <a href="#" class="mobile-menu__nav-link"
+                  <a href="virtual-forecasts.html" class="mobile-menu__nav-link"
                     >VIRTUAL FORECASTS</a
                   >
                 </li>
@@ -233,7 +240,7 @@
               <li><a href="sports-forecasts.html">SPORTS FORECASTS</a></li>
               <li><a href="#">LIVE FORECASTS</a></li>
               <li><a href="tournaments.html">TOURNAMENTS</a></li>
-              <li><a href="#">VIRTUAL FORECASTS</a></li>
+              <li><a href="virtual-forecasts.html">VIRTUAL FORECASTS</a></li>
               <li><a href="casino.html">CASINO</a></li>
               <li><a href="#">CASINO LIVE</a></li>
               <li class="signup-link"><a href="#">SING UP</a></li>
@@ -300,11 +307,16 @@
                 <div class="search-by__top">
                   <h3 class="section-subtitle">SEARCH BY</h3>
                   <div class="search-by__search-row">
-                    <select name="Bet-id" id="bet-id">
-                      <option value="" default disabled selected>BET ID</option>
-                      <option value="123">123</option>
-                      <option value="1234">1234</option>
-                    </select>
+                    <div class="dropdown-container" id="bet-id">
+                      <div class="dropdown-toggle click-dropdown">BET ID</div>
+                      <div class="dropdown-menu">
+                        <ul>
+                          <li><a href="#">id 1</a></li>
+                          <li><a href="#">id 2</a></li>
+                          <li><a href="#">id 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
                     <input
                       type="text"
                       placeholder="Enter Bet ID…"
@@ -616,37 +628,41 @@
                   <div class="live__sport sport-block" id="football">
                     <div class="sport-block__bet">
                       <div class="sport-block__selects">
-                        <select name="teams-score" id="teams-score">
-                          <option value="" default disabled selected>
+                        <div class="dropdown-container" id="teams-score">
+                          <div class="dropdown-toggle click-dropdown">
                             Both Teams To Score
-                          </option>
-                          <option value="Both Teams To Score">
-                            Both Teams To Score
-                          </option>
-                          <option value="Both Teams To Score">
-                            Both Teams To Score
-                          </option>
-                        </select>
-                        <select name="chance" id="chance">
-                          <option value="" default disabled selected>
+                          </div>
+                          <div class="dropdown-menu">
+                            <ul>
+                              <li><a href="#">Both Teams To Score</a></li>
+                              <li><a href="#">Both Teams To Score</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="dropdown-container" id="chance">
+                          <div class="dropdown-toggle click-dropdown">
                             Double chance
-                          </option>
-                          <option value="Both Teams To Score">
-                            Double chance
-                          </option>
-                          <option value="Both Teams To Score">
-                            Double chance
-                          </option>
-                        </select>
+                          </div>
+                          <div class="dropdown-menu">
+                            <ul>
+                              <li><a href="#">Double chance</a></li>
+                              <li><a href="#">Double chance</a></li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                       <div class="sport-block__selects-mob">
-                        <select name="teams-score" id="teams-score">
-                          <option value="" default disabled selected>
+                        <div class="dropdown-container" id="teams-score">
+                          <div class="dropdown-toggle click-dropdown">
                             1 x 2
-                          </option>
-                          <option value="Both Teams To Score">1 x 3</option>
-                          <option value="Both Teams To Score">1 x 4</option>
-                        </select>
+                          </div>
+                          <div class="dropdown-menu">
+                            <ul>
+                              <li><a href="#"> 1 x 2</a></li>
+                              <li><a href="#"> 1 x 2</a></li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                       <div class="sport-block__x block-x">
                         <div class="block-x__item">1X</div>
