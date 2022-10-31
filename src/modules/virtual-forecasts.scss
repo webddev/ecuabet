@@ -57,7 +57,10 @@
         margin-left: 36%;
       }
       @media screen and (max-width: 575px) {
-        margin-left: 31%;
+        margin-left: 30%;
+      }
+      @media screen and (max-width: 450px) {
+        margin-left: 1%;
       }
       div {
         display: flex;

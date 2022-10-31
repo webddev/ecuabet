@@ -13,7 +13,8 @@
   }
   .selects-row {
     margin-bottom: 20px;
-    select {
+    display: flex;
+    .dropdown-toggle {
       font-size: 14px;
       font-weight: normal;
       color: $black;
@@ -21,6 +22,10 @@
       padding-right: 56px;
       border-radius: 12px;
       background: $white;
+      border: none;
+      @media screen and (max-width: 450px) {
+        padding-right: 5px;
+      }
       &:not(:last-child) {
         margin-right: 16px;
         @media screen and (max-width: 575px) {

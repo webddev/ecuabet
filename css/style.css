@@ -2662,8 +2662,11 @@ input[name=Settings] {
 }
 .tournaments-page .selects-row {
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-.tournaments-page .selects-row select {
+.tournaments-page .selects-row .dropdown-toggle {
   font-size: 14px;
   font-weight: normal;
   color: #000;
@@ -2671,12 +2674,18 @@ input[name=Settings] {
   padding-right: 56px;
   border-radius: 12px;
   background: #fff;
+  border: none;
 }
-.tournaments-page .selects-row select:not(:last-child) {
+@media screen and (max-width: 450px) {
+  .tournaments-page .selects-row .dropdown-toggle {
+    padding-right: 5px;
+  }
+}
+.tournaments-page .selects-row .dropdown-toggle:not(:last-child) {
   margin-right: 16px;
 }
 @media screen and (max-width: 575px) {
-  .tournaments-page .selects-row select:not(:last-child) {
+  .tournaments-page .selects-row .dropdown-toggle:not(:last-child) {
     margin-bottom: 10px;
   }
 }
@@ -3324,7 +3333,12 @@ input[name=Settings] {
 }
 @media screen and (max-width: 575px) {
   .vitual-forecasts-page .videoblock-titlemob .title-row {
-    margin-left: 31%;
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vitual-forecasts-page .videoblock-titlemob .title-row {
+    margin-left: 1%;
   }
 }
 .vitual-forecasts-page .videoblock-titlemob .title-row div {
