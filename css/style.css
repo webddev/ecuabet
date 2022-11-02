@@ -2674,7 +2674,7 @@ input[name=Settings] {
   padding-right: 56px;
   border-radius: 12px;
   background: #fff;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 @media screen and (max-width: 450px) {
   .tournaments-page .selects-row .dropdown-toggle {
